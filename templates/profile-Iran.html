@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Home - Brand</title>
+    <link
+      rel="stylesheet"
+      href="static/assets/bootstrap/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"
+    />
+    <link rel="stylesheet" href="static/assets/fonts/font-awesome.min.css" />
+    <link rel="stylesheet" href="static/assets/css/Navigation-Clean.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+      <div class="container">
+        <a class="navbar-brand" href="#">Connect to your Community</a
+        ><button
+          data-toggle="collapse"
+          class="navbar-toggler"
+          data-target="#navcol-1"
+        >
+          <span class="sr-only">Toggle navigation</span
+          ><span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" href="profile.html">Profile</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="events-main.html">Events</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="#">Compare</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header
+      class="masthead text-white text-center"
+      style="background: url('static/assets/img/iran.JPG')no-repeat center center;background-size: cover;height: 857px;padding: 50px;width: -21;margin: 0px;max-height: 697px;min-height: -1061px;min-width: 0;"
+    >
+      <div class="row">
+        <div class="col">
+          <h1>IRAN</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>Paragraph</p>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>LGA Rank</th>
+              <th>LGA</th>
+              <th>Suburb Rank 1</th>
+              <th><strong>Suburb Rank 2</strong></th>
+              <th><strong>Suburb Rank 3</strong></th>
+              <th><strong>Suburb Rank 4</strong></th>
+              <th><strong>Suburb Rank 5</strong></th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for iran_row in nationality | batch(6, '&nbsp;') %}
+            <tr>
+              <td>{{ loop.index }}</td>
+              {% for suburb in iran_row %}
+              <td>{{ suburb["Suburb"] }}</td>
+              {% endfor %}
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <footer class="footer bg-light" style="width: 1200px;">
+      <p class="text-center text-muted small mb-4 mb-lg-0">© Sharks in Suit</p>
+    </footer>
+    <div></div>
+    <script src="static/assets/js/jquery.min.js"></script>
+    <script src="static/assets/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

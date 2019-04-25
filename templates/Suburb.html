@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>index</title>
+    <link
+      rel="stylesheet"
+      href="../static/assets/bootstrap/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"
+    />
+    <link rel="stylesheet" href="../static/assets/fonts/font-awesome.min.css" />
+    <link rel="stylesheet" href="../static/assets/css/Navigation-Clean.css" />
+  </head>
+
+  <body
+    style='background-image: url("../static/assets/img/bg-masthead.jpg"); background-repeat:no-repeat; background-attachment:fixed'
+  >
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+      <div class="container">
+        <a class="navbar-brand" href="#">Connect to your Community</a
+        ><button
+          data-toggle="collapse"
+          class="navbar-toggler"
+          data-target="#navcol-1"
+        >
+          <span class="sr-only">Toggle navigation</span
+          ><span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" href="#">Profile</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="events-main.html">Events</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="#">Compare</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="container"
+      style="background-color: transparent; ;height: 115px;"
+    >
+      <div class="row" style="margin-top: 30px;">
+        <div class="col">
+          <h1 class="text-center" style="margin-left: 0;">
+            {{ lga["name"] }}, {{ lga["postcode"] }}
+          </h1>
+        </div>
+      </div>
+      <p class="text-center" style="margin-left: 0;margin-top: 18px;">
+        <em
+          ><span style="text-decoration: underline;">SuburbName</span> is an
+          <span style="text-decoration: underline;">LGA council&nbsp;</span>of
+          Melbourne, located within the&nbsp;<span
+            style="text-decoration: underline;"
+            >LGA</span
+          >&nbsp;local goverment area.</em
+        ><br /><em
+          >It's located xx<span style="text-decoration: underline;">km</span
+          >&nbsp;away from the Central Business District with the travel time of
+          xx<span style="text-decoration: underline;">&nbsp;minutes</span></em
+        ><br />
+      </p>
+    </div>
+    <div
+      class="container"
+      id="SuburbGlanceContainer"
+      style="background-color: transparent;"
+    >
+      <p>&nbsp;&nbsp;</p>
+      <p style="margin-top: 46px;">&nbsp;&nbsp;</p>
+      <h3 style="margin-top: -1px;margin-left: 41px;">
+        Where are most resident from?
+      </h3>
+      <div
+        class="row"
+        id="Top5ResidentRow"
+        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 208px;"
+      >
+        <div
+          class="col"
+          id="FirstResidentColumn"
+          style="margin-top: 1px;border-style: solid;border-color: transparent; border-width: 4px;padding: 0;background-color: transparent;"
+        >
+          <div
+            class="row"
+            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(120,138,173,0.6);"
+          >
+            <div class="col">
+              <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;">
+                <strong>Percentage</strong>
+              </p>
+              <p
+                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
+              >
+                Country
+              </p>
+              <img
+                style="margin-left: 7px;width: 113px;"
+                src="../static/assets/img/china.jpg"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="col"
+          id="SecondResidentCountry"
+          style="margin-top: 1px;border-style: solid;border-color: transparent; border-width: 4px;padding: 0;background-color: transparent;"
+        >
+          <div
+            class="row"
+            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(120,138,173,0.6);"
+          >
+            <div class="col">
+              <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;">
+                <strong>Percentage</strong>
+              </p>
+              <p
+                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
+              >
+                Country
+              </p>
+              <img
+                style="margin-left: 7px;width: 113px;"
+                src="../static/assets/img/india.jpg"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="col"
+          id="ThirdResidentCountry"
+          style="margin-top: 1px;border-style: solid;border-color: transparent; border-width: 4px;padding: 0;background-color: transparent;"
+        >
+          <div
+            class="row"
+            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(120,138,173,0.6);"
+          >
+            <div class="col">
+              <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;">
+                <strong>Percentage</strong>
+              </p>
+              <p
+                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
+              >
+                Country
+              </p>
+              <img
+                style="margin-left: 7px;width: 113px;"
+                src="../static/assets/img/Iran.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="col"
+          id="ForthResidentCountry"
+          style="margin-top: 1px;border-style: solid;border-color: transparent; border-width: 4px;padding: 0;background-color: transparent;"
+        >
+          <div
+            class="row"
+            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(120,138,173,0.6);"
+          >
+            <div class="col">
+              <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;">
+                <strong>Percentage</strong>
+              </p>
+              <p
+                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
+              >
+                Country
+              </p>
+              <img style="margin-left: 7px;width: 113px;" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="col"
+          id="FifthResidentCountry"
+          style="margin-top: 1px;border-style: solid;border-color: transparent; border-width: 4px;padding: 0;background-color: transparent;"
+        >
+          <div
+            class="row"
+            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(120,138,173,0.6);"
+          >
+            <div class="col">
+              <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;">
+                <strong>Percentage</strong>
+              </p>
+              <p
+                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
+              >
+                Country
+              </p>
+              <img style="margin-left: 7px;width: 113px;" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <p style="margin-top: 46px;">&nbsp;&nbsp;</p>
+      <h3 style="margin-top: -1px;margin-left: 41px;">
+        Top 5 language other than English
+      </h3>
+      <div
+        class="row"
+        id="Top5LanguageOtherThanEnglish"
+        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 208px;"
+      >
+        <div
+          class="col"
+          id="FirstResidentColumn"
+          style="margin-top: 1px;border-style: solid;border-color: transparent; border-width: 4px;padding: 0;background-color: transparent;"
+        >
+          <div
+            class="row"
+            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(120,138,173,0.6);"
+          >
+            <div class="col">
+              <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;">
+                <strong>Percentage</strong>
+              </p>
+              <p
+                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
+              >
+                Language
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col"
+          id="SecondResidentCountry"
+          style="margin-top: 1px;border-style: solid;border-color: transparent; border-width: 4px;padding: 0;background-color: transparent;"
+        >
+          <div
+            class="row"
+            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(120,138,173,0.6);"
+          >
+            <div class="col">
+              <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;">
+                <strong>Percentage</strong>
+              </p>
+              <p
+                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
+              >
+                Language
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col"
+          id="ThirdResidentCountry"
+          style="margin-top: 1px;border-style: solid;border-color: transparent; border-width: 4px;padding: 0;background-color: transparent;"
+        >
+          <div
+            class="row"
+            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(120,138,173,0.6);"
+          >
+            <div class="col">
+              <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;">
+                <strong>Percentage</strong>
+              </p>
+              <p
+                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
+              >
+                Language
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col"
+          id="ForthResidentCountry"
+          style="margin-top: 1px;border-style: solid;border-color: transparent; border-width: 4px;padding: 0;background-color: transparent;"
+        >
+          <div
+            class="row"
+            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(120,138,173,0.6);"
+          >
+            <div class="col">
+              <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;">
+                <strong>Percentage</strong>
+              </p>
+              <p
+                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
+              >
+                Language
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col"
+          id="FifthResidentCountry"
+          style="margin-top: 1px;border-style: solid;border-color: transparent; border-width: 4px;padding: 0;background-color: transparent;"
+        >
+          <div
+            class="row"
+            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(120,138,173,0.6);"
+          >
+            <div class="col">
+              <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;">
+                <strong>Percentage</strong>
+              </p>
+              <p
+                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
+              >
+                Language
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin: 36px;"></div>
+      <h3 id="glancetitle" style="margin: 43px 41px 20px;">
+        Suburb Name at a glance
+      </h3>
+      <div
+        class="row"
+        id="EducationTitleRow"
+        style="margin-left: 15px;margin-right: 15px;"
+      >
+        <div class="col" style="margin-top: 25px;">
+          <h4 style="margin-left: 35px;">
+            <i class="fa fa-graduation-cap"></i>Education
+          </h4>
+          <hr
+            style="margin-top: -2px;margin-right: -283px;width: 210px;margin-left: 30px;background-color: #2b2b28;height: 2px;margin-bottom: 8px;"
+          />
+        </div>
+      </div>
+      <div
+        class="row"
+        id="EducationDetaileRow"
+        style="margin-right: 15px;margin-left: 16px;height: 208px;"
+      >
+        <div class="col-3" style="margin-left: 53px;margin-right: 0;">
+          <p
+            id="EducationDetail"
+            style="margin-top: 26px;font-size: 20px;margin-left: 12px;"
+          >
+            Primary School:&nbsp;
+          </p>
+          <p
+            id="EducationDetail"
+            style="margin-top: 26px;font-size: 20px;margin-left: 12px;"
+          >
+            High School:&nbsp;
+          </p>
+          <p
+            id="EducationDetail"
+            style="margin-top: 26px;font-size: 20px;margin-left: 12px;"
+          >
+            University Campus:&nbsp;
+          </p>
+        </div>
+        <div class="col-8" style="margin-left: 20px;"></div>
+      </div>
+      <div
+        class="row"
+        id="SafetyTitleRow"
+        style="margin-right: 15px;margin-left: 15px;margin-top: 100px;"
+      >
+        <div class="col" id="SafetyTitleRow">
+          <h4 style="margin-left: 35px;">
+            <i class="fa fa-warning"></i>Safety
+          </h4>
+          <hr
+            style="margin-top: -2px;margin-right: -283px;width: 210px;margin-left: 30px;background-color: #2b2b28;height: 2px;margin-bottom: 8px;"
+          />
+        </div>
+        <div
+          class="tableauPlaceholder"
+          id="viz1556013742556"
+          style="position: relative"
+        >
+          <noscript
+            ><a href="#"
+              ><img
+                alt=" "
+                src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fo&#47;FoodExpenditureinAustralia_15560137288310&#47;Story&#47;1_rss.png"
+                style="border: none"/></a></noscript
+          ><object class="tableauViz" style="display:none;"
+            ><param
+              name="host_url"
+              value="https%3A%2F%2Fpublic.tableau.com%2F"/>
+            <param name="embed_code_version" value="3"/>
+            <param name="site_root" value=""/><param
+              name="name"
+              value="FoodExpenditureinAustralia_15560137288310&#47;Story"/><param
+              name="tabs"
+              value="no"/><param name="toolbar" value="yes"/><param
+              name="static_image"
+              value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fo&#47;FoodExpenditureinAustralia_15560137288310&#47;Story&#47;1.png"/>
+            <param name="animate_transition" value="yes"/><param
+              name="display_static_image"
+              value="yes"/><param name="display_spinner" value="yes"/><param
+              name="display_overlay"
+              value="yes"/><param name="display_count" value="yes"/><param
+              name="filter"
+              value="publish=yes"
+          /></object>
+        </div>
+        <script type="text/javascript">
+          var divElement = document.getElementById("viz1556013742556");
+          var vizElement = divElement.getElementsByTagName("object")[0];
+          vizElement.style.width = "600px";
+          vizElement.style.height = "300px";
+          var scriptElement = document.createElement("script");
+          scriptElement.src =
+            "https://public.tableau.com/javascripts/api/viz_v1.js";
+          vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+      </div>
+      <div
+        class="row"
+        id="SafetyDetaileRow"
+        style="margin-right: 15px;margin-left: 15px;"
+      >
+        <div class="col-8"></div>
+        <div class="col-3" style="margin-left: 53px;margin-right: 0;">
+          <p
+            id="EducationDetail"
+            style="margin-top: 26px;font-size: 20px;margin-left: 12px;"
+          >
+            Primary School:&nbsp;
+          </p>
+          <p
+            id="EducationDetail"
+            style="margin-top: 26px;font-size: 20px;margin-left: 12px;"
+          >
+            High School:&nbsp;
+          </p>
+          <p
+            id="EducationDetail"
+            style="margin-top: 26px;font-size: 20px;margin-left: 12px;"
+          >
+            University Campus:&nbsp;
+          </p>
+        </div>
+      </div>
+      <div
+        class="row"
+        id="RentalTitlerow"
+        style="margin-right: 15px;margin-left: 15px;"
+      >
+        <div class="col" style="margin-top: 100px;">
+          <h4 style="margin-left: 35px;">
+            <i class="fa fa-home"></i>Weekly Rental Price
+          </h4>
+          <hr
+            style="margin-top: -2px;margin-right: -283px;width: 210px;margin-left: 30px;background-color: #2b2b28;height: 2px;margin-bottom: 8px;"
+          />
+        </div>
+      </div>
+      <div
+        class="row"
+        id="PropertyRentalDetailRow"
+        style="margin-right: 15px;margin-left: 16px;height: 208px;"
+      >
+        <div class="col-3" style="margin-left: 53px;margin-right: 0;">
+          <p
+            id="EducationDetail"
+            style="margin-top: 26px;font-size: 20px;margin-left: 12px;"
+          >
+            <i class="fa fa-bed"></i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $
+          </p>
+          <p
+            id="EducationDetail"
+            style="margin-top: 15px;font-size: 20px;margin-left: 12px;"
+          >
+            <i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp;$
+          </p>
+          <p
+            id="EducationDetail"
+            style="margin-top: 15px;font-size: 20px;margin-left: 12px;"
+          >
+            <i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp;<i
+              class="fa fa-bed"
+            ></i
+            >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $
+          </p>
+          <p
+            id="EducationDetail"
+            style="margin-top: 15px;font-size: 20px;margin-left: 12px;"
+          >
+            <i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp;<i
+              class="fa fa-bed"
+            ></i
+            >&nbsp;<i class="fa fa-bed"></i>&nbsp; &nbsp; &nbsp; &nbsp;$
+          </p>
+        </div>
+        <div class="col-8" style="margin-left: 20px;"></div>
+      </div>
+      <div
+        class="row"
+        id="TransportTitleRow"
+        style="margin-right: 15px;margin-left: 15px;margin-top: 100px;"
+      >
+        <div class="col">
+          <h4 style="margin-left: 35px;"><i class="fa fa-car"></i>Transport</h4>
+          <hr
+            style="margin-top: -2px;margin-right: -283px;width: 210px;margin-left: 30px;background-color: #2b2b28;height: 2px;margin-bottom: 8px;"
+          />
+        </div>
+      </div>
+      <div
+        class="row"
+        id="TransportDetailRow"
+        style="margin-right: 15px;margin-left: 15px;margin-bottom: 100px;"
+      >
+        <div class="col-8"></div>
+        <div class="col-3" style="margin-left: 53px;margin-right: 0;">
+          <p
+            id="EducationDetail"
+            style="margin-top: 26px;font-size: 20px;margin-left: 12px;"
+          >
+            Primary School:&nbsp;
+          </p>
+          <p
+            id="EducationDetail"
+            style="margin-top: 26px;font-size: 20px;margin-left: 12px;"
+          >
+            High School:&nbsp;
+          </p>
+          <p
+            id="EducationDetail"
+            style="margin-top: 26px;font-size: 20px;margin-left: 12px;"
+          >
+            University Campus:&nbsp;
+          </p>
+        </div>
+      </div>
+    </div>
+    <div></div>
+    <footer class="footer bg-light">
+      <p class="text-center text-muted small mb-4 mb-lg-0">© Sharks in Suit</p>
+    </footer>
+    <script src="../static/assets/js/jquery.min.js"></script>
+    <script src="../static/assets/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
