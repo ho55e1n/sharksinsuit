@@ -65,26 +65,21 @@
       </div>
     </header>
     <section>
-      <div class="table-responsive">
-        <table class="table">
+      <div class="table-responsive col-2">
+        <table class="table table-sm table-dark">
           <thead>
             <tr>
               <th>LGA Rank</th>
               <th>LGA</th>
-              <th>Suburb Rank 1</th>
-              <th><strong>Suburb Rank 2</strong></th>
-              <th><strong>Suburb Rank 3</strong></th>
-              <th><strong>Suburb Rank 4</strong></th>
-              <th><strong>Suburb Rank 5</strong></th>
             </tr>
           </thead>
           <tbody>
             {% for china_row in nationality | batch(6, '&nbsp;') %}
             <tr>
-              <td>{{ loop.index }}</td>
-              {% for suburb in china_row %}
+              <td >{{ loop.index }}</td>
+              {% for suburb in china_row[0:1] %}
               <td>
-                <a href="/lga/{{ suburb["Suburb"] }}">{{ suburb["Suburb"] }}</a>
+                <a class=" btn btn-outline-info btn-lg" href="/lga/{{ suburb["Suburb"] }}">{{ suburb["Suburb"] }}</a>
               </td>
               {% endfor %}
             </tr>

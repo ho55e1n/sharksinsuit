@@ -1,5 +1,11 @@
 from flask import Flask, render_template, url_for
 import json
+import os
+
+
+script_dir = os.path.dirname(__file__)
+rel_path = "Country_LGA_Suburb Ranked.txt"
+abs_file_path = os.path.join(script_dir, rel_path)
 
 app = Flask(__name__)
 
@@ -9,7 +15,7 @@ def readJsonFile(filename):
         return json.load(json_file)
 
 
-filename = readJsonFile('Country_LGA_Suburb Ranked.txt')
+filename = readJsonFile(abs_file_path)
 
 
 def getByNationality(filename, countryname):
@@ -28,6 +34,7 @@ china = getByNationality(filename, "China")
 india = getByNationality(filename, "India")
 iran = getByNationality(filename, "Iran")
 suburbs_info = readJsonFile('data.txt')['all_suburbs']
+events_info = readJsonFile('events.txt')['events']
 
 
 def lga_extractor(filename, param):
@@ -71,6 +78,11 @@ def suburb():
 def lga(name):
     output = lga_extractor(suburbs_info, name)
     return render_template('Suburb.html', lga=output)
+
+
+@app.route('/test')
+def testing_page():
+    return render_template('untitled.html', events=events_info)
 
 
 if __name__ == '__main__':

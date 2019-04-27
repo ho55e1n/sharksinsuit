@@ -1,3 +1,4 @@
+import os
 import json
 
 
@@ -17,7 +18,7 @@ def readJsonFile(filename):
         return json.load(json_file)
 #
 #
-# data = readJsonFile('Country_LGA_Suburb Ranked.txt')
+# data = readJsonFile(abs_file_path)
 #
 #
 # def getByNationality(filename, countryname):
@@ -37,7 +38,7 @@ def readJsonFile(filename):
 # print(len(output))
 
 
-#input = readJsonFile('data.txt')['all_suburbs']
+# input = readJsonFile('data.txt')['all_suburbs']
 
 
 def lga_extractor(filename, param):
@@ -49,4 +50,24 @@ def lga_extractor(filename, param):
 
 # print(input[0]['name'])
 
-#print(lga_extractor(input, 'Camberwell'))
+# print(lga_extractor(input, 'Camberwell'))
+
+script_dir = os.path.dirname(__file__)
+rel_path = "events.txt"
+abs_file_path = os.path.join(script_dir, rel_path)
+
+data = readJsonFile(abs_file_path)['events'][0]['logo']['url']
+print(json.dumps(data, indent=4))
+
+# Grab text
+# data = readJsonFile(abs_file_path)['events'][0]['name']['text']
+# Grab desciption
+# data = readJsonFile(abs_file_path)['events'][0]['description']['text']
+# Grab url
+# data = readJsonFile(abs_file_path)['events'][0]['url']
+# Grab start day
+# data = readJsonFile(abs_file_path)['events'][0]['start']['local'][0:10]
+# Grab start time
+# data = readJsonFile(abs_file_path)['events'][0]['start']['local'][11:17]
+# Grab logo image
+# data = readJsonFile(abs_file_path)['events'][0]['logo']['url']
