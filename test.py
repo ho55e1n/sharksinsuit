@@ -69,9 +69,9 @@ def profile_iran():
     return render_template('profile-Iran.html', nationality=iran)
 
 
-@app.route('/suburbs')
+@app.route('/profile')
 def suburb():
-    return render_template('Suburb.html')
+    return render_template('profile-noNationality-1.html')
 
 
 @app.route('/lga/<name>')

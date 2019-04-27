@@ -1,117 +1,63 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-    />
-    <title>Home - Brand</title>
-    <link
-      rel="stylesheet"
-      href="static/assets/bootstrap/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="static/https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"
-    />
-    <link rel="stylesheet" href="static/assets/fonts/font-awesome.min.css" />
-    <link rel="stylesheet" href="static/assets/css/Navigation-Clean.css" />
-  </head>
+{% extends 'layout.html' %}
 
-  <body>
-    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
-      <div class="container">
-        <a class="navbar-brand" href="#">Connect to your Community</a
-        ><button
-          data-toggle="collapse"
-          class="navbar-toggler"
-          data-target="#navcol-1"
-        >
-          <span class="sr-only">Toggle navigation</span
-          ><span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navcol-1">
-          <ul class="nav navbar-nav ml-auto">
-            <li class="nav-item" role="presentation">
-              <a class="nav-link active" href="#">Home</a>
-            </li>
-            <li class="nav-item" role="presentation">
-              <a class="nav-link" href="profile-noNationality-1.html"
-                >Profile</a
-              >
-            </li>
-            <li class="nav-item" role="presentation">
-              <a class="nav-link" href="events-main.html">Events</a>
-            </li>
-            <li class="nav-item" role="presentation">
-              <a class="nav-link" href="#">Compare</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <header
-      class="masthead text-white text-center"
-      style="background:url('static/assets/img/bg-masthead.jpg')no-repeat center center;background-size:cover;"
-    >
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-9 mx-auto">
-            <h1 class="mb-5">Connect to Your Community</h1>
-            <h1 class="mb-5">Start a New Life in Austraslia!</h1>
-          </div>
-        </div>
-      </div>
-    </header>
-    <div class="row" style="height: 66px;">
-      <div class="col" style="height: 66px;width: 1015px;">
-        <h1
-          class="text-center"
-          style="height: 49px;margin: 0px;margin-right: 10px;margin-top: 10px;"
-        >
-          Select Your Nationality
-        </h1>
-      </div>
-    </div>
-    <div class="row" style="height: 66px;"></div>
+<body>
+  {% include 'includes/_navbar.html' %} {% block body %}
+
+  <header
+    class="masthead text-white text-center"
+    style="background:url('static/assets/img/bg-masthead.jpg')no-repeat center center;background-size:cover;"
+  >
+    <div class="overlay"></div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 text-center" style="height: 152px;">
-          <a
-            class="btn btn-primary active btn-lg text-center text-dark bg-light border-light shadow-lg"
-            role="button"
-            style="padding: 50px;"
-            href="profile-China"
-            ><strong>CHINA</strong></a
-          >
-        </div>
-        <div class="col-lg-4 text-center">
-          <a
-            class="btn btn-primary btn-lg text-center text-dark bg-light border-light shadow-lg"
-            role="button"
-            style="padding: 50px;"
-            href="profile-India"
-            ><strong>INDIA</strong><br
-          /></a>
-        </div>
-        <div class="col-lg-4 text-center">
-          <a
-            class="btn btn-primary btn-lg text-center text-dark bg-light border-light shadow-lg"
-            role="button"
-            style="padding: 50px;"
-            href="profile-Iran"
-            ><strong>IRAN</strong><br
-          /></a>
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5">Connect to Your Community</h1>
+          <h1 class="mb-5">Start a New Life in Austraslia!</h1>
         </div>
       </div>
     </div>
-    <footer class="footer bg-light">
-      <p class="text-center text-muted small mb-4 mb-lg-0">© Sharks in Suit</p>
-    </footer>
-    <div></div>
-    <script src="static/assets/js/jquery.min.js"></script>
-    <script src="static/assets/bootstrap/js/bootstrap.min.js"></script>
-  </body>
-</html>
+  </header>
+  <div class="row" style="height: 66px;">
+    <div class="col" style="height: 66px;width: 1015px;">
+      <h1
+        class="text-center"
+        style="height: 49px;margin: 0px;margin-right: 10px;margin-top: 10px;"
+      >
+        Select Your Nationality
+      </h1>
+    </div>
+  </div>
+  <div class="row" style="height: 66px;"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 text-center" style="height: 152px;">
+        <a
+          class="btn btn-danger active btn-lg text-center text-dark  border-light shadow-lg"
+          role="button"
+          style="padding: 50px;"
+          href="profile-China"
+          ><strong>CHINA</strong></a
+        >
+      </div>
+      <div class="col-lg-4 text-center">
+        <a
+          class="btn btn-primary btn-lg text-center text-dark bg-light border-light shadow-lg"
+          role="button"
+          style="padding: 50px;"
+          href="profile-India"
+          ><strong>INDIA</strong><br
+        /></a>
+      </div>
+      <div class="col-lg-4 text-center">
+        <a
+          class="btn btn-success btn-lg text-center text-dark border-light shadow-lg"
+          role="button"
+          style="padding: 50px;"
+          href="profile-Iran"
+          ><strong>IRAN</strong><br
+        /></a>
+      </div>
+    </div>
+  </div>
+  {% endblock %}
+</body>

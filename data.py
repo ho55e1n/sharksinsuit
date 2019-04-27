@@ -52,9 +52,9 @@ def lga_extractor(filename, param):
 
 # print(lga_extractor(input, 'Camberwell'))
 
-script_dir = os.path.dirname(__file__)
-rel_path = "events.txt"
-abs_file_path = os.path.join(script_dir, rel_path)
+script_dir = os.path.dirname(os.path.abspath(__file__))
+events_path = "events.txt"
+abs_file_path = os.path.join(script_dir, events_path)
 
 data = readJsonFile(abs_file_path)['events'][0]['logo']['url']
 print(json.dumps(data, indent=4))
@@ -71,3 +71,6 @@ print(json.dumps(data, indent=4))
 # data = readJsonFile(abs_file_path)['events'][0]['start']['local'][11:17]
 # Grab logo image
 # data = readJsonFile(abs_file_path)['events'][0]['logo']['url']
+
+
+print(os.path.dirname(os.path.abspath(__file__)))
