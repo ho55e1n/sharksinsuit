@@ -1,0 +1,23 @@
+﻿{
+"events":
+[
+ {
+   "description": {
+      "text": "A young teacher disappears while on a vacation with three middle-class families to the coast of northern Iran. (English Subtitles). Rated PG.\nBookings essential. You do not need to bring a ticket with you to this event. \nView all Yarra Libraries events\nIf you have accessibility questions or requirements, please contact Sarah Ernst, Library Development & Projects Officer, at yarralibraries@yarracity.vic.gov.au or on 1300 695 427."
+   },
+   "end": {
+      "local": "2019-05-02T15:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F59679654%2F242096547564%2F1%2Foriginal.20190404-050959?h=200&w=450&auto=compress&rect=0%2C0%2C800%2C400&s=901f64cd98c26cc298d85edfe962d8a0"
+   },
+   "name": {
+      "text": "First Thursday Films: About Elly (PG)"
+   },
+   "start": {
+      "local": "2019-05-02T13:00:00"
+   },
+   "url": "https://www.eventbrite.com.au/e/first-thursday-films-about-elly-pg-registration-59208040844?aff=ebapi"
+}
+]
+}

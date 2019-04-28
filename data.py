@@ -14,7 +14,7 @@ import json
 
 
 def readJsonFile(filename):
-    with open(filename) as json_file:
+    with open(filename, encoding="utf-8-sig") as json_file:
         return json.load(json_file)
 #
 #
@@ -38,7 +38,7 @@ def readJsonFile(filename):
 # print(len(output))
 
 
-# input = readJsonFile('data.txt')['all_suburbs']
+# input = readJsonFile('chinese_data.txt')['all_suburbs']
 
 
 def lga_extractor(filename, param):
@@ -53,11 +53,13 @@ def lga_extractor(filename, param):
 # print(lga_extractor(input, 'Camberwell'))
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-events_path = "events.txt"
+events_path = "final_compare.txt"
 abs_file_path = os.path.join(script_dir, events_path)
+print(os.path.dirname(os.path.abspath(__file__)))
 
-data = readJsonFile(abs_file_path)['events'][0]['logo']['url']
-print(json.dumps(data, indent=4))
+
+data = readJsonFile(abs_file_path)
+print(json.dumps(data,indent = 4))
 
 # Grab text
 # data = readJsonFile(abs_file_path)['events'][0]['name']['text']
@@ -72,5 +74,5 @@ print(json.dumps(data, indent=4))
 # Grab logo image
 # data = readJsonFile(abs_file_path)['events'][0]['logo']['url']
 
-
 print(os.path.dirname(os.path.abspath(__file__)))
+

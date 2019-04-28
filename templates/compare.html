@@ -1,0 +1,28 @@
+<body>
+<select id="list" onchange="getSelectValue();">
+<option value="Boroondara">Boroondara</option>
+<option value="Casey">Casey</option>
+<option value="Greater Dandenong">Greater Dandenong</option>
+<option value="Manningham">Manningham</option>
+<option value="Melbourne">Melbourne</option>
+<option value="Monash">Monash</option>
+<option value="Whitehorse">Whitehorse</option>
+<option value="Whittlesea">Whittlesea</option>
+<option value="Wyndham">Wyndham</option>
+<div id="myheader"></div>
+
+</select>
+<script>
+    function getSelectValue()
+    {
+        var selectedValue = document.getElementById("list").value;
+        console.log(selectedValue);
+        var para = document.createElement("P");               // Create a <p> element
+        para.innerText = selectedValue;               // Insert text
+        document.body.appendChild(para);    
+    }
+    getSelectValue();
+</script>
+
+
+</body>

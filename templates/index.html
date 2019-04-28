@@ -3,61 +3,44 @@
 <body>
   {% include 'includes/_navbar.html' %} {% block body %}
 
-  <header
-    class="masthead text-white text-center"
-    style="background:url('static/assets/img/bg-masthead.jpg')no-repeat center center;background-size:cover;"
-  >
-    <div class="overlay"></div>
+  <header class="masthead text-white text-center" style="background:url('static/assets/img/bg-masthead.jpg')no-repeat center center;background-size:cover;">
+    <div class="overlay" style="background-image: url(&quot;static/assets/img/bg-masthead.jpg&quot;);background-repeat:no-repeat; background-attachment:fixed"></div>
     <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5">Connect to Your Community</h1>
-          <h1 class="mb-5">Start a New Life in Austraslia!</h1>
+        <div class="row">
+            <div class="col-xl-9 mx-auto">
+                <h1 class="mb-5">Connect to Your Community</h1>
+                <h1 class="mb-5">Start a New Life in Austraslia!</h1>
+            </div>
         </div>
-      </div>
     </div>
-  </header>
-  <div class="row" style="height: 66px;">
-    <div class="col" style="height: 66px;width: 1015px;">
-      <h1
-        class="text-center"
-        style="height: 49px;margin: 0px;margin-right: 10px;margin-top: 10px;"
-      >
-        Select Your Nationality
-      </h1>
+</header>
+<div class="container">
+    <h1 class="text-center" style="margin-top: 139px;">Select Your Community</h1>
+    <div class="row" style="height: 100%;">
+        <div class="col">
+            <div class="card-group">
+                <div class="card"><img class="card-img-top w-100 d-block" src="static/assets/img/Philippines-CNY.jpg" style="height: 244px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Chineses Community</h4>
+                        <p class="card-text">Chinese migrants have been arriving in Victoria since the gold rush of the 1850s. They are now a big part of Melbourne’s growing population, so much so that the number of Chinese-born migrants living in Melbourne has more than
+                            doubled since 2001.</p><a class="btn btn-primary" role="button" href="profile-China">Explore More</a></div>
+                </div>
+                <div class="card"><img class="card-img-top w-100 d-block" src="static/assets/img/family-deewali.jpg" style="height: 244px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Indian Community</h4>
+                        <p class="card-text">Melbourne has a vibrant Indian community with Indian-born migrants making up 3 per cent of Melbourne’s total population. Since 2001 the number of Indian-born migrants in Melbourne has more than tripled.</p><a class="btn btn-primary"
+                            role="button" style="margin-top: 18px;" href="profile-India">Explore More</a></div>
+                </div>
+                <div class="card"><img class="card-img-top w-100 d-block" src="static/assets/img/436064.jpg" style="height: 244px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Iranian Community</h4>
+                        <p class="card-text">More than 16,000 Persians live in Victoria by 2016, and the number is doubled compare to 2011, Persians love Melbourne’s work/life balance and enjoy the great outdoors and Melbourne’s climate。&nbsp;<br></p><a class="btn btn-primary"
+                            role="button" style="margin-top: 14px;" href="profile-Iran">Explore More</a></div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="row" style="height: 66px;"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 text-center" style="height: 152px;">
-        <a
-          class="btn btn-danger active btn-lg text-center text-dark  border-light shadow-lg"
-          role="button"
-          style="padding: 50px;"
-          href="profile-China"
-          ><strong>CHINA</strong></a
-        >
-      </div>
-      <div class="col-lg-4 text-center">
-        <a
-          class="btn btn-primary btn-lg text-center text-dark bg-light border-light shadow-lg"
-          role="button"
-          style="padding: 50px;"
-          href="profile-India"
-          ><strong>INDIA</strong><br
-        /></a>
-      </div>
-      <div class="col-lg-4 text-center">
-        <a
-          class="btn btn-success btn-lg text-center text-dark border-light shadow-lg"
-          role="button"
-          style="padding: 50px;"
-          href="profile-Iran"
-          ><strong>IRAN</strong><br
-        /></a>
-      </div>
-    </div>
+</div>
   </div>
   {% endblock %}
 </body>

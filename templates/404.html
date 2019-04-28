@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% include 'includes/_navbar.html' %}
+{% block body %}
+<div class="container">
+<div class="card col-md-12">
+    <img class="card-img" style="height: 600px;"
+    src = "static/assets/img/tconfused.png">
+    <div class="card-img-overlay">
+    <h1 class="card-title">Page Not Found</h1>
+    <p class="card-text">What you were looking for is just not there.</p>
+    <p class="card-text"><a class="btn btn-primary" href="{{ url_for('index') }}">go somewhere nice</a></p>
+    </div>
+</div>
+</div>
+{% endblock %}

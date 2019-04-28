@@ -1,0 +1,221 @@
+﻿{
+"events":
+[
+ {
+   "description": {
+      "text": "Experience Indian Classical music at its finest with a mesmerizing performance by the international master of Sitar, Pt. Purbayan Chatterjee, who will perform with the Melbourne-based Tabla whiz, Jay Dabgar. \nThe duo will take you on a journey of hypnotising, energetic music of the Indian Classical genre. They will also be performing with the amazing artists from The Senagambian Jazz band, Amadou Suso, on the Kora. \nThis performance will bring together a beautiful amalgamation of African and Jazz music with the mystical sounds of India.\nPurbayan ChatterjeePurbayan is one of the finest Sitar players in Indian Classical music and holds a special place as a multifaceted performer in the world of music. Along with his concerts of North Indian raga music, he also performs with musicians from the South Indian raga tradition and participates in various fusion projects with jazz (His music has been appreciated by jazz greats, such as Chick Corea, Bella Fleck, and Pat Metheney).\nHis soulful and dexterous performances have evoked praise and admiration in various music festivals in India and other countries. Purbayan is also astounding vocalist and has lent his soulful voice to many mellifluous compositions.\nJay DabgarRecently finishing a very successful tour of Australia with the Grammy award winner and Padma Bhushan Pt. Vishwamohan Bhatt and Grammy nominee Ustad Shujaat Khan, local Tabla sensation Jay Dabgar will accompany Purbayan Chatterjee during his Australian tour.\nDabgar will bring 24 years of Tabla playing experience to this highly anticipated show. His skills are well known throughout Australia as well as internationally.\nKey Information:18 May 2019, 7PM (6.30 PM Doors)South Melbourne Town HallFishley St, South Melbourne VIC 3205\nTickets:  Section AFull: $65 | Concession: $55 | Early Bird: $55 (available till 15 April 2019)\nSection BFull: $55 | Concession: $45 | Early Bird: $45 (available till 15 April 2019)"
+   },
+   "end": {
+      "local": "2019-05-18T21:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F57867367%2F175354994294%2F1%2Foriginal.20190305-045510?h=200&w=450&auto=compress&rect=0%2C22%2C1920%2C960&s=c70c7f6578317cb9061824456dd88965"
+   },
+   "name": {
+      "text": "Purbayan Chatterjee in concert with Jay Dabgar"
+   },
+   "start": {
+      "local": "2019-05-18T19:00:00"
+   },
+   "url": "https://www.eventbrite.com.au/e/purbayan-chatterjee-in-concert-with-jay-dabgar-tickets-58046322112?aff=ebapi"
+},
+ {
+   "description": {
+      "text": "Everyone knows Scotland is the biggest producer of whisky in the world, but did you know about award-winning whisky from Taiwan, India and even in our own backyard? Come and explore the weird and wonderful whiskies being made in all corners of the globe with this class.\nOver the course of an hour and a half you will be guided through a selection of whisky’s by our experienced bartenders while sharing in a charcuterie board. To finish the class off each guest gets to sit back, relax and enjoy a tailored old fashion, highlighting the flavours and journey of the class."
+   },
+   "end": {
+      "local": "2019-05-18T20:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F53528050%2F145913104691%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C128%2C1000%2C500&s=828350f7b0ad739110220e44005ba9b9"
+   },
+   "name": {
+      "text": "WHISKYS FROM AROUND THE WORLD – PUBLIC CLASS"
+   },
+   "start": {
+      "local": "2019-05-18T19:00:00"
+   },
+   "url": "https://www.eventbrite.com.au/e/whiskys-from-around-the-world-public-class-tickets-53288098136?aff=ebapi"
+},
+ {
+   "description": {
+      "text": "Collaborate. Negotiate. Resolve conflict. Optimise stakholder alignment.\nIf you are conducting negotiations with Indian counterparts, a strong understanding of how process, commercial issues and culture impacts negotiation styles is critical. • What processes may be adopted to achieve mutual gains with an Indian counterpart in a negotiation? • How do you plan for and respond to lengthy multi-stage negotiations with Indian counterparts? • How does culture affect commercial outcomes in a negotiation with Indian counterparts? \nThe ApproachThis practical, participatory one-day program combines global perspectives on cross-cultural negotiation with Australian executive insights and reflections from Indian counterparts. It incorporates the Consensus Building Institute’s world-leading Mutual Gains Approach, built in partnership with faculty from Harvard and MIT, which utilises a practical four-step methodology for improving negotiation results in Indian contexts:\n1. Prepare – Estimate your Best Alternative to Negotiated Agreement (BATNA) and identify the interests of your Indian counterparts\n2. Create Value – Invent without committing. Float options that consider the differences between parties. \n3. Distribute Value – Behave in ways that build trust. Find objective values both parties can use to justify mutually beneficial sharing of the value created. \n4. Follow Through – Specify mechanisms to deal with predictable surprises. Agree on monitoring arrangements, including metrics. \nWhat you will learn\nThis program will help you learn to enhance your commercial relationships and achieve optimal business outcomes in an Indian context.\nFacilitators\nAndrew Wei-Min Lee is a Fellow of Harvard Law School’s Program on Negotiation and Stanford Law School’s Gould Center for Conflict Resolution. For over 14 years, he has led training workshops on negotiation and business in China as well as business negotiations with Chinese counterparts in the United States, Singapore, the Netherlands, Russia, Austria, Japan and France. He has cooperated with universities to deliver programs to Australian executives visiting China. Participants have included personnel from Penfolds Winery, the Australian Tax Office, Minter Ellison Lawyers and Pura Milk. In 2011, he was appointed a World Bank mediator for Greater Asia.\nMukund Narayanamurti is the CEO of Asialink Business. He built his experience at KPMG facilitating cross-border investments between Australia and Asia in sectors including energy and resources, banking, agribusiness, education and information technology. He has successfully directly negotiated service agreements with counterparts in India, China, Japan, South Korea, Singapore and Malaysia and advised on matters related to contract negotiations with Asian counterparts in M&A, joint ventures, technology transfer, and trade agreements. He received his MBA from the Sloan School of Management at MIT.\nA highly interactive training program that combines a world re-nowned negotiation framework and global insights on cross-cultural negotiation with Australian executives' experiences with their Indian counterparts. \nFor enquiries: contact Michelle Borzi on 0421 443 439 or email m.borzi@asialinkbusiness.com.au"
+   },
+   "end": {
+      "local": "2019-05-20T17:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F57649537%2F154941325932%2F1%2Foriginal.20190301-003921?h=200&w=450&auto=compress&rect=228%2C0%2C1270%2C635&s=9003b4cb2ef77baf194394d587fdedea"
+   },
+   "name": {
+      "text": "Negotiations and Influence in an Asian Context - INDIA (Melbourne)"
+   },
+   "start": {
+      "local": "2019-05-20T09:00:00"
+   },
+   "url": "https://www.eventbrite.com.au/e/negotiations-and-influence-in-an-asian-context-india-melbourne-tickets-57566909175?aff=ebapi"
+},
+ {
+   "description": {
+      "text": "Indian Women's support group for social interaction and combat isolation"
+   },
+   "end": {
+      "local": "2019-05-20T13:30:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F54023615%2F29519680353%2F1%2Foriginal.20181217-023553?h=200&w=450&auto=compress&rect=0%2C0%2C640%2C320&s=811b0104d431520a0353d9f1050b9bc7"
+   },
+   "name": {
+      "text": "Indian Women's Support Group"
+   },
+   "start": {
+      "local": "2019-05-20T11:30:00"
+   },
+   "url": "https://www.eventbrite.com.au/e/indian-womens-support-group-tickets-53798942084?aff=ebapi"
+},
+ {
+   "description": {
+      "text": "Join us for a class on Indian Home Cooking, specifically the Thali meal. The Indian Thali is not just a meal or a plate; it is, in fact, a tradition. Within the rim of the plate are many traditions handed down from one generation of cooks to the next abound. The class will talk about the thali and the culinary heritage behind it that makes every element of it so important to a balanced diet. \nA cooking demonstration and hands-on class of a full meal where guests learn to cook an Indian meal that everyone savours together.With over 5 items on the menu from an entree, to the main course and side dishes, this is the perfect class to learn an Indian banquet to wow your friends and family at the next get together!\nClass Duration \nThe course is 3 hours in duration.CookingAll participants will be given the opportunity to prepare and cook.Participants will be provided with all the necessary utensils and utilise commercial cooking equipment supplied by our venue. \nRecipe Pack \nEach participant receives a recipe pack so they have all the information to prepare this meal at home for friends and family.\nVenue : \nTwo Kings Café\n353 Centre Rd, Bentleigh VIC 3204\nVenue - 2 min walk from Bentleigh Station \nMore Information \nThe class is not a cooking course, it is an informal session where we learn the basics and share our experiences. We are not professional chefs just home taught by our families and enjoy cooking and celebrating with food. Come for an afternoon of fun, and celebration with food."
+   },
+   "end": {
+      "local": "2019-05-22T20:30:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F57013529%2F35644480928%2F1%2Foriginal.20190218-220736?h=200&w=450&auto=compress&rect=0%2C595%2C4032%2C2016&s=ba437db0f8640fa4450f5c95568241b9"
+   },
+   "name": {
+      "text": "Spice Factory- Indian Cooking Class"
+   },
+   "start": {
+      "local": "2019-05-22T17:30:00"
+   },
+   "url": "https://www.eventbrite.com.au/e/spice-factory-indian-cooking-class-tickets-56837267798?aff=ebapi"
+},
+ {
+   "description": {
+      "text": "East African cuisine has had influences from Indian, French, British, Egyptian and Turkish flavours to name a few. In a journey through the sub Saharan Africa, taste the blends of spices, in a bowl of fufu, a warm piece of Injera (Ethiopian bread) or matoki (lamb stew). Sudan's more common foods are kisira (a type of pancake), rice, asida (ugali, or stiff porridge), and fish. In Ethiopia, typical foods would be injera/firfir, kichah (spiced pancake), dabo (bread), and bula (ensete, or stiff porridge). These are normally served with a variety of hot sauces (wat, or watt) on one large tray for the entire family.\nWe explore Footscray on our journey through Africa. With a population of over 5000 African decedents, it is the perfect place to try some authentic bread, buy some berbere spices and get your hands on the original coffee from Ethiopia. Get ready for a gastronomical experience for your taste buds.\nWe guarantee you will be back for more!\nInclusions\nVisit to a grocery shop and the opportunity to learn about the spices.A Progressive 3 course Lunch an African restaurant and cafe\nTour Starting Point: Outside Footscray Station on Irving Street.\nThings to keep in mind:This is a walking tour; it is not fast-paced and is comfortable for most people. The walk from the various venues is about 30-40 minutes in total with breaks at each vendor; we recommend that you wear comfortable shoes.\nTours held alternate weekends but if a date of your preference is not listed, please give us a call and we will do our best to add additional tours. More dates to be released soon. Please email us if you would like to be notified. Alternatively, you may like to book a private tour (5 people minimum).\nGot a question? email us at tours@foodietrails.com.au or call 1800 66 77 91"
+   },
+   "end": {
+      "local": "2019-04-27T14:30:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F56963615%2F35644480928%2F1%2Foriginal.20190218-021418?h=200&w=450&auto=compress&rect=0%2C233%2C2448%2C1224&s=3c0a1d85142c2c205df6c29eb803512a"
+   },
+   "name": {
+      "text": "African Foodie Trail - Footscray"
+   },
+   "start": {
+      "local": "2019-04-27T11:30:00"
+   },
+   "url": "https://www.eventbrite.com.au/e/african-foodie-trail-footscray-tickets-56766582376?aff=ebapi"
+},
+ {
+   "description": {
+      "text": "Keywords for India Lecture Series\nEmpire\nwith Professor Sanjay Subrahmayam \nAbout the talk:\nTo some 'empire' in the context of India/South Asia is necessarily a reference to the British Raj, especially after 1858. But the term actually has a much more general usage. It is used to refer to the large political formations of the classical period, such as those of the Mauryas, Kushanas or Guptas; then to some later formations such as Vijayanagara and the Mughals. At the same time, there is a tendency to speak of certain periods as being \"between empires\". In this lecture, I will address three related questions. (1) the use of the term 'empire' in global history, and various successful and less successful attempts to define it; (2) its use in Indian contexts, and what (if anything) it translates; and (3) whether elements of empire can still be found in the Indian political system as it exists today.\n\nAbout the speaker:\nProfessor Sanjay Subrahmayam, Distinguished Professor & Irving and Jean Stone Endowed Chair in Social Sciences, UCLA. \nSanjay Subrahmanyam, Distinguished Professor and Irving and Jean Stone Endowed Chair in Social Sciences, joined UCLA in 2004 from Oxford. Educated at the Delhi School of Economics, the first decade of his working career was spent (with brief interruptions in Philadelphia and Cambridge) teaching economic history and comparative economic development at the same institution, where he was eventually named Professor of Economic History (1993-95). Thereafter, Subrahmanyam taught from 1995 to 2002 as Directeur d’études in the Ecole des Hautes Etudes en Sciences Sociales (Paris), where his position was on the economic and social history of early modern India and the Indian Ocean world. In 2002, Subrahmanyam was appointed as the first holder of the newly created Chair in Indian History and Culture at the University of Oxford, a position he held for two years.\nAfter joining UCLA, Subrahmanyam served from 2005 to 2011 as founding Director of UCLA's Center for India and South Asia. He teaches courses on medieval and early modern South Asian and Indian Ocean history, the history of European expansion, the comparative history of early modern empires, and various aspects of world history. He continues to advise graduate students on Indian history, the history of the Iberian empires, and more generally on forms of \"connected histories\". Subrahmanyam was Joint Managing Editor of the Indian Economic and Social History Review for over a decade, besides serving on the boards of a number of other journals in the US, UK, France, Portugal, and elsewhere. He was also one of the founding editors of the \"South Asia Across the Disciplines (SAAD)\" monograph series.In 2013, Sanjay Subrahmanyam was elected to a Chair in Early Modern Global History at the Collège de France in Paris, and delivered a full series of lectures there over the year 2013-14. Since 2014 he continues to lecture as a long-term visiting professor, and has a regular media presence in France: TV interviews appear for example on MediaPart (May 2014), and on France Info (April 2015). Sanjay Subrahmanyam's book Europe's India: Words, People, Empires, 1500-1800, appeared in 2017 from Harvard University Press, and in a French translation in 2018. Another book, Empires Between Islam and Christianity, 1500-1800, has appeared in 2018 in the Indian edition (Permanent Black) and the US edition in 2019.\nIn February 2019, Sanjay Subrahmanyam was awarded the Dan David Prize for History (jointly with Kenneth Pomeranz, Chicago). "
+   },
+   "end": {
+      "local": "2019-07-15T19:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F58029389%2F15835790977%2F1%2Foriginal.20190307-053531?h=200&w=450&auto=compress&rect=0%2C0%2C4320%2C2160&s=c5101fd47e9d8f775aa8e5d18417e20b"
+   },
+   "name": {
+      "text": "Keywords: Empire "
+   },
+   "start": {
+      "local": "2019-07-15T18:00:00"
+   },
+   "url": "https://www.eventbrite.com.au/e/keywords-empire-tickets-57668654498?aff=ebapi"
+},
+ {
+   "description": {
+      "text": "Indians came to the shores of Australia many years ago and with them they have brought culture, spices and delicious Indian food. Come explore with us the flavours of Indian food, learn about the spices and the regions and delight your palette. The opportunity to learn from our experts the uses of spices in various foods and their benefits. We start our story with the arrival of the Indian community in Australia and how their aromatic spices were stirred into Modern Australian cuisine. Continuing to the subtly spiced rice based cuisine of South India; guests will travel through the cuisines of India in all their variety and diversity down to the rich Punjabi food spiced with garam masala of the north and conclude with an offering of Indian deserts like you've never experienced before. \nJoin us in exploring some of the uniquely Indian restaurants around Melbourne city, from small cafes to fine dining restaurants. We’ll show you Melbourne’s Indian side. \nInclusions Visit an Indian Grocery shop and the opportunity to learn about Indian spices.A Progressive 3 course Lunch at Indian cafe/restaurant Tour Starting point Outside 7 Eleven (near the orange umbrellas of Time Out Cafe)  in Federation Square, Flinders Street, Melbourne.Things to keep in mind: This is a walking tour; it is not fast-paced and is comfortable for most people. The walk from the various venues is about 30-40 minutes in total with breaks at each vendor; we recommend that you wear comfortable shoes. Tours alternate weekends, if a date of your preference is not listed, please give us a call and we will do our best to add additional tours. More dates to be released soon. Please email us if you would like to be notified. Alternatively, book a private tour (min 5 guests). \nGot a question? Email us at tours@foodietrails.com.au or call 1800 667 791"
+   },
+   "end": {
+      "local": "2019-05-04T14:30:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F57011852%2F35644480928%2F1%2Foriginal.20190218-213526?h=200&w=450&auto=compress&rect=0%2C498%2C3984%2C1992&s=1b2c4b803ce37e38517956be5e3cfc2a"
+   },
+   "name": {
+      "text": "Masala Foodie Trails- CBD"
+   },
+   "start": {
+      "local": "2019-05-04T11:30:00"
+   },
+   "url": "https://www.eventbrite.com.au/e/masala-foodie-trails-cbd-tickets-56834260804?aff=ebapi"
+},
+ {
+   "description": {
+      "text": "This evening you will enjoy some traditional Indian street food while we take you on a journey to learn about our upcoming trips.\nCo-hosted by pennie scott, the Bush Goddess and the Skillstourism Team, Catherine, Varis and Ravitej.  You will experience slow travel, the kind of travel that allows you to soak up the rich culture and heritage. \nWe invite you to come on a trip where you will get involved in the local community, immerse yourself in their way of life and work side by side with local artisans as you learn traditional handcrafts.\nIndia is beckoning....\n"
+   },
+   "end": {
+      "local": "2019-05-06T20:30:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F60705553%2F151427008716%2F1%2Foriginal.20190420-072250?h=200&w=450&auto=compress&rect=0%2C0%2C2160%2C1080&s=4c8d850fe0cfadbaa3871e8032137d05"
+   },
+   "name": {
+      "text": "A Journey to India - Information Evening"
+   },
+   "start": {
+      "local": "2019-05-06T18:00:00"
+   },
+   "url": "https://www.eventbrite.com.au/e/a-journey-to-india-information-evening-tickets-60662504183?aff=ebapi"
+},
+ {
+   "description": {
+      "text": "Bollywood Club is back with a bang with India's #1 Remixer - DJ SUKETU, joining us again to blaze up the party scene. Get ready to tweak it up to his beats and mind - boggling mashups.\nGet blown away by the electrifying beats from DJ SUKETU, all set to take Bollywood to next level through his tour around the cities of AUS - NZ at the spectacular, luxorious venues and nightspots. We bet you a fun night while he rocks up the night, while he rocks up the night, with remixes like ' Bin tere sanam, Woh Lamhe, Aese na mujhe tum dekho, tera mera rishta, ' and much more.Let the music break you free and liven up your party avatar.\nGet ready to go boggie-woggie all night with The Super Star. He is coming to change the party culture at MELBOURNE'S premiuim party destination - MS COLLINS on 24th April,2019 ."
+   },
+   "end": {
+      "local": "2019-04-25T03:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F59894055%2F99150026607%2F1%2Foriginal.20190407-083333?h=200&w=450&auto=compress&rect=0%2C27%2C1200%2C600&s=e7cc7cb1cd53b251fce52cadcc032188"
+   },
+   "name": {
+      "text": "India's #1 DJ Suketu Live @Ms Collins"
+   },
+   "start": {
+      "local": "2019-04-24T21:00:00"
+   },
+   "url": "https://www.eventbrite.com.au/e/indias-1-dj-suketu-live-ms-collins-tickets-59097270527?aff=ebapi"
+},
+ {
+   "description": {
+      "text": "This seminar will examine the ways in which precarious geopolitics along India and China’s contested borders are transforming life in the Himalaya. The possibility of violent conflict arising out of China-India-Pakistan tensions, however, is only one of the region’s problems. The Himalaya is home to a mosaic of ethnic groups and threatened languages. Its ice-deposits (the world’s third largest) feed most of Asia’s large rivers. Militarisation and unchecked development threaten vulnerable communities and fragile ecologies. To make matters worse, the Himalaya is experiencing a warming climate at twice global averages, already leading to landslides and flooding. I will argue that this situation requires an urgent rethinking of the region, one that goes well beyond a states-and-security centred approach to international politics.\nAbout the Speaker\nDr Alexander E Davis is a ‘new generation network’ postdoctoral research fellow in the La Trobe University’s Department of Politics, Media and Philosophy and the Australia India Institute. He is the author of India and the Anglosphere: Race, Identity and Hierarchy in International Relations (2018)."
+   },
+   "end": {
+      "local": "2019-05-09T16:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F59786902%2F150142214675%2F1%2Foriginal.20190405-043747?h=200&w=450&auto=compress&rect=0%2C0%2C2000%2C1000&s=beee4e841ec8d10e9d180e363f00a4fe"
+   },
+   "name": {
+      "text": "The India-China Border, Competitive State-making and the Transformation of the Himalaya"
+   },
+   "start": {
+      "local": "2019-05-09T14:30:00"
+   },
+   "url": "https://www.eventbrite.com.au/e/the-india-china-border-competitive-state-making-and-the-transformation-of-the-himalaya-tickets-59937510708?aff=ebapi"
+},
+ {
+   "description": {
+      "text": "Prof. Thomas Blom Hansen, Department of Anthropology, Stanford University\nUntil the 1970s, India’s industrial and commercial economy was dominated by very small trading communities that converted their expertise and capital into modern industrial entrepreneurship. Beginning in the late 1980s, liberalization made the Indian economy vastly more dynamic but did it also transform the social basis of the private sector, or the labor market? Did a more open market also open opportunities for new groups and categories of people? Is there evidence that the high growth rates in India also break down barriers to social mobility as it has happened in other societies? Or are the deeper patterns of the Indian economy consolidating the existing distribution of opportunities, capital and employment?\n \nContact details: Sahar Ghumkhor ghumkhor@unimelb.edu.au \n\n"
+   },
+   "end": {
+      "local": "2019-05-16T19:30:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F59896462%2F195054519403%2F1%2Foriginal.20190407-115835?h=200&w=450&auto=compress&rect=0%2C29%2C232%2C116&s=c5c9333e57501045daea42c191561949"
+   },
+   "name": {
+      "text": "How India Works. Caste, community and capitalism."
+   },
+   "start": {
+      "local": "2019-05-16T18:00:00"
+   },
+   "url": "https://www.eventbrite.com.au/e/how-india-works-caste-community-and-capitalism-tickets-60017416709?aff=ebapi"
+}
+]
+}
