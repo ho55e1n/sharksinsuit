@@ -1,51 +1,162 @@
 {% extends 'layout.html' %}
+{% include 'includes/_navbar.html' %} {% block body %}
 
 
-  <body>
-      {% include 'includes/_navbar.html' %} {% block body %}
-
-   
-    <header
-      class="masthead text-white text-center"
-      style="background: url('static/assets/img/india.jpg')no-repeat center center;background-size: cover;height: 857px;padding: 50px;width: -21;margin: 0px;max-height: 697px;min-height: -1061px;min-width: 0;"
-    >
-      <div class="row">
-        <div class="col">
-          <h1>INDIA</h1>
+<body style="background-image: url(&quot;static/assets/img/india.jpg&quot;); background-repeat:no-repeat; background-attachment:fixed; background-position: center; background-size:cover">
+    <header class="masthead text-white text-center" style="background-color: transparent;height: 324px;">
+        <div class="row">
+            <div class="col">
+                <h1>INDIA</h1>
+            </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <p>Paragraph</p>
-        </div>
-      </div>
     </header>
-    <section>
-      <div class="table-responsive">
-        <table class="table">
-          <thead>
-            <tr>
-              <th>LGA Rank</th>
-              <th>LGA</th>
-            </tr>
-          </thead>
-          <tbody>
-              {% for china_row in nationality | batch(6, '&nbsp;') %}
-              <tr>
-                <td >{{ loop.index }}</td>
-                {% for suburb in china_row[0:1] %}
-                <td>
-                  <a class=" btn btn-outline-info btn-lg" href="/lga/{{ suburb["Suburb"] }}">{{ suburb["Suburb"] }}</a>
-                </td>
-                {% endfor %}
-              </tr>
-              {% endfor %}
-            </tbody>
-        </table>
-      </div>
-    </section>
+    <div class="container">
+        <div class="row" id="Top5ResidentRow" style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 500;">
+            <div class="col-3 col-sm-9 col-lg-8 col-xl-8 d-block" id="FirstResidentColumn" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+                <div class="row" style="margin-right: 0px;margin-left: 0;height: 400px;background-color: rgba(221,221,221,0.6);">
+                    <div class="col mx-auto">
+                        <p style="font-size: 20px;margin-top: 25px;margin-left: 7px;"><strong>Australia has a vibrant Indian community and ranks&nbsp;<em><span style="text-decoration: underline;">2nd</span></em>&nbsp;among the overseas-borncommunities in Victoria.The India-born increased by 51.9% (58,015) from 111,787 persons in 2011.&nbsp;</strong><br></p>
+                        <p
+                            style="font-size: 20px;margin-top: 37px;margin-left: 7px;"><strong>Indians living in Melbourne love:</strong><br></p>
+                            <p style="font-size: 20px;margin-top: -11px;margin-left: 20px;"><i class="fa fa-car"></i><strong>&nbsp;Living in Melbourne’s suburbs with safe, accessible transport</strong><br></p>
+                            <p style="font-size: 20px;margin-top: -11px;margin-left: 20px;"><i class="fa fa-glass"></i><strong>&nbsp;Local supermarkets, Indian grocery stores and restaurants</strong><br></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-xl-4" id="SecondResidentCountry" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+                <div class="row" style="margin-right: 0px;margin-left: 0;height: 400px;background-color: rgba(221,221,221,0.6);">
+                    <div class="col mx-auto" id="AgeGraphic">
+                        <h3 style="margin-top: 24px;">Which Council most Indians choose?</h3>
+                        <p>Click on council and Explore</p>
+                        <div class="btn-group" role="group"><a href="lga/Wyndham"><button class="btn btn-primary btn-block text-left" type="button" style="width: 238px;">Wyndham</button></a><button class="btn btn-primary" type="button">13.2%</button></div>
+                        <div class="btn-group" role="group" style="margin-top: 10px;"><a href="lga/Casey"><button class="btn btn-primary text-left" type="button" style="width: 211px;">Casey</button></a><button class="btn btn-primary" type="button">10.6%</button></div>
+                        <div class="btn-group" role="group" style="margin-top: 10px;"><a href="lga/Greater Dandenong"><button class="btn btn-primary text-left" type="button" style="width: 179px;">Greater Dandenong</button></a><button class="btn btn-primary" type="button">7.3%</button></div>
+                        <div class="btn-group" role="group" style="margin-top: 10px;"><a href="lga/Whittlesea"></a><button class="btn btn-primary text-left" type="button" style="width: 153px;"> Whittlesea</button></a><button class="btn btn-primary" type="button">6.5%</button></div>
+                        <div class="btn-group" role="group" style="margin-top: 10px;"><a href="lga/Monash"><button class="btn btn-primary text-left" type="button" style="width: 131px;">Monash</button></a><button class="btn btn-primary" type="button">5.7%</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 style="margin-top: 78px;color: #000000;">Victoria's Indians Demographic Profile</h3>
+        <div class="row" id="Top5ResidentRow" style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;">
+            <div class="col d-block" id="FirstResidentColumn" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+                <div class="row" style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);">
+                    <div class="col-sm-auto mx-auto">
+                        <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"><i class="fa fa-plane"></i><strong>&nbsp; 58,015</strong></p>
+                        <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;">Indians have migrated to Victoria since 2011</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="SecondResidentCountry" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+                <div class="row" style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);">
+                    <div class="col mx-auto">
+                        <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"><i class="fa fa-user"></i><strong>&nbsp; 31 Years</strong></p>
+                        <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;">Average age of Indian migrants In Victoria</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="SecondResidentCountry" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+                <div class="row" style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);">
+                    <div class="col mx-auto">
+                        <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"><i class="fa fa-child"></i><strong>&nbsp; 50%</strong></p>
+                        <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;">Of Indian migrants are families with children and 25% are couples with no children</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="SecondResidentCountry" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+                <div class="row" style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);">
+                    <div class="col mx-auto">
+                        <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"><i class="fa fa-thumb-tack"></i><strong>&nbsp; 35%</strong></p>
+                        <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;">Of Australia's Indian migrants choose Melbourne</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="SecondResidentCountry" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+                <div class="row" style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);">
+                    <div class="col mx-auto">
+                        <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"><i class="fa fa-id-card"></i><strong>&nbsp; 46%</strong></p>
+                        <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;">Have Australian Citizenship</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 id="Age" style="margin-top: 78px;">Age Distribution of India-born</h3>
+        <div class="row" id="AgeRow" style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;">
+            <div class="col-3 col-sm-9 col-lg-3 col-xl-3 d-block" id="FirstResidentColumn" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+                <div class="row" style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
+                    <div class="col mx-auto">
+                        <p style="font-size: 20px;margin-top: 25px;margin-left: 7px;"><strong>20.5% Indian-born are aged <span style="text-decoration: underline;">25 years </span>and below;&nbsp;</strong><br></p>
+                        <p style="font-size: 20px;margin-top: 25px;margin-left: 7px;"><strong>60.3% are aged <span style="text-decoration: underline;">26-44 years</span>;&nbsp;</strong><br></p>
+                        <p style="font-size: 20px;margin-top: 25px;margin-left: 7px;"><strong>13.7% are aged <span style="text-decoration: underline;">45-64 years;</span></strong><br></p>
+                        <p style="font-size: 20px;margin-top: 25px;margin-left: 7px;"><strong>&nbsp;The gender ratio is <span style="text-decoration: underline;">120 males to 100 females</span>, compared to <span style="text-decoration: underline;">96 males to 100</span> females for total Victoria</strong><br></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9 col-xl-9" id="SecondResidentCountry" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"><div class='tableauPlaceholder' id='viz1556351417542' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Indian_age_distribution&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Indian_age_distribution&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Indian_age_distribution&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1556351417542');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='527px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='500px';vizElement.style.height='527px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></div>
+            </div>
+        </div>
+        <h3 id="Language" style="margin-top: 78px;">Language Spoken</h3>
+        <div class="row" id="LanguageRow" style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;">
+            <div class="col-3 col-sm-9 col-lg-9 col-xl-9 d-block" id="FirstResidentColumn" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+                <div class="row" style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"><div class='tableauPlaceholder' id='viz1556352580182' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Indian_languages_speaking&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Indian_languages_speaking&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Indian_languages_speaking&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1556352580182');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='427px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='427px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></div>
+            </div>
+            <div class="col-lg-9 col-xl-3" id="SecondResidentCountry" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
+                    <div class="col">
+                        <p style="font-size: 20px;margin-top: 25px;"><strong><span style="text-decoration: underline;">Panjabi</span> is the most spoken language with 26 % among Indian community;</strong></p>
+                        <p style="font-size: 20px;"><strong>&nbsp;Followed by <span style="text-decoration: underline;">Hindi</span> which accounts 22 %;</strong><br></p>
+                        <p style="font-size: 20px;"><strong>Other significant languages spoken in Indian community are <span style="text-decoration: underline;">English</span> (16%), <span style="text-decoration: underline;">Malayalam</span> (8%), <span style="text-decoration: underline;">Gujrati</span> (7%), and <span style="text-decoration: underline;">Telegu</span> (6%).</strong><br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 id="Industry" style="margin-top: 78px;">Employed Industry</h3>
+        <div class="row" id="IndustryRow" style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;">
+            <div class="col-xl-3" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+                <div class="row" style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
+                    <div class="col">
+                        <p style="font-size: 20px;margin-top: 25px;"><strong>Indian community is mostly employed under <span style="text-decoration: underline;">professional and Health Care industry</span> which accounts 15 %;</strong></p>
+                        <p style="font-size: 20px;"><strong>Followed by <span style="text-decoration: underline;">Wholesale &amp; Retail industry</span> (12%).&nbsp;</strong><br></p>
+                        <p style="font-size: 20px;"><strong>Other industries where Indian community work are <span style="text-decoration: underline;">Transport</span> (10%) followed by <span style="text-decoration: underline;">Finance</span>, <span style="text-decoration: underline;">Education;</span></strong><br></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-9" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+                <div class="row" style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"><div class='tableauPlaceholder' id='viz1556355196491' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;in&#47;indian_industry_employment&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='indian_industry_employment&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;in&#47;indian_industry_employment&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1556355196491');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='527px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='527px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></div>
+            </div>
+        </div>
+        <h3 id="industry" style="margin-top: 78px;">Occupation</h3>
+        <div class="row" style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;">
+            <div class="col-xl-9" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+                <div class="row" style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"><div class='tableauPlaceholder' id='viz1556355362298' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Indian_occupation&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Indian_occupation&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Indian_occupation&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1556355362298');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='527px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='527px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></div>
+            </div>
+            <div class="col-xl-3">
+                <div class="row" style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
+                    <div class="col">
+                        <p style="font-size: 20px;margin-top: 25px;"><strong>Indian are mostly educated and are mostly <span style="text-decoration: underline;">Professionals </span>which accounts 27 %</strong></p>
+                        <p style="font-size: 20px;margin-top: 25px;"><strong>&nbsp;Followed by clerical and<span style="text-decoration: underline;"> Admin </span>(11%), <span style="text-decoration: underline;">Technicians</span> (11%), <span style="text-decoration: underline;">Managers</span> (10 %), <span style="text-decoration: underline;">Drivers</span> (10), <span style="text-decoration: underline;">Labourers</span> (10%), <span style="text-decoration: underline;">Community workers</span> (10%), etc.</strong><br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 id="Religion" style="margin-top: 78px;">Religion</h3>
+        <div class="row" id="ReligionRow" style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;">
+            <div class="col-3 col-sm-9 col-lg-3 col-xl-3 d-block" id="FirstResidentColumn" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+                <div class="row" style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
+                    <div class="col mx-auto">
+                        <p style="font-size: 20px;margin-top: 25px;margin-left: 7px;"><strong><span style="text-decoration: underline;">Hinduism </span>is the most worshipped religion which account 47 %;</strong><br></p>
+                        <p style="font-size: 20px;margin-top: 25px;margin-left: 7px;"><strong>Followed by <span style="text-decoration: underline;">Sikhs</span> (23%), <span style="text-decoration: underline;">Catholics</span> (14%), etc.</strong><br></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9 col-xl-9" id="SecondResidentCountry" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"><div class='tableauPlaceholder' id='viz1556355933816' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Indian_religion_followed&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Indian_religion_followed&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Indian_religion_followed&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1556355933816');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='427px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='427px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></div>
+            </div>
+        </div>
+    </div>
     {% endblock %}
 
+</body>
 
-  </body>
 </html>
