@@ -1,391 +1,1002 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
     <title>index-2</title>
-    <link rel="stylesheet" href="static/assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
-    <link rel="stylesheet" href="static/assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="static/assets/css/Navigation-Clean.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="static/assets/bootstrap/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"
+    />
+    <link rel="stylesheet" href="static/assets/fonts/font-awesome.min.css" />
+    <link rel="stylesheet" href="static/assets/css/Navigation-Clean.css" />
+  </head>
 
-<body style="background-repeat: no-repeat;background-attachment: fixed;background-image: url(&quot;static/assets/img/bg-masthead.jpg&quot;);width: 100%;">
+  <body
+    style='background-repeat: no-repeat;background-attachment: fixed;background-image: url("static/assets/img/bg-masthead.jpg");width: 100%;'
+  >
     <nav class="navbar navbar-light navbar-expand-md navigation-clean">
-        <div class="container"><img src="static/assets/img/shark.jpeg" style="width: 80px;"><a class="navbar-brand" href="#">Connect to your Community</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div    
-                class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="/">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Profile</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="events-main.html">Events</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Compare</a></li>
-                </ul>
+      <div class="container">
+        <img src="static/assets/img/shark.jpeg" style="width: 80px;" /><a
+          class="navbar-brand"
+          href="#"
+          >Connect to your Community</a
+        ><button
+          data-toggle="collapse"
+          class="navbar-toggler"
+          data-target="#navcol-1"
+        >
+          <span class="sr-only">Toggle navigation</span
+          ><span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="/events-default">Events</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="/comparetwo">Compare</a>
+            </li>
+          </ul>
         </div>
-        </div>
+      </div>
     </nav>
 
     <div class="container">
-        <div class="row" id="SelectAndTitle" style="height: 100%;width: 100%;">
-            <div class="col-3" id="1" style="margin-top: 10px;margin-bottom: 10px;">
-                <p class="text-center mx-auto" style="font-size: 22px; top:0; bottom:0;margin:auto">Compare Councils    </p>
-            </div>
-
-                    <form id="form1" action="/success" method="POST" enctype="multipart/form-data">
-                        <div class="form-group form-row align-items-center">
-                        <select class="form-control" id="mySelect" name="cars">
-                          <option value="Boroondara">Boroondara</option>
-                          <option value="Casey">Casey</option>
-                          <option value="Greater Dandenong">Greater Dandenong</option>
-                          <option value="Manningham">Manningham</option>
-                          <option value="Melbourne">Melbourne</option>
-                          <option value="Monash">Monash</option>
-                          <option value="Whitehorse">Whitehorse</option>
-                          <option value="Whittlesea">Whittlesea</option>
-                          <option value="Wyndham">Wyndham</option>
-                        </select>
-                        <select class="form-control " id="mySelect" name="motors">
-                          <option value="Boroondara">Boroondara</option>
-                          <option value="Casey">Casey</option>
-                          <option value="Greater Dandenong">Greater Dandenong</option>
-                          <option value="Manningham">Manningham</option>
-                          <option value="Melbourne">Melbourne</option>
-                          <option value="Monash">Monash</option>
-                          <option value="Whitehorse">Whitehorse</option>
-                          <option value="Whittlesea">Whittlesea</option>
-                          <option value="Wyndham">Wyndham</option>
-                        </select>
-                    </div>
-                        <input class="btn btn-primary "type="submit" value="Submit" />
-            
-                      </form>
-           
-            </div>
-        </div>
-        {% if c1 is defined %}  
-        <div class="container">
-
-        <div class="row" id="Distance" style="margin-right: 0px;margin-left: 0px;margin-top: 8px;background-color: transparent;height: 43px;">
-            <div class="col-3 col-lg-3 col-xl-3 d-block" id="1" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row" style="margin-right: 0px;margin-left: 0;height: 40px;background-color: #0062cc;">
-                    <div class="col mx-auto" style="height: 100px;">
-                        <p style="font-size: 20px;margin-top: 5px;margin-left: 3px;color: rgb(255,255,255);"><i class="fa fa-bank"></i><strong>&nbsp; Council Name</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-xl-4" id="2" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 40px;background-color: #0062cc;">
-                    <div class="col">
-                        <p class="text-center" style="margin-top: 5px;font-size: 20px;color: rgb(255,255,255);"><strong>{{ c1['LGA Name'] }}</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-xl-4" id="3" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 40px;background-color: #0062cc;">
-                    <div class="col">
-                        <p class="text-center" style="margin-top: 5px;font-size: 20px;color: rgb(255,255,255);"><strong>{{ c2['LGA Name'] }}</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-1 col-xl-1"></div>
+      <div class="row" id="SelectAndTitle" style="height: 100%;width: 100%;">
+        <div class="col-3" id="1" style="margin-top: 10px;margin-bottom: 10px;">
+          <p
+            class="text-center mx-auto"
+            style="font-size: 22px; top:0; bottom:0;margin:auto"
+          >
+            Compare Councils
+          </p>
         </div>
 
+        <form
+          id="form1"
+          action="/success"
+          method="POST"
+          enctype="multipart/form-data"
+        >
+          <div class="form-group form-row align-items-center">
+            <select class="form-control" id="mySelect" name="cars">
+              <option value="Boroondara">Boroondara</option>
+              <option value="Casey">Casey</option>
+              <option value="Greater Dandenong">Greater Dandenong</option>
+              <option value="Manningham">Manningham</option>
+              <option value="Melbourne">Melbourne</option>
+              <option value="Monash">Monash</option>
+              <option value="Whitehorse">Whitehorse</option>
+              <option value="Whittlesea">Whittlesea</option>
+              <option value="Wyndham">Wyndham</option>
+            </select>
+            <select class="form-control " id="mySelect" name="motors">
+              <option value="Boroondara">Boroondara</option>
+              <option value="Casey">Casey</option>
+              <option value="Greater Dandenong">Greater Dandenong</option>
+              <option value="Manningham">Manningham</option>
+              <option value="Melbourne">Melbourne</option>
+              <option value="Monash">Monash</option>
+              <option value="Whitehorse">Whitehorse</option>
+              <option value="Whittlesea">Whittlesea</option>
+              <option value="Wyndham">Wyndham</option>
+            </select>
+          </div>
+          <input class="btn btn-primary " type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+    {% if c1 is defined %}
+    <div class="container">
+      <div
+        class="row"
+        id="Distance"
+        style="margin-right: 0px;margin-left: 0px;margin-top: 8px;background-color: transparent;height: 43px;"
+      >
+        <div
+          class="col-3 col-lg-3 col-xl-3 d-block"
+          id="1"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row"
+            style="margin-right: 0px;margin-left: 0;height: 40px;background-color: #0062cc;"
+          >
+            <div class="col mx-auto" style="height: 100px;">
+              <p
+                style="font-size: 20px;margin-top: 5px;margin-left: 3px;color: rgb(255,255,255);"
+              >
+                <i class="fa fa-bank"></i><strong>&nbsp; Council Name</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-xl-4"
+          id="2"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 40px;background-color: #0062cc;"
+          >
+            <div class="col">
+              <p
+                class="text-center"
+                style="margin-top: 5px;font-size: 20px;color: rgb(255,255,255);"
+              >
+                <strong>{{ c1["LGA Name"] }}</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-xl-4"
+          id="3"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 40px;background-color: #0062cc;"
+          >
+            <div class="col">
+              <p
+                class="text-center"
+                style="margin-top: 5px;font-size: 20px;color: rgb(255,255,255);"
+              >
+                <strong>{{ c2["LGA Name"] }}</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1 col-xl-1"></div>
+      </div>
 
-        <div class="row" id="Distance" style="margin-right: 0px;margin-left: 0px;margin-top: 8px;background-color: transparent;height: 115px;">
-            <div class="col-3 col-lg-3 col-xl-3 d-block" id="1" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row" style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col mx-auto" style="height: 100px;">
-                        <p style="font-size: 20px;margin-top: 25px;margin-left: 3px;"><i class="fa fa-map-signs"></i><strong>&nbsp; Distance to City</strong></p>
-                    </div>
-                </div>
+      <div
+        class="row"
+        id="Distance"
+        style="margin-right: 0px;margin-left: 0px;margin-top: 8px;background-color: transparent;height: 115px;"
+      >
+        <div
+          class="col-3 col-lg-3 col-xl-3 d-block"
+          id="1"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row"
+            style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col mx-auto" style="height: 100px;">
+              <p style="font-size: 20px;margin-top: 25px;margin-left: 3px;">
+                <i class="fa fa-map-signs"></i
+                ><strong>&nbsp; Distance to City</strong>
+              </p>
             </div>
-            <div class="col-lg-4 col-xl-4" id="2" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col">
-                        <p class="text-center" style="margin-top: 25px;font-size: 20px;"><strong>{{ c1["Distance to Melbourne"] }}</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-xl-4" id="3" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col">
-                        <p class="text-center" style="margin-top: 25px;font-size: 20px;"><strong>{{ c2["Distance to Melbourne"] }}</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-1 col-xl-1"></div>
+          </div>
         </div>
-        <div class="row" id="TravelTime" style="margin-right: 0px;margin-left: 0px;margin-top: 8px;background-color: transparent;height: 115px;">
-            <div class="col-3 col-lg-3 col-xl-3 d-block" id="1" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row" style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col mx-auto" style="height: 100px;">
-                        <p style="font-size: 20px;margin-top: 25px;margin-left: 3px;"><i class="fa fa-car"></i><strong>&nbsp; Travel Time to City</strong></p>
-                    </div>
-                </div>
+        <div
+          class="col-lg-4 col-xl-4"
+          id="2"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col">
+              <p class="text-center" style="margin-top: 25px;font-size: 20px;">
+                <strong>{{ c1["Distance to Melbourne"] }}</strong>
+              </p>
             </div>
-            <div class="col-lg-4 col-xl-4" id="2" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col">
-                        <p class="text-center" style="margin-top: 25px;font-size: 20px;"><strong>{{ c1["Travel time to Melbourne"] }}</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-xl-4" id="3" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col">
-                        <p class="text-center" style="margin-top: 25px;font-size: 20px;"><strong>{{ c2["Travel time to Melbourne"] }}</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-1 col-xl-1"></div>
+          </div>
         </div>
-        <div class="row" id="TravelTime" style="margin-right: 0px;margin-left: 0px;margin-top: 8px;background-color: transparent;height: 2050x;">
-            <div class="col-3 col-lg-3 col-xl-3 d-block" id="1" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row" style="margin-right: 0px;margin-left: 0;height: 210px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col mx-auto" style="height: 100px;">
-                        <p style="font-size: 20px;margin-top: 25px;margin-left: 3px;"><i class="fa fa-sitemap"></i><strong>&nbsp; Suburb</strong></p>
-                    </div>
-                </div>
+        <div
+          class="col-lg-4 col-xl-4"
+          id="3"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col">
+              <p class="text-center" style="margin-top: 25px;font-size: 20px;">
+                <strong>{{ c2["Distance to Melbourne"] }}</strong>
+              </p>
             </div>
-            <div class="col-lg-4 col-xl-4" id="2" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100px;">
-                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 210px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col" style="height: 157px;">
-                        <p class="text-center" style="margin-top: 25px;font-size: 20px;margin-bottom: 0px;"><strong>{{ c1["Suburb1"] }}</strong></p>
-                        <p class="text-center" style="margin-top: 5px;font-size: 20px;margin-bottom: 0px;"><strong>{{ c1["Suburb2"] }}</strong></p>
-                        <p class="text-center" style="margin-top: 5px;font-size: 20px;margin-bottom: 0px;"><strong>{{ c1["Suburb3"] }}</strong></p>
-                        <p class="text-center" style="margin-top: 5px;font-size: 20px;margin-bottom: 0px;"><strong>{{ c1["Suburb4"] }}</strong></p>
-                        <p class="text-center" style="margin-top: 5px;font-size: 20px;margin-bottom: 0px;"><strong>{{ c1["Suburb5"] }}</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-xl-4" id="3" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 210px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col">
-                        <p class="text-center" style="margin-top: 25px;font-size: 20px;margin-bottom: 0px;"><strong>{{ c2["Suburb1"] }}</strong></p>
-                        <p class="text-center" style="margin-top: 5px;font-size: 20px;margin-bottom: 0px;"><strong>{{ c2["Suburb2"] }}</strong></p>
-                        <p class="text-center" style="margin-top: 5px;font-size: 20px;margin-bottom: 0px;"><strong>{{ c2["Suburb3"] }}</strong></p>
-                        <p class="text-center" style="margin-top: 5px;font-size: 20px;margin-bottom: 0px;"><strong>{{ c2["Suburb4"] }}</strong></p>
-                        <p class="text-center" style="margin-top: 5px;font-size: 20px;margin-bottom: 0px;"><strong>{{ c2["Suburb5"] }}</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-1 col-xl-1"></div>
+          </div>
         </div>
-        <div class="row" id="TravelTime" style="margin-right: 0px;margin-left: 0px;margin-top: 8px;background-color: transparent;height: 115px;">
-            <div class="col-3 col-lg-3 col-xl-3 d-block" id="1" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row" style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col mx-auto" style="height: 100px;">
-                        <p style="font-size: 20px;margin-top: 25px;margin-left: 3px; margin-bottom: 0px;"><i class="fa fa-group"></i><strong>&nbsp; Population</strong></p>
-                        <p style="font-size: 20px;margin-top: 5px;margin-left: 32px;"><strong>Density per km square</strong></p>
-                    </div>
-                </div>
+        <div class="col-lg-1 col-xl-1"></div>
+      </div>
+      <div
+        class="row"
+        id="TravelTime"
+        style="margin-right: 0px;margin-left: 0px;margin-top: 8px;background-color: transparent;height: 115px;"
+      >
+        <div
+          class="col-3 col-lg-3 col-xl-3 d-block"
+          id="1"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row"
+            style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col mx-auto" style="height: 100px;">
+              <p style="font-size: 20px;margin-top: 25px;margin-left: 3px;">
+                <i class="fa fa-car"></i
+                ><strong>&nbsp; Travel Time to City</strong>
+              </p>
             </div>
-            <div class="col-lg-4 col-xl-4" id="2" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col">
-                        <p class="text-center" style="margin-top: 25px;font-size: 20px;margin-bottom: 0px;"><strong>{{ c1["Population"] }}</strong></p>
-                        <p class="text-center" style="margin-top: 5px;font-size: 20px;"><strong>{{ c1["Population density (per km square)"] }}</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-xl-4" id="3" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col">
-                        <p class="text-center" style="margin-top: 25px;font-size: 20px;margin-bottom: 0;"><strong>{{ c2["Population"] }}</strong></p>
-                        <p class="text-center" style="margin-top: 5px;font-size: 20px;"><strong>{{ c2["Population density (per km square)"] }}</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-1 col-xl-1"></div>
+          </div>
         </div>
-        <div class="row" id="overseasResidents" style="margin-right: 0px;margin-left: 0px;margin-top: 8px;background-color: transparent;height: 115px;">
-            <div class="col-3 col-lg-3 col-xl-3 d-block" id="1" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row" style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col mx-auto" style="height: 100px;">
-                        <p style="font-size: 20px;margin-top: 25px;margin-left: 3px;width: 246px;"><i class="fa fa-globe"></i><strong>&nbsp; Resident Born Overseas</strong></p>
-                        <p class="text-right" style="color: #60605b;">High to Low rank of 79 Concils</p>
-                    </div>
-                </div>
+        <div
+          class="col-lg-4 col-xl-4"
+          id="2"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col">
+              <p class="text-center" style="margin-top: 25px;font-size: 20px;">
+                <strong>{{ c1["Travel time to Melbourne"] }}</strong>
+              </p>
             </div>
-            <div class="col-lg-4 col-xl-4" id="2" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col">
-                        <p class="text-center" style="margin-top: 25px;font-size: 20px;"><strong>{{ c1["People born overseas (rank)"] }}</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-xl-4" id="3" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col">
-                        <p class="text-center" style="margin-top: 25px;font-size: 20px;"><strong>{{ c2["People born overseas (rank)"] }}</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-1 col-xl-1"></div>
+          </div>
         </div>
-        <div class="row" id="Unemployed" style="margin-right: 0px;margin-left: 0px;margin-top: 8px;background-color: transparent;height: 115px;">
-            <div class="col-3 col-lg-3 col-xl-3 d-block" id="1" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row" style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col mx-auto" style="height: 100px;">
-                        <p style="font-size: 20px;margin-top: 25px;margin-left: 3px;width: 246px;"><i class="fa fa-briefcase"></i><strong>&nbsp; Unemployed Rate</strong></p>
-                        
-                    </div>
-                </div>
+        <div
+          class="col-lg-4 col-xl-4"
+          id="3"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col">
+              <p class="text-center" style="margin-top: 25px;font-size: 20px;">
+                <strong>{{ c2["Travel time to Melbourne"] }}</strong>
+              </p>
             </div>
-            <div class="col-lg-4 col-xl-4" id="2" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col">
-                        <p class="text-center" style="margin-top: 25px;font-size: 20px;"><strong>{{ c1["Unemployment rate"] }}</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-xl-4" id="3" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col">
-                        <p class="text-center" style="margin-top: 25px;font-size: 20px;"><strong>{{ c2["Unemployment rate"] }}</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-1 col-xl-1"></div>
+          </div>
         </div>
-        <div class="row" id="RentalPrice" style="margin-right: 0px;margin-left: 0px;margin-top: 8px;background-color: transparent;height: 170px;">
-            <div class="col-3 col-lg-3 col-xl-3 d-block" id="1" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row" style="margin-right: 0px;margin-left: 0;height: 165px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col mx-auto" style="height: 100px;">
-                        <p style="font-size: 20px;margin-top: 25px;margin-left: 3px;width: 246px;"><i class="fa fa-home"></i><strong>&nbsp; Weekly Rental Price</strong></p>
-                        <p class="text-right" style="color: #60605b;">Number of Bedrooms</p>
-                    </div>
-                </div>
+        <div class="col-lg-1 col-xl-1"></div>
+      </div>
+      <div
+        class="row"
+        id="TravelTime"
+        style="margin-right: 0px;margin-left: 0px;margin-top: 8px;background-color: transparent;height: 2050x;"
+      >
+        <div
+          class="col-3 col-lg-3 col-xl-3 d-block"
+          id="1"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row"
+            style="margin-right: 0px;margin-left: 0;height: 210px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col mx-auto" style="height: 100px;">
+              <p style="font-size: 20px;margin-top: 25px;margin-left: 3px;">
+                <i class="fa fa-sitemap"></i><strong>&nbsp; Suburb</strong>
+              </p>
             </div>
-            <div class="col-lg-4 col-xl-4" id="2" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 166px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col" style="border-right: 2px solid #60605b;">
-                        <p class="text-center" style="margin-top: 10px;">Apartment</p>
-                        <p class="text-left"><i class="fa fa-bed"></i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$<strong>{{ c1["1 Bedroom Flat"] }}</strong></p>
-                        <p class="text-left"><i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$<strong>{{ c1["2 Bedroom Flat"] }}</strong></p>
-                        <p class="text-left"><i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $<strong>{{ c1["3 Bedroom Flat"] }}</strong></p>
-                    </div>
-                    <div class="col">
-                        <p class="text-center" style="margin-top: 10px;">House</p>
-                        <p class="text-left"><i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$<strong>{{ c1["2 Bedroom House"] }}</strong></p>
-                        <p class="text-left"><i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $<strong>{{ c1["3 Bedroom House"] }}</strong></p>
-                        <p class="text-left"><i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$<strong>{{ c1["4 Bedroom House"] }}</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-xl-4" id="3" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 166px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col" style="border-right: 2px solid #60605b;">
-                        <p class="text-center" style="margin-top: 10px;">Apartment</p>
-                        <p class="text-left"><i class="fa fa-bed"></i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$<strong>{{ c2["1 Bedroom Flat"] }}</strong></p>
-                        <p class="text-left"><i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$<strong>{{ c2["2 Bedroom Flat"] }}</strong></p>
-                        <p class="text-left"><i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $<strong>{{ c2["3 Bedroom Flat"] }}</strong></p>
-                    </div>
-                    <div class="col">
-                        <p class="text-center" style="margin-top: 10px;">House</p>
-                        <p class="text-left"><i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$<strong>{{ c2["2 Bedroom House"] }}</strong></p>
-                        <p class="text-left"><i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $<strong>{{ c2["3 Bedroom House"] }}</strong></p>
-                        <p class="text-left"><i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$<strong>{{ c2["4 Bedroom House"] }}</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-1 col-xl-1"></div>
+          </div>
         </div>
-        <div class="row" id="PublicTransport" style="margin-right: 0px;margin-left: 0px;margin-top: 8px;background-color: transparent;height: 130px;">
-            <div class="col-3 col-lg-3 col-xl-3 d-block" id="1" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row" style="margin-right: 0px;margin-left: 0;height: 125px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col mx-auto" style="height: 100px;">
-                        <p style="font-size: 20px;margin-top: 25px;margin-left: 3px;width: 246px;"><i class="fa fa-train"></i><strong>&nbsp; Public Transport</strong></p>
-                       
-                    </div>
-                </div>
+        <div
+          class="col-lg-4 col-xl-4"
+          id="2"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100px;"
+        >
+          <div
+            class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 210px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col" style="height: 157px;">
+              <p
+                class="text-center"
+                style="margin-top: 25px;font-size: 20px;margin-bottom: 0px;"
+              >
+                <strong>{{ c1["Suburb1"] }}</strong>
+              </p>
+              <p
+                class="text-center"
+                style="margin-top: 5px;font-size: 20px;margin-bottom: 0px;"
+              >
+                <strong>{{ c1["Suburb2"] }}</strong>
+              </p>
+              <p
+                class="text-center"
+                style="margin-top: 5px;font-size: 20px;margin-bottom: 0px;"
+              >
+                <strong>{{ c1["Suburb3"] }}</strong>
+              </p>
+              <p
+                class="text-center"
+                style="margin-top: 5px;font-size: 20px;margin-bottom: 0px;"
+              >
+                <strong>{{ c1["Suburb4"] }}</strong>
+              </p>
+              <p
+                class="text-center"
+                style="margin-top: 5px;font-size: 20px;margin-bottom: 0px;"
+              >
+                <strong>{{ c1["Suburb5"] }}</strong>
+              </p>
             </div>
-            <div class="col-lg-4 col-xl-4" id="2" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 125px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col">
-                        <p class="text-left" style="margin-top: 25px;font-size: 16px;margin-bottom: 5px;">Tram<strong>: &nbsp; {{ c1["Tram"] }}</strong></p>
-                        <p class="text-left" style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;">Train<strong>: &nbsp; {{ c1["Train"] }}</strong></p>
-                        <p class="text-left" style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;">Bus<strong>: &nbsp; {{ c1["Bus"] }}</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-xl-4" id="3" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 125px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col">
-                        <p class="text-left" style="margin-top: 25px;font-size: 16px;margin-bottom: 5px;">Tram<strong>: &nbsp;{{ c2["Tram"] }}</strong></p>
-                        <p class="text-left" style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;">Train<strong>: &nbsp;{{ c2["Train"] }}</strong></p>
-                        <p class="text-left" style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;">Bus<strong>: &nbsp; {{ c2["Bus"] }}</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-1 col-xl-1"></div>
+          </div>
         </div>
-        <div class="row" id="Unemployed" style="margin-right: 0px;margin-left: 0px;margin-top: 8px;background-color: transparent;height: 200px;margin-bottom: 10px;">
-            <div class="col-3 col-lg-3 col-xl-3 d-block" id="1" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row" style="margin-right: 0px;margin-left: 0;height: 195px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col mx-auto" style="height: 100px;">
-                        <p style="font-size: 20px;margin-top: 25px;margin-left: 3px;width: 246px;"><i class="fa fa-user-secret"></i><strong>&nbsp; Crime</strong></p>
-                        <p class="text-right" style="color: #60605b;margin-bottom: 5px;">Reported per 100,000 population</p>
-                    </div>
-                </div>
+        <div
+          class="col-lg-4 col-xl-4"
+          id="3"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 210px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col">
+              <p
+                class="text-center"
+                style="margin-top: 25px;font-size: 20px;margin-bottom: 0px;"
+              >
+                <strong>{{ c2["Suburb1"] }}</strong>
+              </p>
+              <p
+                class="text-center"
+                style="margin-top: 5px;font-size: 20px;margin-bottom: 0px;"
+              >
+                <strong>{{ c2["Suburb2"] }}</strong>
+              </p>
+              <p
+                class="text-center"
+                style="margin-top: 5px;font-size: 20px;margin-bottom: 0px;"
+              >
+                <strong>{{ c2["Suburb3"] }}</strong>
+              </p>
+              <p
+                class="text-center"
+                style="margin-top: 5px;font-size: 20px;margin-bottom: 0px;"
+              >
+                <strong>{{ c2["Suburb4"] }}</strong>
+              </p>
+              <p
+                class="text-center"
+                style="margin-top: 5px;font-size: 20px;margin-bottom: 0px;"
+              >
+                <strong>{{ c2["Suburb5"] }}</strong>
+              </p>
             </div>
-            <div class="col-lg-4 col-xl-4" id="2" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 195px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col">
-                        <p class="text-left" style="margin-top: 25px;font-size: 16px;margin-bottom: 5px;">Crimes against the person: &nbsp;<strong>{{ c1["Crimes against the person"] }}</strong></p>
-                        <p class="text-left" style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;">Property and deception offences<strong>: &nbsp;{{ c1["Property and deception offences"] }}</strong></p>
-                        <p class="text-left" style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;">Drug offences<strong>&nbsp;  {{ c1["Drug offences"] }}</strong></p>
-                        <p class="text-left" style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;">Public order and security offences:<strong>&nbsp; {{ c1["Public order and security offences"] }}</strong></p>
-                        <p class="text-left" style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;">Other offences:<strong>&nbsp; {{ c1["Other offences"] }}</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-xl-4" id="3" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 200px;">
-                <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 195px;background-color: rgba(221,221,221,0.6);">
-                    <div class="col">
-                        <p class="text-left" style="margin-top: 25px;font-size: 16px;margin-bottom: 5px;">Crimes against the person<strong>: &nbsp; {{ c2["Crimes against the person"] }}</strong></p>
-                        <p class="text-left" style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;">Property and deception offences<strong>: &nbsp;{{ c2["Property and deception offences"] }}</strong></p>
-                        <p class="text-left" style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;">Drug offences:<strong>&nbsp; {{ c2["Drug offences"] }}</strong></p>
-                        <p class="text-left" style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;">Public order and security offences<strong>: &nbsp;{{ c2["Public order and security offences"] }}</strong></p>
-                        <p class="text-left" style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;">Other offences:<strong>&nbsp; {{ c2["Other offences"] }}</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-1 col-xl-1"></div>
+          </div>
         </div>
-        <div class="row" id="SEDRank" style="margin-right: 0px;margin-left: 0px;margin-top: 8px;background-color: transparent;height: 115px;">
-                <div class="col-3 col-lg-3 col-xl-3 d-block" id="1" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                    <div class="row" style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);">
-                        <div class="col mx-auto" style="height: 100px;">
-                            <p style="font-size: 20px;margin-top: 25px;margin-left: 3px;width: 246px;margin-bottom: 0px;"><i class="fa fa-ambulance"></i><strong>&nbsp; Ambulance Respond&nbsp;</strong></p>
-                            <p class="text-right" style="color: #60605b;">Percentage that ambulance respond in 15minutes</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-xl-4" id="2" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                    <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);">
-                        <div class="col">
-                            <p class="text-center" style="margin-top: 25px;font-size: 20px;"><strong>{{ c1["%<=15mins"] }}</strong></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-xl-4" id="3" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-                    <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);">
-                        <div class="col">
-                            <p class="text-center" style="margin-top: 25px;font-size: 20px;"><strong>{{ c2["%<=15mins"] }}</strong></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-1 col-xl-1"></div>
+        <div class="col-lg-1 col-xl-1"></div>
+      </div>
+      <div
+        class="row"
+        id="TravelTime"
+        style="margin-right: 0px;margin-left: 0px;margin-top: 8px;background-color: transparent;height: 115px;"
+      >
+        <div
+          class="col-3 col-lg-3 col-xl-3 d-block"
+          id="1"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row"
+            style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col mx-auto" style="height: 100px;">
+              <p
+                style="font-size: 20px;margin-top: 25px;margin-left: 3px; margin-bottom: 0px;"
+              >
+                <i class="fa fa-group"></i><strong>&nbsp; Population</strong>
+              </p>
+              <p style="font-size: 20px;margin-top: 5px;margin-left: 32px;">
+                <strong>Density per km square</strong>
+              </p>
             </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-xl-4"
+          id="2"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col">
+              <p
+                class="text-center"
+                style="margin-top: 25px;font-size: 20px;margin-bottom: 0px;"
+              >
+                <strong>{{ c1["Population"] }}</strong>
+              </p>
+              <p class="text-center" style="margin-top: 5px;font-size: 20px;">
+                <strong>{{ c1["Population density (per km square)"] }}</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-xl-4"
+          id="3"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col">
+              <p
+                class="text-center"
+                style="margin-top: 25px;font-size: 20px;margin-bottom: 0;"
+              >
+                <strong>{{ c2["Population"] }}</strong>
+              </p>
+              <p class="text-center" style="margin-top: 5px;font-size: 20px;">
+                <strong>{{ c2["Population density (per km square)"] }}</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1 col-xl-1"></div>
+      </div>
+      <div
+        class="row"
+        id="overseasResidents"
+        style="margin-right: 0px;margin-left: 0px;margin-top: 8px;background-color: transparent;height: 115px;"
+      >
+        <div
+          class="col-3 col-lg-3 col-xl-3 d-block"
+          id="1"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row"
+            style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col mx-auto" style="height: 100px;">
+              <p
+                style="font-size: 20px;margin-top: 25px;margin-left: 3px;width: 246px;"
+              >
+                <i class="fa fa-globe"></i
+                ><strong>&nbsp; Resident Born Overseas</strong>
+              </p>
+              <p class="text-right" style="color: #60605b;">
+                High to Low rank of 79 Concils
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-xl-4"
+          id="2"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col">
+              <p class="text-center" style="margin-top: 25px;font-size: 20px;">
+                <strong>{{ c1["People born overseas (rank)"] }}</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-xl-4"
+          id="3"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col">
+              <p class="text-center" style="margin-top: 25px;font-size: 20px;">
+                <strong>{{ c2["People born overseas (rank)"] }}</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1 col-xl-1"></div>
+      </div>
+      <div
+        class="row"
+        id="Unemployed"
+        style="margin-right: 0px;margin-left: 0px;margin-top: 8px;background-color: transparent;height: 115px;"
+      >
+        <div
+          class="col-3 col-lg-3 col-xl-3 d-block"
+          id="1"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row"
+            style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col mx-auto" style="height: 100px;">
+              <p
+                style="font-size: 20px;margin-top: 25px;margin-left: 3px;width: 246px;"
+              >
+                <i class="fa fa-briefcase"></i
+                ><strong>&nbsp; Unemployed Rate</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-xl-4"
+          id="2"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col">
+              <p class="text-center" style="margin-top: 25px;font-size: 20px;">
+                <strong>{{ c1["Unemployment rate"] }}</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-xl-4"
+          id="3"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col">
+              <p class="text-center" style="margin-top: 25px;font-size: 20px;">
+                <strong>{{ c2["Unemployment rate"] }}</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1 col-xl-1"></div>
+      </div>
+      <div
+        class="row"
+        id="RentalPrice"
+        style="margin-right: 0px;margin-left: 0px;margin-top: 8px;background-color: transparent;height: 170px;"
+      >
+        <div
+          class="col-3 col-lg-3 col-xl-3 d-block"
+          id="1"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row"
+            style="margin-right: 0px;margin-left: 0;height: 165px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col mx-auto" style="height: 100px;">
+              <p
+                style="font-size: 20px;margin-top: 25px;margin-left: 3px;width: 246px;"
+              >
+                <i class="fa fa-home"></i
+                ><strong>&nbsp; Weekly Rental Price</strong>
+              </p>
+              <p class="text-right" style="color: #60605b;">
+                Number of Bedrooms
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-xl-4"
+          id="2"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 166px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col" style="border-right: 2px solid #60605b;">
+              <p class="text-center" style="margin-top: 10px;">Apartment</p>
+              <p class="text-left">
+                <i class="fa fa-bed"></i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp;$<strong>{{ c1["1 Bedroom Flat"] }}</strong>
+              </p>
+              <p class="text-left">
+                <i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp;$<strong>{{ c1["2 Bedroom Flat"] }}</strong>
+              </p>
+              <p class="text-left">
+                <i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp;<i
+                  class="fa fa-bed"
+                ></i
+                >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                $<strong>{{ c1["3 Bedroom Flat"] }}</strong>
+              </p>
+            </div>
+            <div class="col">
+              <p class="text-center" style="margin-top: 10px;">House</p>
+              <p class="text-left">
+                <i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp;$<strong>{{ c1["2 Bedroom House"] }}</strong>
+              </p>
+              <p class="text-left">
+                <i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp;<i
+                  class="fa fa-bed"
+                ></i
+                >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                $<strong>{{ c1["3 Bedroom House"] }}</strong>
+              </p>
+              <p class="text-left">
+                <i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp;<i
+                  class="fa fa-bed"
+                ></i
+                >&nbsp;<i class="fa fa-bed"></i>&nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp;$<strong>{{ c1["4 Bedroom House"] }}</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-xl-4"
+          id="3"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 166px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col" style="border-right: 2px solid #60605b;">
+              <p class="text-center" style="margin-top: 10px;">Apartment</p>
+              <p class="text-left">
+                <i class="fa fa-bed"></i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp;$<strong>{{ c2["1 Bedroom Flat"] }}</strong>
+              </p>
+              <p class="text-left">
+                <i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp;$<strong>{{ c2["2 Bedroom Flat"] }}</strong>
+              </p>
+              <p class="text-left">
+                <i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp;<i
+                  class="fa fa-bed"
+                ></i
+                >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                $<strong>{{ c2["3 Bedroom Flat"] }}</strong>
+              </p>
+            </div>
+            <div class="col">
+              <p class="text-center" style="margin-top: 10px;">House</p>
+              <p class="text-left">
+                <i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp;$<strong>{{ c2["2 Bedroom House"] }}</strong>
+              </p>
+              <p class="text-left">
+                <i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp;<i
+                  class="fa fa-bed"
+                ></i
+                >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                $<strong>{{ c2["3 Bedroom House"] }}</strong>
+              </p>
+              <p class="text-left">
+                <i class="fa fa-bed"></i>&nbsp;<i class="fa fa-bed"></i>&nbsp;<i
+                  class="fa fa-bed"
+                ></i
+                >&nbsp;<i class="fa fa-bed"></i>&nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp;$<strong>{{ c2["4 Bedroom House"] }}</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1 col-xl-1"></div>
+      </div>
+      <div
+        class="row"
+        id="PublicTransport"
+        style="margin-right: 0px;margin-left: 0px;margin-top: 8px;background-color: transparent;height: 130px;"
+      >
+        <div
+          class="col-3 col-lg-3 col-xl-3 d-block"
+          id="1"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row"
+            style="margin-right: 0px;margin-left: 0;height: 125px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col mx-auto" style="height: 100px;">
+              <p
+                style="font-size: 20px;margin-top: 25px;margin-left: 3px;width: 246px;"
+              >
+                <i class="fa fa-train"></i
+                ><strong>&nbsp; Public Transport</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-xl-4"
+          id="2"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 125px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col">
+              <p
+                class="text-left"
+                style="margin-top: 25px;font-size: 16px;margin-bottom: 5px;"
+              >
+                Tram<strong>: &nbsp; {{ c1["Tram"] }}</strong>
+              </p>
+              <p
+                class="text-left"
+                style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;"
+              >
+                Train<strong>: &nbsp; {{ c1["Train"] }}</strong>
+              </p>
+              <p
+                class="text-left"
+                style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;"
+              >
+                Bus<strong>: &nbsp; {{ c1["Bus"] }}</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-xl-4"
+          id="3"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 125px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col">
+              <p
+                class="text-left"
+                style="margin-top: 25px;font-size: 16px;margin-bottom: 5px;"
+              >
+                Tram<strong>: &nbsp;{{ c2["Tram"] }}</strong>
+              </p>
+              <p
+                class="text-left"
+                style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;"
+              >
+                Train<strong>: &nbsp;{{ c2["Train"] }}</strong>
+              </p>
+              <p
+                class="text-left"
+                style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;"
+              >
+                Bus<strong>: &nbsp; {{ c2["Bus"] }}</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1 col-xl-1"></div>
+      </div>
+      <div
+        class="row"
+        id="Unemployed"
+        style="margin-right: 0px;margin-left: 0px;margin-top: 8px;background-color: transparent;height: 200px;margin-bottom: 10px;"
+      >
+        <div
+          class="col-3 col-lg-3 col-xl-3 d-block"
+          id="1"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row"
+            style="margin-right: 0px;margin-left: 0;height: 195px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col mx-auto" style="height: 100px;">
+              <p
+                style="font-size: 20px;margin-top: 25px;margin-left: 3px;width: 246px;"
+              >
+                <i class="fa fa-user-secret"></i><strong>&nbsp; Crime</strong>
+              </p>
+              <p class="text-right" style="color: #60605b;margin-bottom: 5px;">
+                Reported per 100,000 population
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-xl-4"
+          id="2"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 195px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col">
+              <p
+                class="text-left"
+                style="margin-top: 25px;font-size: 16px;margin-bottom: 5px;"
+              >
+                Crimes against the person: &nbsp;<strong>{{
+                  c1["Crimes against the person"]
+                }}</strong>
+              </p>
+              <p
+                class="text-left"
+                style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;"
+              >
+                Property and deception offences<strong
+                  >: &nbsp;{{ c1["Property and deception offences"] }}</strong
+                >
+              </p>
+              <p
+                class="text-left"
+                style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;"
+              >
+                Drug offences<strong>&nbsp; {{ c1["Drug offences"] }}</strong>
+              </p>
+              <p
+                class="text-left"
+                style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;"
+              >
+                Public order and security offences:<strong
+                  >&nbsp; {{ c1["Public order and security offences"] }}</strong
+                >
+              </p>
+              <p
+                class="text-left"
+                style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;"
+              >
+                Other offences:<strong
+                  >&nbsp; {{ c1["Other offences"] }}</strong
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-xl-4"
+          id="3"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 200px;"
+        >
+          <div
+            class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 195px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col">
+              <p
+                class="text-left"
+                style="margin-top: 25px;font-size: 16px;margin-bottom: 5px;"
+              >
+                Crimes against the person<strong
+                  >: &nbsp; {{ c2["Crimes against the person"] }}</strong
+                >
+              </p>
+              <p
+                class="text-left"
+                style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;"
+              >
+                Property and deception offences<strong
+                  >: &nbsp;{{ c2["Property and deception offences"] }}</strong
+                >
+              </p>
+              <p
+                class="text-left"
+                style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;"
+              >
+                Drug offences:<strong>&nbsp; {{ c2["Drug offences"] }}</strong>
+              </p>
+              <p
+                class="text-left"
+                style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;"
+              >
+                Public order and security offences<strong
+                  >: &nbsp;{{
+                    c2["Public order and security offences"]
+                  }}</strong
+                >
+              </p>
+              <p
+                class="text-left"
+                style="margin-top: 10px;font-size: 16px;margin-bottom: 5px;"
+              >
+                Other offences:<strong
+                  >&nbsp; {{ c2["Other offences"] }}</strong
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1 col-xl-1"></div>
+      </div>
+      <div
+        class="row"
+        id="SEDRank"
+        style="margin-right: 0px;margin-left: 0px;margin-top: 8px;background-color: transparent;height: 115px;"
+      >
+        <div
+          class="col-3 col-lg-3 col-xl-3 d-block"
+          id="1"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row"
+            style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col mx-auto" style="height: 100px;">
+              <p
+                style="font-size: 20px;margin-top: 25px;margin-left: 3px;width: 246px;margin-bottom: 0px;"
+              >
+                <i class="fa fa-ambulance"></i
+                ><strong>&nbsp; Ambulance Respond&nbsp;</strong>
+              </p>
+              <p class="text-right" style="color: #60605b;">
+                Percentage that ambulance respond in 15minutes
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-xl-4"
+          id="2"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col">
+              <p class="text-center" style="margin-top: 25px;font-size: 20px;">
+                <strong>{{ c1["%<=15mins"] }}</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-xl-4"
+          id="3"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
+        >
+          <div
+            class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 100px;background-color: rgba(221,221,221,0.6);"
+          >
+            <div class="col">
+              <p class="text-center" style="margin-top: 25px;font-size: 20px;">
+                <strong>{{ c2["%<=15mins"] }}</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1 col-xl-1"></div>
+      </div>
     </div>
     <footer class="footer bg-light">
-        <p class="text-center text-muted small mb-4 mb-lg-0">© Sharks in Suit</p>
+      <p class="text-center text-muted small mb-4 mb-lg-0">© Sharks in Suit</p>
     </footer>
     <script src="static/assets/js/jquery.min.js"></script>
     <script src="static/assets/bootstrap/js/bootstrap.min.js"></script>
     {% endif %}
-</body>
-
+  </body>
 </html>
