@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for, redirect
+from flask import Flask, render_template, url_for, redirect, request
 import json
 import os
 
@@ -39,11 +39,13 @@ suburbs_info = readJsonFile('data.txt')['all_suburbs']
 chinese_events_info = readJsonFile('chinese_events.txt')['events']
 indian_events_info = readJsonFile('indian_events.txt')['events']
 iranian_events_info = readJsonFile('iranian_events.txt')['events']
+rent_lga = readJsonFile("LGA rent.txt")['lga']
+lga_final = readJsonFile("LGA_COMPARE_FINAL.json.txt")['lga']
+lga_info = readJsonFile("LGA_FINAL_3.json.txt")['lga']
 
-
-def lga_extractor(filename, param):
+def lga_extractor(filename, key, param):
     for entry in filename:
-        if entry['name'] == param:
+        if entry[key] == param:
             return entry
     return {}
 
@@ -78,10 +80,14 @@ def suburb():
     return render_template('profile-noNationality-1.html')
 
 
-@app.route('/lga/<name>')
+@app.route('/lga/<name>', methods=['GET', 'POST'])
 def lga(name):
-    output = lga_extractor(suburbs_info, name)
+    output = lga_extractor(lga_info, 'LGA Name', name)
     return render_template('Suburb.html', lga=output)
+
+@app.route('/council')
+def council():
+    return render_template('Suburb.html')
 
 
 @app.route('/events/<name>')
@@ -117,6 +123,32 @@ def testing_page():
 @app.route('/compare')
 def compare():
     return render_template('compare.html')
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == "POST":
+        lga_brand = request.form.get("cars", None)
+        lga_brand2 = request.form.get("motors", None)
+        if (lga_brand and lga_brand2) != None:
+            rent = lga_extractor(rent_lga, 'LGA', lga_brand)
+            rent2 = lga_extractor(rent_lga, 'LGA', lga_brand2)
+            return render_template("compare.html", car_brand=rent, motor_brand=rent2)
+    return render_template("compare.html")
+
+@app.route('/comparetwo')
+def comparetwo():
+    return render_template('comparetwo.html')
+
+@app.route('/success', methods=['GET', 'POST'])
+def success():
+    if request.method == "POST":
+        lga_brand = request.form.get("cars", None)
+        lga_brand2 = request.form.get("motors", None)
+        if (lga_brand and lga_brand2) != None:
+            rent = lga_extractor(lga_final, 'LGA Name', lga_brand)
+            rent2 = lga_extractor(lga_final, 'LGA Name', lga_brand2)
+            return render_template("comparetwo.html", c1=rent, c2=rent2)
+    return render_template("comparetwo.html")
 
 
 @app.errorhandler(404)

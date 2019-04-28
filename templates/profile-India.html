@@ -12,7 +12,7 @@
     </header>
     <div class="container">
         <div class="row" id="Top5ResidentRow" style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 500;">
-            <div class="col-3 col-sm-9 col-lg-8 col-xl-8 d-block" id="FirstResidentColumn" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+            <div class="col-3 col-sm-9 col-lg-8 col-xl-8 d-block" id="FirstResidentColumn" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 300px;">
                 <div class="row" style="margin-right: 0px;margin-left: 0;height: 400px;background-color: rgba(221,221,221,0.6);">
                     <div class="col mx-auto">
                         <p style="font-size: 20px;margin-top: 25px;margin-left: 7px;"><strong>Australia has a vibrant Indian community and ranks&nbsp;<em><span style="text-decoration: underline;">2nd</span></em>&nbsp;among the overseas-borncommunities in Victoria.The India-born increased by 51.9% (58,015) from 111,787 persons in 2011.&nbsp;</strong><br></p>
@@ -28,17 +28,17 @@
                     <div class="col mx-auto" id="AgeGraphic">
                         <h3 style="margin-top: 24px;">Which Council most Indians choose?</h3>
                         <p>Click on council and Explore</p>
-                        <div class="btn-group" role="group"><a href="lga/Wyndham"><button class="btn btn-primary btn-block text-left" type="button" style="width: 238px;">Wyndham</button></a><button class="btn btn-primary" type="button">13.2%</button></div>
-                        <div class="btn-group" role="group" style="margin-top: 10px;"><a href="lga/Casey"><button class="btn btn-primary text-left" type="button" style="width: 211px;">Casey</button></a><button class="btn btn-primary" type="button">10.6%</button></div>
-                        <div class="btn-group" role="group" style="margin-top: 10px;"><a href="lga/Greater Dandenong"><button class="btn btn-primary text-left" type="button" style="width: 179px;">Greater Dandenong</button></a><button class="btn btn-primary" type="button">7.3%</button></div>
-                        <div class="btn-group" role="group" style="margin-top: 10px;"><a href="lga/Whittlesea"></a><button class="btn btn-primary text-left" type="button" style="width: 153px;"> Whittlesea</button></a><button class="btn btn-primary" type="button">6.5%</button></div>
-                        <div class="btn-group" role="group" style="margin-top: 10px;"><a href="lga/Monash"><button class="btn btn-primary text-left" type="button" style="width: 131px;">Monash</button></a><button class="btn btn-primary" type="button">5.7%</button></div>
+                        <div class="btn-group" role="group"><a href="{{ url_for('lga',name='Wyndham') }}"><button class="btn btn-primary btn-block text-left" type="button" style="width: 238px;">Wyndham</button></a><button class="btn btn-primary" type="button">13.2%</button></div>
+                        <div class="btn-group" role="group" style="margin-top: 10px;"><a href="{{ url_for('lga',name='Casey') }}"><button class="btn btn-primary text-left" type="button" style="width: 211px;">Casey</button></a><button class="btn btn-primary" type="button">10.6%</button></div>
+                        <div class="btn-group" role="group" style="margin-top: 10px;"><a href="{{ url_for('lga',name='Greater Dandenong') }}"><button class="btn btn-primary text-left" type="button" style="width: 179px;">Greater Dandenong</button></a><button class="btn btn-primary" type="button">7.3%</button></div>
+                        <div class="btn-group" role="group" style="margin-top: 10px;"><a href="{{ url_for('lga',name='Whittlesea') }}"></a><button class="btn btn-primary text-left" type="button" style="width: 153px;"> Whittlesea</button></a><button class="btn btn-primary" type="button">6.5%</button></div>
+                        <div class="btn-group" role="group" style="margin-top: 10px;"><a href="{{ url_for('lga',name='Monash') }}"><button class="btn btn-primary text-left" type="button" style="width: 131px;">Monash</button></a><button class="btn btn-primary" type="button">5.7%</button></div>
                     </div>
                 </div>
             </div>
         </div>
         <h3 style="margin-top: 78px;color: #000000;">Victoria's Indians Demographic Profile</h3>
-        <div class="row" id="Top5ResidentRow" style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;">
+        <div class="row" id="Top5ResidentRow" style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 300px;">
             <div class="col d-block" id="FirstResidentColumn" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
                 <div class="row" style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);">
                     <div class="col-sm-auto mx-auto">
@@ -55,7 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col" id="SecondResidentCountry" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+            <div class="col" id="SecondResidentCountry" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 400px;">
                 <div class="row" style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);">
                     <div class="col mx-auto">
                         <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"><i class="fa fa-child"></i><strong>&nbsp; 50%</strong></p>
@@ -81,7 +81,7 @@
             </div>
         </div>
         <h3 id="Age" style="margin-top: 78px;">Age Distribution of India-born</h3>
-        <div class="row" id="AgeRow" style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;">
+        <div class="row" id="AgeRow" style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 550px;">
             <div class="col-3 col-sm-9 col-lg-3 col-xl-3 d-block" id="FirstResidentColumn" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
                 <div class="row" style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
                     <div class="col mx-auto">
@@ -96,8 +96,8 @@
                 <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"><div class='tableauPlaceholder' id='viz1556351417542' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Indian_age_distribution&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Indian_age_distribution&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Indian_age_distribution&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1556351417542');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='527px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='500px';vizElement.style.height='527px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></div>
             </div>
         </div>
-        <h3 id="Language" style="margin-top: 78px;">Language Spoken</h3>
-        <div class="row" id="LanguageRow" style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;">
+        <h3 id="Language" style="margin-top: 78px;">languages Spoken</h3>
+        <div class="row" id="LanguageRow" style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 500px;">
             <div class="col-3 col-sm-9 col-lg-9 col-xl-9 d-block" id="FirstResidentColumn" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
                 <div class="row" style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"><div class='tableauPlaceholder' id='viz1556352580182' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Indian_languages_speaking&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Indian_languages_speaking&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Indian_languages_speaking&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1556352580182');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='427px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='427px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></div>
             </div>
@@ -111,8 +111,8 @@
                 </div>
             </div>
         </div>
-        <h3 id="Industry" style="margin-top: 78px;">Employed Industry</h3>
-        <div class="row" id="IndustryRow" style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;">
+        <h3 id="Industry" style="margin-top: 78px;">Employment Industry</h3>
+        <div class="row" id="IndustryRow" style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 500px;">
             <div class="col-xl-3" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
                 <div class="row" style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
                     <div class="col">
@@ -127,7 +127,7 @@
             </div>
         </div>
         <h3 id="industry" style="margin-top: 78px;">Occupation</h3>
-        <div class="row" style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;">
+        <div class="row" style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 500px;">
             <div class="col-xl-9" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
                 <div class="row" style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"><div class='tableauPlaceholder' id='viz1556355362298' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Indian_occupation&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Indian_occupation&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Indian_occupation&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1556355362298');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='527px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='527px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></div>
             </div>
@@ -141,7 +141,7 @@
             </div>
         </div>
         <h3 id="Religion" style="margin-top: 78px;">Religion</h3>
-        <div class="row" id="ReligionRow" style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;">
+        <div class="row" id="ReligionRow" style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 500px;">
             <div class="col-3 col-sm-9 col-lg-3 col-xl-3 d-block" id="FirstResidentColumn" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
                 <div class="row" style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
                     <div class="col mx-auto">

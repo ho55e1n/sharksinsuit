@@ -14,7 +14,12 @@ import json
 
 
 def readJsonFile(filename):
-    with open(filename, encoding="utf-8-sig") as json_file:
+        # get the dir path
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    # join dir with filename
+    final_filename = os.path.join(script_dir, filename)
+    # open the file
+    with open(final_filename, encoding="utf-8-sig") as json_file:
         return json.load(json_file)
 #
 #
@@ -41,9 +46,9 @@ def readJsonFile(filename):
 # input = readJsonFile('chinese_data.txt')['all_suburbs']
 
 
-def lga_extractor(filename, param):
+def lga_extractor(filename, key, param):
     for entry in filename:
-        if entry['name'] == param:
+        if entry[key] == param:
             return entry
     return {}
 
@@ -52,15 +57,11 @@ def lga_extractor(filename, param):
 
 # print(lga_extractor(input, 'Camberwell'))
 
-script_dir = os.path.dirname(os.path.abspath(__file__))
-events_path = "final_compare.txt"
-abs_file_path = os.path.join(script_dir, events_path)
-print(os.path.dirname(os.path.abspath(__file__)))
 
-
-data = readJsonFile(abs_file_path)
-print(json.dumps(data,indent = 4))
-
+data = readJsonFile("final_compareData.json.txt")['lga']
+#out = lga_extractor(data, 'LGA', 'Casey')['Tableau Embed Rent']
+print(json.dumps(data, indent=4))
+print(len(data))
 # Grab text
 # data = readJsonFile(abs_file_path)['events'][0]['name']['text']
 # Grab desciption
@@ -74,5 +75,11 @@ print(json.dumps(data,indent = 4))
 # Grab logo image
 # data = readJsonFile(abs_file_path)['events'][0]['logo']['url']
 
-print(os.path.dirname(os.path.abspath(__file__)))
+# with open('LGAFINAL.txt') as jsonFile:
+#     jsonStr = jsonFile.read()
 
+# jsonData = json.loads(jsonStr)
+
+# print(json.dumps(jsonData, indent=4))
+
+# print(os.path.dirname(os.path.abspath(__file__)))
