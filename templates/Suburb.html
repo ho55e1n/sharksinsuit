@@ -50,10 +50,10 @@
               <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item" role="presentation">
-              <a class="nav-link" href="events-main.html">Events</a>
+              <a class="nav-link" href="/events-default">Events</a>
             </li>
             <li class="nav-item" role="presentation">
-              <a class="nav-link" href="#">Compare</a>
+              <a class="nav-link" href="/comparetwo">Compare</a>
             </li>
           </ul>
         </div>
@@ -576,102 +576,25 @@
           </script>
         </div>
       </div>
-      <div
-        class="row"
-        id="CrimeTitleRow"
-        style="margin-right: 15px;margin-left: 15px;margin-top: 50px;"
-      >
+      <div class="row" id="CrimeTitleRow" style="margin-right: 15px;margin-left: 15px;margin-top: 50px;">
         <div class="col" id="SafetyTitleRow">
-          <h4 style="margin-left: 35px;">
-            <i class="fa fa-user-secret"></i>Crime Rates
-          </h4>
-          <hr
-            style="margin-top: -2px;margin-right: -283px;width: 210px;margin-left: 30px;background-color: #2b2b28;height: 2px;margin-bottom: 8px;"
-          />
+            <h4 style="margin-left: 35px;"><i class="fa fa-user-secret"></i>Crime Rates</h4>
+            <hr style="margin-top: -2px;margin-right: -283px;width: 210px;margin-left: 30px;background-color: #2b2b28;height: 2px;margin-bottom: 8px;">
         </div>
-      </div>
-      <div
-        class="row"
-        id="CrimeDetails"
-        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;"
-      >
-        <div
-          class="col-3 col-sm-3 col-lg-9 col-xl-9 d-block"
-          id="FirstResidentColumn"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div class='tableauPlaceholder' id='{{ lga["CrimeID"] }}'
-            style='position: relative'><noscript
-              ><a href="#"
-                ><img alt=' '
-                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;{{
-                  lga["CrimeName"]
-                }}&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a
-              ></noscript
-            ><object class="tableauViz" style="display:none;"
-              ><param
-                name="host_url"
-                value="https%3A%2F%2Fpublic.tableau.com%2F"/>
-              <param name="embed_code_version" value="3"/>
-              <param name="site_root" value=""/><param name='name' value='{{
-                lga["CrimeName"]
-              }}&#47;Dashboard1' /><param name="tabs" value="no"/><param
-                name="toolbar"
-                value="yes"/><param name='static_image'
-              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;{{
-                lga["CrimeName"]
-              }}&#47;Dashboard1&#47;1.png' />
-              <param name="animate_transition" value="yes"/><param
-                name="display_static_image"
-                value="yes"/><param name="display_spinner" value="yes"/><param
-                name="display_overlay"
-                value="yes"/><param name="display_count" value="yes"/><param
-                name="filter"
-                value="publish=yes"
-            /></object>
-          </div>
-          <script type="text/javascript">
-            var divElement = document.getElementById("{{ lga['CrimeID'] }}"); 
-            var vizElement = divElement.getElementsByTagName('object')[0];
-            if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='527px';} 
-            else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='527px';} 
-            else { vizElement.style.width='100%';vizElement.style.height='727px';}
-            var scriptElement = document.createElement('script');
-            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-            vizElement.parentNode.insertBefore(scriptElement, vizElement);
-          </script>
+    </div>
+    <div class="row" id="CrimeDetails" style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;">
+        <div class="col-3 col-sm-3 col-lg-9 col-xl-9 d-block" id="FirstResidentColumn" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+            <div class="row" style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"><div class='tableauPlaceholder' id='{{ lga['CrimeID'] }}' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;{{ lga['CrimeName'] }}&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='{{ lga['CrimeName'] }}&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;{{ lga['CrimeName'] }}&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('{{ lga['CrimeID'] }}');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='527px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='527px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></div>
         </div>
-        <div
-          class="col-sm-3 col-lg-9 col-xl-3"
-          id="SecondResidentCountry"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row justify-content-center"
-            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div class="col">
-              <p style="font-size: 20px;margin-top: 25px;">
-                <strong
-                  >Select the
-                  <span style="text-decoration: underline;">offence type</span>
-                  on right;</strong
-                >
-              </p>
-              <p style="font-size: 20px;">
-                <strong
-                  >See the trend of number of offence reported per 100,000
-                  population.</strong
-                >
-              </p>
+        <div class="col-sm-3 col-lg-9 col-xl-3" id="SecondResidentCountry" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+            <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
+                <div class="col">
+                    <p style="font-size: 20px;margin-top: 25px;"><strong>Select the <span style="text-decoration: underline;">offence type</span> on right;</strong></p>
+                    <p style="font-size: 20px;"><strong>See the trend of number of offence reported per 100,000 population.</strong></p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
       <div
         class="row"
         id="AmbulanceTitlerow"
@@ -721,7 +644,7 @@
         >
           <div
             class="row"
-            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"
+            style="margin-right: 0px;margin-left: 0;width: 800px;height: 500px;background-color: rgba(221,221,221,0.6);"
           >
             <div class='tableauPlaceholder' id='{{ lga["AmulanceID"] }}'
             style='position: relative'><noscript
