@@ -1,0 +1,472 @@
+﻿{
+"events":[
+ {
+   "name": {
+      "text": "Chinese Brush Calligraphy 18 May"
+   },
+   "description": {
+      "text": "if you are already thinking of doing something special for a weekend, this is the one thing you will love to do.\nChinese brush Calligraphy is fun, and a traditional way to learn Chinese too. Our classes focus on learning the traditional strokes, and we use black ink on paper to start practicing and to learn the basics. Our classes are designed for beginner to people who have some previous skills who like to restart practicing on a regular basis. We will introduce water/ink painting and do modern watercolor drawings too.\nThis is an adult class. All materials included. One A4 frame for each new student will be included.\ncome with friends to get group ticket discounts! 'Group of 3' tickets can be used for 3 classes too.\nSee themes, details at www.howeartislife.com\nAny questions please just ask :) howeartislife@gmail.com"
+   },
+   "url": "https://www.eventbrite.com.au/e/chinese-brush-calligraphy-18-may-tickets-58192307759?aff=ebapi",
+   "start": {
+      "local": "2019-05-18T11:30:00"
+   },
+   "end": {
+      "local": "2019-05-18T13:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F57938316%2F258273145607%2F1%2Foriginal.20190306-012620?h=200&w=450&auto=compress&rect=0%2C268%2C3000%2C1500&s=492ea949cd07354551e39e8d87d8898c"
+   }
+},
+ {
+   "name": {
+      "text": "CRADLE Seminar Series: Jiming Zhou on Chinese Students' First Year Experiences in Australian Universities"
+   },
+   "description": {
+      "text": "Assessment shock: Understanding Chinese international students' first year experiences in Australian universities\nDr Jiming Zhou, College of Foreign Languages and Literature, Fudan University\nEducation practitioners in Australian universities face an ongoing problem: how can we acculturate the large population of Chinese international students to the Australian university learning context? Join Fudan University's Dr Jiming Zhou as she discusses the concept of “assessment shock” as experienced by Chinese international students in their first year in Australian universities, the cognitive and socio-cultural reasons behind the shock, and the pedagogical implications for assessment design and enactment.\nThis seminar shares findings from a recent project exploring Chinese international students’ perceptions and practices related to assessment tasks in the first year at Deakin University. Ten students were recruited from each of the four broad disciplinary fields most frequently studied by Chinese international students, i.e. management and commerce, engineering and related technologies, information technology, and arts and education. Focus group discussions and individual interviews were conducted to explore students’ understandings and behavior related to various assessment tasks. One unit chair/tutor from each broad discipline was also interviewed to compare and contrast the educators’ perspective. \nFindings suggest prior assessment experience mediates students’ perception of assessment tasks and culture. Students reported difficulties in 1) appreciating the values of some higher-order skills assessed in university contexts; 2) developing sophisticated understandings about “abstract” criteria; and 3) interacting with tutors about the meanings of assessment tasks and the way to move forward. \nThe seminar will conclude with discussions about how understanding “assessment shock” carries the potential to enhance first-year student transition and develop learner assessment literacy.\nAfter Jiming's presentation, join us for afternoon tea to continue the conversation around understanding the experiences of first-year Chinese students in Australian universities.\nThis seminar will be available across all Deakin campuses via Skype for Business (please select your location via the ticketing options for room details), and will also be accessible to all non-Deakin locations online or over the phone (please select this ticketing option for further details).\n\nJiming Zhou is a senior lecturer at Fudan University, China. She holds a PhD in education from the University of Hong Kong. Her current research interests include assessment and learning, educational innovation, and students’ school-university transition."
+   },
+   "url": "https://www.eventbrite.com.au/e/cradle-seminar-series-jiming-zhou-on-chinese-students-first-year-experiences-in-australian-registration-60240908178?aff=ebapi",
+   "start": {
+      "local": "2019-05-21T14:00:00"
+   },
+   "end": {
+      "local": "2019-05-21T15:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F60191413%2F255437069073%2F1%2Foriginal.20190411-054407?h=200&w=450&auto=compress&rect=0%2C0%2C2160%2C1080&s=b2c89d13e516867c6d5b9af6420cccc2"
+   }
+},
+ {
+   "name": {
+      "text": "Parkville Chinese Program (Mandarin) 23/05/2019, 30/05/2019, 06/06/2019"
+   },
+   "description": {
+      "text": "CBE Chinese Program (Mandarin)\n\nYou will need to attend all three dates listed in the program title.\n\n\n\nSeries of 3 workshops held in CBE/Physio classroom on a Thursday from 10am - 1pm.\n\n\n\nPlease be on time for all workshops. Your partner/support person is encouraged to attend the workshops with you. One ticket is for both you and your partner or support person to attend.\n\nPlease ensure when booking your workshops that they are completed before your 36th week of pregnancy. \n\n Labour and Birth topics include:\n\n\n\nSigns of labour\n\nWhen to come to hospital\n\nProgress of labour and birth\n\nRole of support person\n\nPractical coping methods during labour\n\nOptions for pain management\n\nUnexpected outcomes, such as emergency caesarean \n\n\n\nParenting and Breastfeeding Topics include:\n\n\n\nBreast changes in pregnancy\n\nUnderstanding breastfeeding\n\nHaving your baby in skin to skin contact and the first breastfeed\n\nNormal newborn feeding behaviour in the first 48 hours and beyond\n\nSafe sleeping and settling\n\nParenting and relationship changes \n\nCommunicating with your baby\n\nCommunity supports for the family\n\n\n\nHospital Tour Topics include:\n\n\n\nWhen and where to come to hospital\n\nParking options\n\nTour of Birth Centre and brief description of care during labour and birth\n\nTour of post-natal ward & discussion on care in the first few days\n\n\n\nIf you book a workshop but do not attend no refund will be given. A refund will only be available if cancellation is made at least one week before the first booked session.\n\nPlease choose your dates carefully as workshops book out quickly. It may not be possible to change your booking to a different date if your preferred date is already booked out.\n\n"
+   },
+   "url": "https://www.eventbrite.com.au/e/parkville-chinese-program-mandarin-23052019-30052019-06062019-tickets-55745653751?aff=ebapi",
+   "start": {
+      "local": "2019-05-23T10:00:00"
+   },
+   "end": {
+      "local": "2019-05-23T13:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F56077609%2F138880387881%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C75%2C4374%2C2187&s=b718d94b766436bd126e46a97df68cc9"
+   }
+},
+ {
+   "name": {
+      "text": "Tai Chi and Qigong for Beginners in Albert Park"
+   },
+   "description": {
+      "text": "Tai Chi and Qigong for Beginners in Albert Park\nTai Chi (Taijiquan in Chinese) is literally an internal Chinese Martial Art that has been practiced in China since the 16th Century. It is a tranquil and graceful way of keeping fit, improving your health, and helping to prevent the stresses and strains of modern living. Classes include Qigong breathing and meditation techniques; strength, flexibility, balance and coordination exercises; martial applications, forms and in time, weaponry. The classes are created as the perfect mind-body exercise program for all Australians based on well-researched and tested guidelines from the best sport universities, organisations and professionals in China and Australia. They work to provide you with the perfect mind-body exercise program suitable for all ages and fitness levels.\nIf you enjoy your first FREE class, please discuss ongoing class fees with us."
+   },
+   "url": "https://www.eventbrite.com.au/e/tai-chi-and-qigong-for-beginners-in-albert-park-tickets-53844345888?aff=ebapi",
+   "start": {
+      "local": "2019-04-27T08:45:00"
+   },
+   "end": {
+      "local": "2019-04-27T10:15:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F29423217%2F206466018621%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C431%2C5184%2C2592&s=6288a594a62c9c66cc3c438d511f63c4"
+   }
+},
+ {
+   "name": {
+      "text": "Chinese Brush Calligraphy 27 April"
+   },
+   "description": {
+      "text": "if you are already thinking of doing something special for a weekend, this is the one thing you will love to do.\nChinese brush Calligraphy is fun, and a traditional way to learn Chinese too. Our classes focus on learning the traditional strokes, and we use black ink on paper to start practicing and to learn the basics. Our classes are designed for beginner to people who have some previous skills who like to restart practicing on a regular basis. We will introduce water/ink painting and do modern watercolor drawings too.\nThis is an adult class. All materials included. One A4 frame for each new student will be included.\ncome with friends to get group ticket discounts! 'Group of 3' tickets can be used for 3 classes too.\nSee themes, details at www.howeartislife.com\nAny questions please just ask :) howeartislife@gmail.com"
+   },
+   "url": "https://www.eventbrite.com.au/e/chinese-brush-calligraphy-27-april-tickets-58970459231?aff=ebapi",
+   "start": {
+      "local": "2019-04-27T11:30:00"
+   },
+   "end": {
+      "local": "2019-04-27T13:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F58643892%2F258273145607%2F1%2Foriginal.20190318-021741?h=200&w=450&auto=compress&rect=0%2C225%2C3000%2C1500&s=558c84c64912fd736721a13d020939c5"
+   }
+},
+ {
+   "name": {
+      "text": "Chinese Brush Calligraphy 1 June"
+   },
+   "description": {
+      "text": "if you are already thinking of doing something special for a weekend, this is the one thing you will love to do.\nChinese brush Calligraphy is fun, and a traditional way to learn Chinese too. Our classes focus on learning the traditional strokes, and we use black ink on paper to start practicing and to learn the basics. Our classes are designed for beginner to people who have some previous skills who like to restart practicing on a regular basis. We will introduce water/ink painting and do modern watercolor drawings too.\nThis is an adult class. All materials included. One A4 frame for each new student will be included.\ncome with friends to get group ticket discounts! 'Group of 3' tickets can be used for 3 classes too.\nSee themes, details at www.howeartislife.com\nAny questions please just ask :) howeartislife@gmail.com"
+   },
+   "url": "https://www.eventbrite.com.au/e/chinese-brush-calligraphy-1-june-tickets-58195878439?aff=ebapi",
+   "start": {
+      "local": "2019-06-01T11:30:00"
+   },
+   "end": {
+      "local": "2019-06-01T13:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F57939911%2F258273145607%2F1%2Foriginal.20190306-020155?h=200&w=450&auto=compress&rect=0%2C281%2C3000%2C1500&s=ba4bb5cf876e2d6189880cb3582b3217"
+   }
+},
+ {
+   "name": {
+      "text": "RICE DUMPLING Community Festival"
+   },
+   "description": {
+      "text": "The Rice Dumpling Festival falls in the month of June in the Chinese calendar.\nCome and join us and celebrate this special event - just before the New Financial Year starts for Good Luck!!\nA wonderful community gathering where we will have fun eating, and most importantly, to buid strong relationships and friendships, and enjoying each other's company.\n\"Cooking with Jenny in Melbourne\" will start demonstrating and entertaining you with the cooking of Rice Dumpling. \nFood and drinks (non-alcoholic) drinks will be provided to you.\nOther dishes will be served: Chinese Yum Cha dishes, Noodles, Fried Rice, Specially-Made Chiffon Cakes, Malaysian Desserts \"Kueh\" and a wide range of delicious dishes.\nThis event presents you a wonderful opportunity to connect with influential community leaders whilst enjoying scrumptious dishes.\nSupporting the Friends of the Children Foundation, donation is welcome on the day.\nEvents organiser: AUS Career Coach\nSponsors:\n\n\nGlenvale Tennis Club\n\n\nBiggin & Scott Mitcham\n\n\nRST Consulting Pty Ltd\n\n\nPinewood Community Financial Services Limited\n\n\nNanyang Supermarket\n\n\nPinki Pinki Tea\n\n\nThink Academy of Business and Technology\n\n\nASEA\n\n\nSix Sense Delights\n\n\nChiffon Cakes by J & T\n\n\nEarly Bird Tickets - $25.00 expires 5th May 2019 \nGroup bookings of 10 people or more is $20.00 per ticket.\n\n\n\n\n\nENQUIRIES:  \nCall Michelle on 0408 216 740\nEmail: INFO@AUSCAREERCOACH.COM.AU\n\n"
+   },
+   "url": "https://www.eventbrite.com.au/e/rice-dumpling-community-festival-tickets-60252267153?aff=ebapi",
+   "start": {
+      "local": "2019-06-02T12:30:00"
+   },
+   "end": {
+      "local": "2019-06-02T15:30:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F60380170%2F197281983263%2F1%2Foriginal.20190415-111354?h=200&w=450&auto=compress&rect=0%2C0%2C618%2C309&s=793fdb1e2ea3d82ffa91990907934ee5"
+   }
+},
+ {
+   "name": {
+      "text": "Chinese Brush Calligraphy 8 June"
+   },
+   "description": {
+      "text": "if you are already thinking of doing something special for a weekend, this is the one thing you will love to do.\nChinese brush Calligraphy is fun, and a traditional way to learn Chinese too. Our classes focus on learning the traditional strokes, and we use black ink on paper to start practicing and to learn the basics. Our classes are designed for beginner to people who have some previous skills who like to restart practicing on a regular basis. We will introduce water/ink painting and do modern watercolor drawings too.\nThis is an adult class. All materials included. One A4 frame for each new student will be included.\ncome with friends to get group ticket discounts! 'Group of 3' tickets can be used for 3 classes too.\nSee themes, details at www.howeartislife.com\nAny questions please just ask :) howeartislife@gmail.com"
+   },
+   "url": "https://www.eventbrite.com.au/e/chinese-brush-calligraphy-8-june-tickets-58197155258?aff=ebapi",
+   "start": {
+      "local": "2019-06-08T11:30:00"
+   },
+   "end": {
+      "local": "2019-06-08T13:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F57940557%2F258273145607%2F1%2Foriginal.20190306-021646?h=200&w=450&auto=compress&rect=0%2C245%2C3000%2C1500&s=ba7852fe3bbfc6bbb589106dd10bf24c"
+   }
+},
+ {
+   "name": {
+      "text": "Curtin supper club - Chinese food and covers night"
+   },
+   "description": {
+      "text": "\n\n\n\n\n\n\nGot a craving for Chinese food? Missing live music in Curtin? Wait no more! Join fellow Curtin residents, extended family and friends for our first event for 2019: Chinese Food & Covers Night.... with Malaysian dessert. We promise an evening of tasty food, great company and live entertainment.\n\n\n\nBookings are now open.\n\n\n\nA variety of Chinese food will be offered with a bar selling a selection of quality wine and beer at very reasonable prices. Vegetarian options available.\n\n\n\n\nLive entertainment will be included.\n\n\n\n\n\nPrevious events booked out very quickly so purchase your tickets to our first supper club event for 2019 now!\n\n\n\n\n\nAdult (13+ years) - $20.00\n\n\n\n\nChildren (4 – 12 years) - $10.00\n\n\n\n\nChildren (3 years & under) - free\n\n\n\n\n\n\n\n"
+   },
+   "url": "https://www.eventbrite.com/e/curtin-supper-club-chinese-food-and-covers-night-tickets-59659496159?aff=ebapi",
+   "start": {
+      "local": "2019-04-27T18:30:00"
+   },
+   "end": {
+      "local": "2019-04-27T22:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F59418105%2F200265187532%2F1%2Foriginal.20190331-094444?h=200&w=450&auto=compress&rect=0%2C307%2C1902%2C951&s=68e3dd1e168ad20b7220c49c37b56527"
+   }
+},
+ {
+   "name": {
+      "text": "World Music Concert Two: African Music and Dance Ensemble and Chinese Music Ensemble"
+   },
+   "description": {
+      "text": "African Music and Dance Ensemble, Chinese Music Ensemble\nEach semester, students from across the University of Melbourne learn to perform traditional and contemporary music from around the world. This evening, Christopher Lesser directs the African Music and Dance Ensemble, a traditional West African group, in performing the traditional music of Ghana, Nigeria, and Guinea. Dr Zheng-Ting Wang then directs the Chinese Music Ensemble, a traditional silk and bamboo group.\nSee also:\nFriday 31 MayWorld Music Concert One: World Music Choir and Shakuhachi Ensemble\nMonday 10 JuneFinal Gong\n—\nImage: Sav Schulman, 2018\nWe strongly encourage booking in advance for all of our events. This guarantees your seat, and allows us to communicate any unforeseen event scheduling changes with you."
+   },
+   "url": "https://www.eventbrite.com.au/e/world-music-concert-two-african-music-and-dance-ensemble-and-chinese-music-ensemble-tickets-54386677015?aff=ebapi",
+   "start": {
+      "local": "2019-06-14T18:00:00"
+   },
+   "end": {
+      "local": "2019-06-14T19:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F54842064%2F137827793942%2F1%2Foriginal.20190109-053648?h=200&w=450&auto=compress&rect=0%2C121%2C1788%2C894&s=19612fa08d72c749245e938c376acb56"
+   }
+},
+ {
+   "name": {
+      "text": "ACBC Vic: Capturing the Chinese Tourist Market with Bill Lang "
+   },
+   "description": {
+      "text": "ACBC Victoria is pleased to invite you to our event ‘Capturing the Chinese Tourist Market’, with Bill Lang, Adjunct Fellow, VBCI, Chairman Institute of Advanced Business\nOver the next 10 years, Chinese visitors to Australia are expected to grow by 11.9 percent per annum. Inbound Chinese tourism to Victoria is forecast to be worth $7.0 billion in 2026-27 (+10.3% pa) and contribute 39 per cent to total expenditure in Victoria.\nWith this in mind it’s imperative that businesses are prepared to provide payment systems, hospitality and appropriate communication to meet the needs of Chinese tourists in Australia. To ‘capture’ this market, businesses need to have systems in place that will enable them to leverage opportunities across a wide range of sectors.\nDuring this session, Bill will share his expertise on doing business with Chinese consumers, so you leave with a greater understanding of how to connect with this burgeoning market of customers.\nAbout the Speaker\nBill Lang is an expert in applying the latest strategies to help people rapidly build and develop digital skills to start and grow businesses. After graduating from Harvard Business School’s MBA as a Baker Scholar, Bill founded consulting, training, internet services and marketing technology businesses that have served clients operating in over 50 countries and educated over 100,000 people through his presentations, TV series, books and online services. Many of his clients have achieved significant business improvements and awards including Best in the World, Best in Europe and Best in Asia.\nVictoria University is conveniently located at 300 Flinders Street opposite Flinders Street railway station and you can also travel via tram or bus. Please visit the Public Transport Victoria site to plan your journey. Commercial parking is also available close to 300 Flinders Street."
+   },
+   "url": "https://www.eventbrite.com.au/e/acbc-vic-capturing-the-chinese-tourist-market-with-bill-lang-tickets-60240972370?aff=ebapi",
+   "start": {
+      "local": "2019-06-18T12:15:00"
+   },
+   "end": {
+      "local": "2019-06-18T14:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F60191670%2F238725079340%2F1%2Foriginal.20190411-055026?h=200&w=450&auto=compress&rect=22%2C0%2C2528%2C1264&s=456f4f89b42e2eca15777fc7b2336cf5"
+   }
+},
+ {
+   "name": {
+      "text": "Chinese Brush Calligraphy 22 June"
+   },
+   "description": {
+      "text": "if you are already thinking of doing something special for a weekend, this is the one thing you will love to do.\nChinese brush Calligraphy is fun, and a traditional way to learn Chinese too. Our classes focus on learning the traditional strokes, and we use black ink on paper to start practicing and to learn the basics. Our classes are designed for beginner to people who have some previous skills who like to restart practicing on a regular basis. We will introduce water/ink painting and do modern watercolor drawings too.\nThis is an adult class. All materials included. One A4 frame for each new student will be included.\ncome with friends to get group ticket discounts! 'Group of 3' tickets can be used for 3 classes too.\nSee themes, details at www.howeartislife.com\nAny questions please just ask :) howeartislife@gmail.com"
+   },
+   "url": "https://www.eventbrite.com.au/e/chinese-brush-calligraphy-22-june-tickets-58198491254?aff=ebapi",
+   "start": {
+      "local": "2019-06-22T11:30:00"
+   },
+   "end": {
+      "local": "2019-06-22T13:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F57940924%2F258273145607%2F1%2Foriginal.20190306-022717?h=200&w=450&auto=compress&rect=0%2C300%2C3000%2C1500&s=5d9a0bb3c074c6ad2cdd6cb3e7c18481"
+   }
+},
+ {
+   "name": {
+      "text": "Parkville Chinese Program (Mandarin) 27/06/2019, 04/07/2019, 11/07/2019"
+   },
+   "description": {
+      "text": "CBE Chinese Program (Mandarin)\n\nYou will need to attend all three dates listed in the program title.\n\n\n\nSeries of 3 workshops held in CBE/Physio classroom on a Thursday from 10am - 1pm.\n\n\n\nPlease be on time for all workshops. Your partner/support person is encouraged to attend the workshops with you. One ticket is for both you and your partner or support person to attend.\n\nPlease ensure when booking your workshops that they are completed before your 36th week of pregnancy. \n\n Labour and Birth topics include:\n\n\n\nSigns of labour\n\nWhen to come to hospital\n\nProgress of labour and birth\n\nRole of support person\n\nPractical coping methods during labour\n\nOptions for pain management\n\nUnexpected outcomes, such as emergency caesarean \n\n\n\nParenting and Breastfeeding Topics include:\n\n\n\nBreast changes in pregnancy\n\nUnderstanding breastfeeding\n\nHaving your baby in skin to skin contact and the first breastfeed\n\nNormal newborn feeding behaviour in the first 48 hours and beyond\n\nSafe sleeping and settling\n\nParenting and relationship changes \n\nCommunicating with your baby\n\nCommunity supports for the family\n\n\n\nHospital Tour Topics include:\n\n\n\nWhen and where to come to hospital\n\nParking options\n\nTour of Birth Centre and brief description of care during labour and birth\n\nTour of post-natal ward & discussion on care in the first few days\n\n\n\nIf you book a workshop but do not attend no refund will be given. A refund will only be available if cancellation is made at least one week before the first booked session.\n\nPlease choose your dates carefully as workshops book out quickly. It may not be possible to change your booking to a different date if your preferred date is already booked out.\n\n"
+   },
+   "url": "https://www.eventbrite.com.au/e/parkville-chinese-program-mandarin-27062019-04072019-11072019-tickets-57570599212?aff=ebapi",
+   "start": {
+      "local": "2019-06-27T10:00:00"
+   },
+   "end": {
+      "local": "2019-06-27T13:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F57509810%2F138880387881%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C75%2C4374%2C2187&s=d9f846742aff44842ed66f337c5b170e"
+   }
+},
+ {
+   "name": {
+      "text": "Chinese Brush Calligraphy 29 June"
+   },
+   "description": {
+      "text": "if you are already thinking of doing something special for a weekend, this is the one thing you will love to do.\nChinese brush Calligraphy is fun, and a traditional way to learn Chinese too. Our classes focus on learning the traditional strokes, and we use black ink on paper to start practicing and to learn the basics. Our classes are designed for beginner to people who have some previous skills who like to restart practicing on a regular basis. We will introduce water/ink painting and do modern watercolor drawings too.\nThis is an adult class. All materials included. One A4 frame for each new student will be included.\ncome with friends to get group ticket discounts! 'Group of 3' tickets can be used for 3 classes too.\nSee themes, details at www.howeartislife.com\nAny questions please just ask :) howeartislife@gmail.com"
+   },
+   "url": "https://www.eventbrite.com.au/e/chinese-brush-calligraphy-29-june-tickets-58199537383?aff=ebapi",
+   "start": {
+      "local": "2019-06-29T11:30:00"
+   },
+   "end": {
+      "local": "2019-06-29T13:00:00"
+   },
+   "logo": {
+      "url": ""
+   }
+},
+ {
+   "name": {
+      "text": "Mandarin Online Course for Beginners - Expression of Interest"
+   },
+   "description": {
+      "text": "The Confucius Institute at the University of Melbourne's Online Course for Beginner Mandarin Chinese.\n1A Beginner Chinese (no previous language learning required) -\nThis course will run for 10 weeks, twice a week for 1 hour a day.\nTime: 1pm - 2pm on Tuesday and Thursday \nDates: 23 July to 26 September 2019\n\nThis Online Course is popular among Chinese language learners who are unable to attend class in person. It provides a platform to access a professional, engaging, and thorough Mandarin course regardless of where the students are. Using Zoom, our Chinese language teacher is able to engage with the students through a video conference, and share informative slides and teaching material. Students also receive a text book in which they use to follow the course content, and complete homework tasks. Each lesson is audio recorded and sent to the students for catch-up or revision."
+   },
+   "url": "https://www.eventbrite.com.au/e/mandarin-online-course-for-beginners-expression-of-interest-tickets-45187552185?aff=ebapi",
+   "start": {
+      "local": "2019-07-23T13:00:00"
+   },
+   "end": {
+      "local": "2019-09-26T14:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F58446021%2F120782698679%2F1%2Foriginal.20190313-222713?h=200&w=450&auto=compress&rect=35%2C0%2C302%2C151&s=2f072a117af0afdb463b4e711913aca0"
+   }
+},
+ {
+   "name": {
+      "text": "Tai Chi and Qigong for Beginners in Elwood"
+   },
+   "description": {
+      "text": "Tai Chi and Qigong Classes in Elwood\nTai Chi (Taijiquan in Chinese) is literally an internal Chinese Martial Art that has been practiced in China since the 16th Century. It is a tranquil and graceful way of keeping fit, improving your health, and helping to prevent the stresses and strains of modern living. Classes include Qigong breathing and meditation techniques; strength, flexibility, balance and coordination exercises; martial applications, forms and in time, weaponry. The classes are created as the perfect mind-body exercise program for all Australians based on well-researched and tested guidelines from the best sport universities, organisations and professionals in China and Australia. They work to provide you with the perfect mind-body exercise program suitable for all ages and fitness levels.\nIf you enjoy your first FREE class, please discuss ongoing class fees with us."
+   },
+   "url": "https://www.eventbrite.com.au/e/tai-chi-and-qigong-for-beginners-in-elwood-tickets-53845132240?aff=ebapi",
+   "start": {
+      "local": "2019-04-24T09:30:00"
+   },
+   "end": {
+      "local": "2019-04-24T10:30:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F29423281%2F206466018621%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C431%2C5184%2C2592&s=6bd08010892b31e527ac4a54872c0f6b"
+   }
+},
+ {
+   "name": {
+      "text": "Tai Chi and Qigong Classes in East St Kilda"
+   },
+   "description": {
+      "text": "Tai Chi and Qigong Classes in Elwood\nTai Chi (Taijiquan in Chinese) is literally an internal Chinese Martial Art that has been practiced in China since the 16th Century. It is a tranquil and graceful way of keeping fit, improving your health, and helping to prevent the stresses and strains of modern living. Classes include Qigong breathing and meditation techniques; strength, flexibility, balance and coordination exercises; martial applications, forms and in time, weaponry. The classes are created as the perfect mind-body exercise program for all Australians based on well-researched and tested guidelines from the best sport universities, organisations and professionals in China and Australia. They work to provide you with the perfect mind-body exercise program suitable for all ages and fitness levels.\nIf you enjoy your first FREE class, please discuss ongoing class fees with us."
+   },
+   "url": "https://www.eventbrite.com.au/e/tai-chi-and-qigong-classes-in-east-st-kilda-tickets-59937622041?aff=ebapi",
+   "start": {
+      "local": "2019-04-29T09:30:00"
+   },
+   "end": {
+      "local": "2019-04-29T10:30:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F39475052%2F206466018621%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C431%2C5184%2C2592&s=5eae8b6b26e27b72576e96cd954da692"
+   }
+},
+ {
+   "name": {
+      "text": "Beginners Tai Chi and Qigong Classes in Preston"
+   },
+   "description": {
+      "text": "Tai Chi (Taijiquan in Chinese) is literally an internal Chinese Martial Art that has been practiced in China since the 16th Century. It is a tranquil and graceful way of keeping fit, improving your health, and helping to prevent the stresses and strains of modern living. Classes include Qigong breathing and meditation techniques; strength, flexibility, balance and coordination exercises; martial applications, forms and in time, weaponry. The classes are created as the perfect mind-body exercise program for all Australians based on well-researched and tested guidelines from the best sport universities, organisations and professionals in China and Australia. They work to provide you with the perfect mind-body exercise program suitable for all ages and fitness levels.\nIf you enjoy your first FREE class, please discuss ongoing class fees with us."
+   },
+   "url": "https://www.eventbrite.com.au/e/beginners-tai-chi-and-qigong-classes-in-preston-tickets-53844675875?aff=ebapi",
+   "start": {
+      "local": "2019-04-29T13:15:00"
+   },
+   "end": {
+      "local": "2019-04-29T14:15:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F54075729%2F206466018621%2F1%2Foriginal.20181218-035250?h=200&w=450&auto=compress&rect=0%2C431%2C5184%2C2592&s=463a527a3c16b560619c4cd9f8c5ccdf"
+   }
+},
+ {
+   "name": {
+      "text": "Tai Chi and Qigong for Beginners in Docklands"
+   },
+   "description": {
+      "text": "Tai Chi (Taijiquan in Chinese) is literally an internal Chinese Martial Art that has been practiced in China since the 16th Century. It is a tranquil and graceful way of keeping fit, improving your health, and helping to prevent the stresses and strains of modern living. Classes include Qigong breathing and meditation techniques; strength, flexibility, balance and coordination exercises; martial applications, forms and in time, weaponry. The classes are created as the perfect mind-body exercise program for all Australians based on well-researched and tested guidelines from the best sport universities, organisations and professionals in China and Australia. They are suitable for all ages and fitness levels.\nThis particular class is a great way to start the day overlooking the beautiful Victoria Harbour. The class is conducted outside so make sure you wear appropriate clothing. We usually train on The Deck at the front of the building facing out to the harbour. If it is raining, don't worry!! We will re-locate to the 3rd Floor Terrace Space of The Dock building. However, make sure to arrive 10 minutes early and wait on the North Wharf side of the building as access is via a security entrance facing out to the lawn. If you are late please ring 0407 941 101 to gain admittance.\nIf you enjoy your first FREE class, please discuss ongoing class fees with us."
+   },
+   "url": "https://www.eventbrite.com.au/e/tai-chi-and-qigong-for-beginners-in-docklands-tickets-53845216492?aff=ebapi",
+   "start": {
+      "local": "2019-05-02T07:30:00"
+   },
+   "end": {
+      "local": "2019-05-02T08:30:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F39758235%2F206466018621%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C188%2C1200%2C600&s=d4e8787e27e6e3940148d37771c8ff81"
+   }
+},
+ {
+   "name": {
+      "text": "Tai Chi and Qigong for Beginners in Armadale"
+   },
+   "description": {
+      "text": "Tai Chi and Qigong for Beginners in Armadale\nTai Chi (Taijiquan in Chinese) is literally an internal Chinese Martial Art that has been practiced in China since the 16th Century. It is a tranquil and graceful way of keeping fit, improving your health, and helping to prevent the stresses and strains of modern living. Classes include Qigong breathing and meditation techniques; strength, flexibility, balance and coordination exercises; martial applications, forms and in time, weaponry. The classes are created as the perfect mind-body exercise program for all Australians based on well-researched and tested guidelines from the best sport universities, organisations and professionals in China and Australia. They work to provide you with the perfect mind-body exercise program suitable for all ages and fitness levels.\nIf you enjoy your first FREE class, please discuss ongoing class fees with us."
+   },
+   "url": "https://www.eventbrite.com.au/e/tai-chi-and-qigong-for-beginners-in-armadale-tickets-53845447182?aff=ebapi",
+   "start": {
+      "local": "2019-05-02T10:00:00"
+   },
+   "end": {
+      "local": "2019-05-02T11:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F29423427%2F206466018621%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C431%2C5184%2C2592&s=9e14bfd267637128e53a80aca8360f06"
+   }
+},
+ {
+   "name": {
+      "text": "Tai Chi and Qigong for Beginners in Moorabbin"
+   },
+   "description": {
+      "text": "Tai Chi and Qigong Classes in Elwood\nTai Chi (Taijiquan in Chinese) is literally an internal Chinese Martial Art that has been practiced in China since the 16th Century. It is a tranquil and graceful way of keeping fit, improving your health, and helping to prevent the stresses and strains of modern living. Classes include Qigong breathing and meditation techniques; strength, flexibility, balance and coordination exercises; martial applications, forms and in time, weaponry. The classes are created as the perfect mind-body exercise program for all Australians based on well-researched and tested guidelines from the best sport universities, organisations and professionals in China and Australia. They work to provide you with the perfect mind-body exercise program suitable for all ages and fitness levels.\nIf you enjoy your first FREE class, please discuss ongoing class fees with us."
+   },
+   "url": "https://www.eventbrite.com.au/e/tai-chi-and-qigong-for-beginners-in-moorabbin-tickets-53845511374?aff=ebapi",
+   "start": {
+      "local": "2019-04-24T18:30:00"
+   },
+   "end": {
+      "local": "2019-04-24T19:30:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42190969%2F206466018621%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C526%2C5184%2C2592&s=d0b640820f7c8e46550508f794ba6f93"
+   }
+},
+ {
+   "name": {
+      "text": "Tai Chi and Qigong for Beginners in Northcote"
+   },
+   "description": {
+      "text": "Beginners Tai Chi and Qigong Classes in Northcote\nTai Chi (Taijiquan in Chinese) is literally an internal Chinese Martial Art that has been practiced in China since the 16th Century. It is a tranquil and graceful way of keeping fit, improving your health, and helping to prevent the stresses and strains of modern living. Classes include Qigong breathing and meditation techniques; strength, flexibility, balance and coordination exercises; martial applications, forms and in time, weaponry. The classes are created as the perfect mind-body exercise program for all Australians based on well-researched and tested guidelines from the best sport universities, organisations and professionals in China and Australia. They work to provide you with the perfect mind-body exercise program suitable for all ages and fitness levels.\nIf you enjoy your first FREE class, please discuss ongoing class fees with us."
+   },
+   "url": "https://www.eventbrite.com.au/e/tai-chi-and-qigong-for-beginners-in-northcote-tickets-53844973766?aff=ebapi",
+   "start": {
+      "local": "2019-05-02T18:30:00"
+   },
+   "end": {
+      "local": "2019-05-02T19:30:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F29422970%2F206466018621%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C431%2C5184%2C2592&s=d045e794798dfd567039ee8250510087"
+   }
+},
+ {
+   "name": {
+      "text": "Tai Chi and Qigong for Beginners in Mentone"
+   },
+   "description": {
+      "text": "Tai Chi and Qigong Classes in MentoneTai Chi (Taijiquan in Chinese) is literally an internal Chinese Martial Art that has been practiced in China since the 16th Century. It is a tranquil and graceful way of keeping fit, improving your health, and helping to prevent the stresses and strains of modern living. Classes include Qigong breathing and meditation techniques; strength, flexibility, balance and coordination exercises; martial applications, forms and in time, weaponry. The classes are created as the perfect mind-body exercise program for all Australians based on well-researched and tested guidelines from the best sport universities, organisations and professionals in China and Australia. They work to provide you with the perfect mind-body exercise program suitable for all ages and fitness levels.\nIf you enjoy your first FREE class, please discuss ongoing class fees with us."
+   },
+   "url": "https://www.eventbrite.com.au/e/tai-chi-and-qigong-for-beginners-in-mentone-tickets-59745519457?aff=ebapi",
+   "start": {
+      "local": "2019-05-08T10:00:00"
+   },
+   "end": {
+      "local": "2019-05-08T11:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F59519027%2F206466018621%2F1%2Foriginal.20190402-025103?h=200&w=450&auto=compress&rect=0%2C455%2C5184%2C2592&s=5b24981bfd898313890f0014aa208be2"
+   }
+},
+ {
+   "name": {
+      "text": "FREE SEMINAR: Predicting Chinese Macro' for Massive ROI (Melbourne)"
+   },
+   "description": {
+      "text": "\nhttp://www.itpm.com/seminars/ \nChinese GDP is slowing down hard and may collapse. This will have significant impacts on the Australian Economy. All Retail Traders in Australia need to know how to not only protect their wealth from this collapse but also how to make money from it. \nThe Chinese Economy is incredibly important for the Australian Economy. Predicting the Chinese Economy leads all outcomes in Australian GDP and Financial Markets. Predicting Chinese Macro' trends is therefore incredibly important for Australian investors and traders. Notoriously hard to predict due to creative accounting practices and outright exagerration, Chinese Macreconomics and the Macro' landscape leads many investors and traders to false conclusions. Especially in 2018 and 2019 when there has been a marked slowdown in Chinese Growth that has been masked for many quarters with exagerrated Macro' predictions, now more than ever it is vitally important to know how this works! \nIn this seminar Ross Williams is going to show you how to predict Chinese GDP accurately using refined and bespoke indicators that are either overlooked or not widely known by the public and show you how to use this data to position yourself for massive ROI in your trading accounts. This is especially useful when Chinese GDP is slowing for Australian Retail Traders, as they can position themselves ahead of any collapse and profit from it when everyone else in Australia loses significant money.    \nVIDEO >>>\n\nWATCH ROSS WILLIAMS BEING INTERVIEWED BY ANTON KREIL;- CLICK HERE\n\n>>\n\n\nSeminar Content & Timetable;-\n6.15pm registration, 7pm start.\n\n\n\nHow to Predict Chinese GDP Accurately\n\n\nBespoke Indicators to Predict Chinese Boom and Bust\n\n\nQualitative Assessment\n\n\nUsing the Data and Positioning for Massive ROI\n\n\n\n Seminar Speaker\n\nRoss Williams - Senior Trading Mentor - Institute of Trading and Portfolio Management\nRoss Williams is a Professional Trader / Hedge Fund Portfolio Manager. Ross started his career in 1998 in London at CIBC World Markets in Fixed Income, trading Derivatives and credit products. He then moved to work for Bear Stearns on their Proprietary Trading Desk from 2001-2006 and was promoted to Managing Director in 2005.\nHe cashed out at Bear Stearns and joined a Hedge Fund (Peloton Partners) in 2006 with other partners from Goldman Sachs, trading all Asset Classes (Rates, Equities, Currencies, Commodities)  The fund had the backing of many of the worlds preeminent investors. Peloton quickly grew to $2.8Bn in Assets Under Management (AUM) due to an 87% performance in the mortgage fund in 2007. Peloton Partners was named Eurohedge Hedge Fund of the Year in Europe in 2007. In 2008 the Global Financial crisis occurred and forced redemptions at the fund. Something that was out of the control of the firm. Investors wanted their money back because everything else in the world was collapsing. The partners agreed to return investors capital and close the fund down.\nRoss then returned to his native Australia where he joined the UBS Proprietary Trading operation in Sydney as a Prop' Trader Trading across asset classes. Ross now works for Peninsula Strategies in Sydney (a private investment firm) as a Portfolio Manager specialising in Long / Short Equities Portfolio Management and tactical asset allocation and also as a Senior Trading Mentor and asset allocator at the Institute of Trading and Portfolio Management, helping Retail Traders get consistent profitability in their portfolio's.   \nRoss Williams Resume / CV - Click Here\n\nBackground\n\nThe Institute of Trading and Portfolio Management was established to educate, inform and coach Retail Traders & Investors how to take a more Professional approach to Trading and Investing in the Financial Markets. We deliver the highest level of Trading and Portfolio Management education available to the Retail Trader / Investor globally, utilising teaching methods that everyone can understand and deploy themselves. We manage a global Portfolio ourselves and manage a community of Retail Traders and Investors, that connect with eachother and support eachother. We provide our community with a favourable infrastructure that allows each individual to reach their full potential. Additionally, we invest in our best performing students / traders and we also place some of our best traders into Professional Trading employment with Hedge Funds and Investment Banks.\nTypically we have three types of delegates that attend our seminars and then join the Institute;-\n1.    Delegates currently trading with their own money who have struggled to make consistent Returns on their Capital.\n2.    Delegates who want to start trading with their own savings and seek a higher level Professional Trading & Investing education Vs what is available elsewhere.\n3.    Delegates who are looking to enter the Professional world of Trading and Investing via Hedge Funds and Investment Banks.\n \nYou do not need any prior experience in Trading and Portfolio Management to attend one of our seminars. All you require is a basic level of common sense and arithmetic ability. \nAt the Institute you will be taught everything you need to know from basic to more advanced techniques. Our approach is challenging both to a beginner and more experienced traders. The professional trader approach is like nothing you have ever seen before. This is because it is simply not taught to the Retail Trader market and is usually only reserved for professional traders. \n \nFor background information on ITPM Education Click Here\nFor more information on Institute seminars Click Here\nTo visit the Institute website Click Here\n \nWe look forward to seeing you there !!!\n"
+   },
+   "url": "https://www.eventbrite.co.uk/e/free-seminar-predicting-chinese-macro-for-massive-roi-melbourne-tickets-58562419774?aff=ebapi",
+   "start": {
+      "local": "2019-05-09T19:00:00"
+   },
+   "end": {
+      "local": "2019-05-09T21:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F58232760%2F5505740276%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C11%2C1138%2C569&s=858b9fdee387a31b26f891b5786b15a8"
+   }
+},
+ {
+   "name": {
+      "text": "Chinese Brush Calligraphy 11 May"
+   },
+   "description": {
+      "text": "if you are already thinking of doing something special for a weekend, this is the one thing you will love to do.\nChinese brush Calligraphy is fun, and a traditional way to learn Chinese too. Our classes focus on learning the traditional strokes, and we use black ink on paper to start practicing and to learn the basics. Our classes are designed for beginner to people who have some previous skills who like to restart practicing on a regular basis. We will introduce water/ink painting and do modern watercolor drawings too.\nThis is an adult class. All materials included. One A4 frame for each new student will be included.\ncome with friends to get group ticket discounts! 'Group of 3' tickets can be used for 3 classes too.\nSee themes, details at www.howeartislife.com\nAny questions please just ask :) howeartislife@gmail.com"
+   },
+   "url": "https://www.eventbrite.com.au/e/chinese-brush-calligraphy-11-may-tickets-58190528437?aff=ebapi",
+   "start": {
+      "local": "2019-05-11T11:30:00"
+   },
+   "end": {
+      "local": "2019-05-11T13:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F57937688%2F258273145607%2F1%2Foriginal.20190306-011012?h=200&w=450&auto=compress&rect=0%2C263%2C3000%2C1500&s=80848cfd142db397cdaad9e8f3c4e6dd"
+   }
+},
+ {
+   "name": {
+      "text": "Negotiations and Influence in an Asian Context - CHINA (Melbourne)"
+   },
+   "description": {
+      "text": "Collaborate. Negotiate. Resolve conflict. Optimise stakholder alignment.\nIf you are conducting negotiations with Chinese counterparts, a strong understanding of how process, commercial issues and culture impacts negotiation styles is critical. • What processes may be adopted to achieve mutual gains with a Chinese counterpart in a negotiation? • How do you plan for and respond to lengthy multi-stage negotiations with Chinese counterparts? • How does culture affect commercial outcomes in a negotiation with Chinese counterparts? \nThe ApproachThis practical, participatory one-day program combines global perspectives on cross-cultural negotiation with Australian executive insights and reflections from Chinese counterparts. It incorporates the Consensus Building Institute’s world-leading Mutual Gains Approach, built in partnership with faculty from Harvard and MIT, which utilises a practical four-step methodology for improving negotiation results in Chinese contexts:\n1. Prepare – Estimate your Best Alternative to Negotiated Agreement (BATNA) and identify the interests of your Chinese counterparts\n2. Create Value – Invent without committing. Float options that consider the differences between parties. \n3. Distribute Value – Behave in ways that build trust. Find objective values both parties can use to justify mutually beneficial sharing of the value created. \n4. Follow Through – Specify mechanisms to deal with predictable surprises. Agree on monitoring arrangements, including metrics. \nWhat you will learn\nThis program will help you learn to enhance your commercial relationships and achieve optimal business outcomes in a Chinese context.\nFacilitators\nAndrew Wei-Min Lee is a Fellow of Harvard Law School’s Program on Negotiation and Stanford Law School’s Gould Center for Conflict Resolution. For over 14 years, he has led training workshops on negotiation and business in China as well as business negotiations with Chinese counterparts in the United States, Singapore, the Netherlands, Russia, Austria, Japan and France. He has cooperated with universities to deliver programs to Australian executives visiting China. Participants have included personnel from Penfolds Winery, the Australian Tax Office, Minter Ellison Lawyers and Pura Milk. In 2011, he was appointed a World Bank mediator for Greater Asia.\nNick Henderson is the Director of Asialink Business’ China Practice. Nick has more than 17 years of experience in business development and operations in Mainland China and is fluent in Mandarin. Nick has spent a significant amount of time working in multilingual and cross cultural environments and has been involved in extensive commercial negotiations during his time on the ground in China. Nick has advised Australian and other international companies into China and has substantial knowledge and understanding of the complexities of this market including the fundamental importance of and skills required for negotiating effectively with Chinese counterparts. Prior to joining Asialink Business, Nick was the China General Manager for the Interpublic Group (NYSE: IPG) brand strategy firm, FutureBrand and worked on projects for Alibaba Group, Bank of Shanghai, Daimler Benz, CITIC Private Equity, Mengniu, Yintai Group, Changhong and the Shanghai government (Lujiazui Group).\nA highly interactive training program that combines a world re-nowned negotiation framework and global insights on cross-cultural negotiation with Australian executives' experiences with their Chinese counterparts. \nFor enquiries: contact Michelle Borzi on 0421 443 439 or email m.borzi@asialinkbusiness.com.au"
+   },
+   "url": "https://www.eventbrite.com.au/e/negotiations-and-influence-in-an-asian-context-china-melbourne-tickets-57565089733?aff=ebapi",
+   "start": {
+      "local": "2019-05-13T09:00:00"
+   },
+   "end": {
+      "local": "2019-05-13T17:00:00"
+   },
+   "logo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F57504243%2F154941325932%2F1%2Foriginal.20190227-020726?h=200&w=450&auto=compress&rect=721%2C875%2C2034%2C1017&s=c43745d5668a6006f7d1d0b1f03a52bf"
+   }
+}
+]
+}

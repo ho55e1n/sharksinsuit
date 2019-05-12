@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Sharksinsuit</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='assets/bootstrap/css/bootstrap.min.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"
+    />
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='assets/fonts/font-awesome.min.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='assets/css/Navigation-Clean.css') }}"
+    />
+  </head>
+  <body>
+    {% block body %}{% endblock %}
+    <div class="d-block">
+      <footer class="footer bg-light">
+        <p class="text-center text-muted small mb-4 mb-lg-0">
+          © Sharks in Suit
+        </p>
+      </footer>
+    </div>
+    <div></div>
+    <script src=" {{ url_for('static', filename='assets/js/jquery.min.js') }} "></script>
+    <script src=" {{ url_for('static', filename='assets/bootstrap/js/bootstrap.min.js') }}"></script>
+
+    <script src="assets/js/scroll.js"></script>
+    <script src="assets/js/sticky.js"></script>
+  </body>
+</html>

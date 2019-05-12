@@ -1,0 +1,279 @@
+{
+  "all_suburbs": [
+    {
+      "name": "Glen Waverley",
+      "lga": "Monash",
+      "postcode": 3150
+    },
+    {
+      "name": "Clayton",
+      "lga": "Monash",
+      "postcode": 3168
+    },
+    {
+      "name": "Mount Waverley",
+      "lga": "Monash",
+      "postcode": 3149
+    },
+    {
+      "name": "Wheelers Hill",
+      "lga": "Monash",
+      "postcode": 3150
+    },
+    {
+      "name": "Mulgrave",
+      "lga": "Monash",
+      "postcode": 3170
+    },
+    {
+      "name": "Melbourne",
+      "lga": "Melbourne",
+      "postcode": 3000
+    },
+    {
+      "name": "Carlton",
+      "lga": "Melbourne",
+      "postcode": 3053
+    },
+    {
+      "name": "Southbank",
+      "lga": "Melbourne",
+      "postcode": 3006
+    },
+    {
+      "name": "North Melbourne",
+      "lga": "Melbourne",
+      "postcode": 3051
+    },
+    {
+      "name": "Docklands",
+      "lga": "Melbourne",
+      "postcode": 3008
+    },
+    {
+      "name": "Box Hill",
+      "lga": "Whitehorse",
+      "postcode": 3128
+    },
+    {
+      "name": "Burwood",
+      "lga": "Monash",
+      "postcode": 3125
+    },
+    {
+      "name": "Box Hill North",
+      "lga": "Whitehorse",
+      "postcode": 3129
+    },
+    {
+      "name": "Burwood East",
+      "lga": "Whitehorse",
+      "postcode": 3151
+    },
+    {
+      "name": "Vermont South",
+      "lga": "Whitehorse",
+      "postcode": 3133
+    },
+    {
+      "name": "Balwyn North",
+      "lga": "Boroondara",
+      "postcode": 3104
+    },
+    {
+      "name": "Balwyn",
+      "lga": "Boroondara",
+      "postcode": 3103
+    },
+    {
+      "name": "Kew",
+      "lga": "Boroondara",
+      "postcode": 3101
+    },
+    {
+      "name": "Camberwell",
+      "lga": "Boroondara",
+      "postcode": 3124
+    },
+    {
+      "name": "Hawthorn",
+      "lga": "Boroondara",
+      "postcode": 3122
+    },
+    {
+      "name": "Doncaster East",
+      "lga": "Manningham",
+      "postcode": 3109
+    },
+    {
+      "name": "Doncaster",
+      "lga": "Manningham",
+      "postcode": 3108
+    },
+    {
+      "name": "Templestowe",
+      "lga": "Manningham",
+      "postcode": 3106
+    },
+    {
+      "name": "Templestowe Lower",
+      "lga": "Manningham",
+      "postcode": 3107
+    },
+    {
+      "name": "Bulleen",
+      "lga": "Manningham",
+      "postcode": 3105
+    },
+    {
+      "name": "Tarneit",
+      "lga": "Wyndham",
+      "postcode": 3029
+    },
+    {
+      "name": "Point Cook",
+      "lga": "Wyndham",
+      "postcode": 3030
+    },
+    {
+      "name": "Truganina",
+      "lga": "Melton",
+      "postcode": 3029
+    },
+    {
+      "name": "Hoppers Crossing",
+      "lga": "Wyndham",
+      "postcode": 3029
+    },
+    {
+      "name": "Wyndham Vale",
+      "lga": "Wyndham",
+      "postcode": 3024
+    },
+    {
+      "name": "Hampton Park",
+      "lga": "Casey",
+      "postcode": 3976
+    },
+    {
+      "name": "Cranbourne East",
+      "lga": "Casey",
+      "postcode": 3977
+    },
+    {
+      "name": "Berwick",
+      "lga": "Casey",
+      "postcode": 3806
+    },
+    {
+      "name": "Narre Warren South",
+      "lga": "Casey",
+      "postcode": 3805
+    },
+    {
+      "name": "Cranbourne North",
+      "lga": "Casey",
+      "postcode": 3977
+    },
+    {
+      "name": "Noble Park",
+      "lga": "Greater Dandenong",
+      "postcode": 3174
+    },
+    {
+      "name": "Dandenong",
+      "lga": "Greater Dandenong",
+      "postcode": 3175
+    },
+    {
+      "name": "Springvale",
+      "lga": "Greater Dandenong",
+      "postcode": 3171
+    },
+    {
+      "name": "Keysborough",
+      "lga": "Greater Dandenong",
+      "postcode": 3173
+    },
+    {
+      "name": "Dandenong North",
+      "lga": "Greater Dandenong",
+      "postcode": 3175
+    },
+    {
+      "name": "Epping",
+      "lga": "Whittlesea",
+      "postcode": 3076
+    },
+    {
+      "name": "Wollert",
+      "lga": "Whittlesea",
+      "postcode": 3750
+    },
+    {
+      "name": "South Morang",
+      "lga": "Whittlesea",
+      "postcode": 3752
+    },
+    {
+      "name": "Lalor",
+      "lga": "Whittlesea",
+      "postcode": 3075
+    },
+    {
+      "name": "Thomastown",
+      "lga": "Whittlesea",
+      "postcode": 3074
+    },
+    {
+      "name": "Donvale",
+      "lga": "Manningham",
+      "postcode": 3111
+    },
+    {
+      "name": "Mill Park",
+      "lga": "Whittlesea",
+      "postcode": 3082
+    },
+    {
+      "name": "Mitcham",
+      "lga": "Whitehorse",
+      "postcode": 3132
+    },
+    {
+      "name": "Nunawading",
+      "lga": "Manningham",
+      "postcode": 3131
+    },
+    {
+      "name": "Forest Hill",
+      "lga": "Whitehorse",
+      "postcode": 3131
+    },
+    {
+      "name": "Blackburn",
+      "lga": "Whitehorse",
+      "postcode": 3130
+    },
+    {
+      "name": "Blackburn North",
+      "lga": "Whitehorse",
+      "postcode": 3130
+    },
+    {
+      "name": "Narre Warren",
+      "lga": "Casey",
+      "postcode": 3805
+    },
+    {
+      "name": "Doveton",
+      "lga": "Casey",
+      "postcode": 3177
+    },
+    {
+      "name": "Endeavour Hills",
+      "lga": "Casey",
+      "postcode": 3802
+    }
+  ]
+}

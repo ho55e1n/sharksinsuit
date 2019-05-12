@@ -1,0 +1,129 @@
+{% extends 'layout.html' %}
+
+<body>
+  {% include 'includes/_navbar.html' %} {% block body %}
+
+  <header>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+          <style>
+              /* Slideshow container */
+              .carousel-inner{
+                  max-width: auto;
+                  max-height:600px;
+              }
+          .carousel-caption {
+              top: 35%;
+              bottom: auto;
+          }
+          .container {
+              position: relative;
+              max-width: auto;
+              margin: 0 auto;
+          }
+
+          .container .content {
+              position: relative;
+              bottom: 0;
+              background: rgb(0, 0, 0); /* Fallback color */
+              background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+              color: #f1f1f1;
+           
+              padding: 20px;
+          }
+          
+          </style>
+</header>
+  <div class="container" style="margin-top: 60px;" >
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <a href = "#community"><img class="d-block w-100" src="/static/assets/img/community.jpg" alt="First slide"></a>
+                  <div class="carousel-caption" >
+                      <div class="container">
+                          <div class="content">
+                              <a href = "#community"><h3>Community</h3></a>
+                      <p>Community page describtion</p>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+          <div class="carousel-item">
+              <a href = "/events-default"><img class="d-block w-100" src="/static/assets/img/events.jpg" alt="Second slide"></a>
+                  <div class="carousel-caption" >
+                        <div class="container">
+                            <div class="content">
+                          <a href = "/events-default"><h3>Events</h3></a>
+                          <p>Events page describtion</p>
+                            </div>
+                        </div>
+                  </div>
+                  </div>
+          <div class="carousel-item">
+              <a href = "/comparetwo"><img class="d-block w-100" src="/static/assets/img/suburb.jpg" alt="Third slide"></a>
+                  <div class="carousel-caption" >
+                      <div class="container">
+                          <div class="content">
+                              <a href = "/comparetwo"><h3>Compare Councils</h3></a>
+                              <p>Compare Councils page describtion</p>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+          <div class="carousel-item">
+              <a href = "/"><img class="d-block w-100" src="/static/assets/img/culture.jpg" alt="Fourth slide"></a>
+                  <div class="carousel-caption" >
+                      <div class="container">
+                          <div class="content">
+                              <a href = "/"><h3>Culture</h3></a>
+                              <p>Culture page describtion</p>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a>
+  </div>
+</div>
+<div class="container">
+    <h1 class="text-center" style="margin-top: 139px;" id = "community">Select Your Community</h1>
+    <div class="row" style="height: 100%;">
+        <div class="col">
+            <div class="card-group">
+                <div class="card"><img class="card-img-top w-100 d-block" src="static/assets/img/Philippines-CNY.jpg" style="height: 244px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Chineses Community</h4>
+                        <p class="card-text">Chinese migrants have been arriving in Victoria since the gold rush of the 1850s. They are now a big part of Melbourne’s growing population, so much so that the number of Chinese-born migrants living in Melbourne has more than
+                            doubled since 2001.</p><a class="btn btn-primary" role="button" href="profile-China">Explore More</a></div>
+                </div>
+                <div class="card"><img class="card-img-top w-100 d-block" src="static/assets/img/family-deewali.jpg" style="height: 244px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Indian Community</h4>
+                        <p class="card-text">Melbourne has a vibrant Indian community with Indian-born migrants making up 3 per cent of Melbourne’s total population. Since 2001 the number of Indian-born migrants in Melbourne has more than tripled.</p><a class="btn btn-primary"
+                            role="button" style="margin-top: 18px;" href="profile-India">Explore More</a></div>
+                </div>
+                <div class="card"><img class="card-img-top w-100 d-block" src="static/assets/img/436064.jpg" style="height: 244px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Iranian Community</h4>
+                        <p class="card-text">More than 16,000 Persians live in Victoria by 2016, and the number is doubled compare to 2011, Persians love Melbourne’s work/life balance and enjoy the great outdoors and Melbourne’s climate。&nbsp;<br></p><a class="btn btn-primary"
+                            role="button" style="margin-top: 14px;" href="profile-Iran">Explore More</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  </div>
+  {% endblock %}
+</body>
