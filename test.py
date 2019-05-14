@@ -167,6 +167,11 @@ def success():
     return render_template("comparetwo.html")
 
 
+@app.route('/quiz-all')
+def quiz():
+    return render_template('quiz.html')
+
+
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html'), 404
