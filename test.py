@@ -1,6 +1,7 @@
 from flask import Flask, render_template, url_for, redirect, request
 import json
 import os
+import requests
 
 
 script_dir = os.path.dirname(__file__)
@@ -18,6 +19,24 @@ def readJsonFile(filename):
 
 
 filename = readJsonFile(abs_file_path)
+
+
+url_head = "https://www.eventbriteapi.com/v3/events/"
+url_body = "/?expand=venue&token="
+token = "CR32Z5HAAMMYMKZE6CAT"
+
+
+def update_events_locations(events_dic):
+    for x in events_dic:
+        url = url_head + str(x['id']) + url_body + token
+        response = requests.get(url).json()
+        # response_dic = json.loads(response)
+        # print(response['venue']['address']['localized_address_display'])
+        location = response['venue']['address']['localized_address_display']
+        x['location'] = location
+        # print(x)
+        # print('\n ')
+    return events_dic
 
 
 def getByNationality(filename, countryname):
@@ -41,7 +60,9 @@ china = getByNationality(filename, "China")
 india = getByNationality(filename, "India")
 iran = getByNationality(filename, "Iran")
 suburbs_info = readJsonFile('data.txt')['all_suburbs']
-chinese_events_info = readJsonFile('chinese_events.txt')['events']
+# chinese_events_info = readJsonFile('chinese_events.txt')['events']
+chinese_events_info = readJsonFile('event_updated_chinese.txt')
+
 indian_events_info = readJsonFile('indian_events.txt')['events']
 iranian_events_info = readJsonFile('iranian_events.txt')['events']
 rent_lga = readJsonFile("LGA rent.txt")['lga']
@@ -170,6 +191,21 @@ def success():
 @app.route('/quiz-all')
 def quiz():
     return render_template('quiz.html')
+
+
+@app.route('/quiz-transport')
+def quiz_transport():
+    return render_template('quiz.html')
+
+
+@app.route('/quiz-language')
+def quiz_language():
+    return render_template('quiz.html')
+
+
+@app.route('/learnmore')
+def learn_more():
+    return render_template('learnMore.html')
 
 
 @app.errorhandler(404)

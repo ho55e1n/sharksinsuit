@@ -23,12 +23,42 @@ var questions = [
     "Which one is not correct5",
     ["MVC", "C", "Haskell", "javascript"],
     "MVC"
+  ),
+  new Question(
+    "Who own the world’s largest tram network?",
+    ["Victoria Trams", "Yarra Trams", "Metropolitan Trains", "V/Line"],
+    "Yarra Trams"
+  ),
+  new Question(
+    "Which card is used to travel around Melbourne?",
+    ["Go Card", "Myki Card", "Money Card", "Oyster Card"],
+    "Myki Card"
+  ),
+  new Question(
+    "Which airport is Victoria’s major domestic and international gateway?",
+    [
+      "Avalon Airport",
+      "Tullamarine Airport",
+      "Moorabbin Airport ",
+      "Essendon Airport"
+    ],
+    "Tullamarine Airport"
   )
 ];
 
-questions = questions.slice(2, 5);
-var url = window.location.pathname;
-console.log(url);
+// var url = window.location.pathname;
+// console.log(url);
+// console.log(url == "/quiz-language");
+// console.log(questions.length);
+
+if (window.location.pathname == "/quiz-language") {
+  questions = questions.slice(0, 5);
+}
+
+if (window.location.pathname == "/quiz-transport") {
+  questions = questions.slice(5, 8);
+}
+
 var quiz = new Quiz(questions);
 
 function populate() {
@@ -68,6 +98,7 @@ function guess(id, guess) {
 function showScores() {
   var gameOverHtml = "<h1>Result</h>";
   gameOverHtml += "<h2 id='score'>Your scores: " + quiz.score + "</h2>";
+  gameOverHtml += "<a class='btn btn-dark btn-lg' href='learnmore'>Exit</a>";
   var elemet = document.getElementById("quiz");
   elemet.innerHTML = gameOverHtml;
 }
