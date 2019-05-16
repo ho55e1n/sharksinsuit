@@ -39,6 +39,14 @@ def update_events_locations(events_dic):
     return events_dic
 
 
+def event_filter_by_nationality(events, nationality):
+    res = []
+    for event in events:
+        if event['community'] == nationality:
+            res.append(event)
+    return res
+
+
 def getByNationality(filename, countryname):
     output = []
 
@@ -61,10 +69,12 @@ india = getByNationality(filename, "India")
 iran = getByNationality(filename, "Iran")
 suburbs_info = readJsonFile('data.txt')['all_suburbs']
 # chinese_events_info = readJsonFile('chinese_events.txt')['events']
-chinese_events_info = readJsonFile('event_updated_chinese.txt')
+events_all = readJsonFile("events_updated.txt")
 
-indian_events_info = readJsonFile('indian_events.txt')['events']
-iranian_events_info = readJsonFile('iranian_events.txt')['events']
+# chinese_events_info = readJsonFile('event_updated_chinese.txt')
+
+# indian_events_info = readJsonFile('indian_events.txt')['events']
+# iranian_events_info = readJsonFile('iranian_events.txt')['events']
 rent_lga = readJsonFile("LGA rent.txt")['lga']
 lga_final = readJsonFile("LGA_COMPARE_FINAL.json.txt")['lga']
 lga_name_list = list(map(get_header, lga_final))
@@ -131,27 +141,34 @@ def events(name):
 
 @app.route('/events_chinese')
 def events_chinese():
-    return render_template('events_chinese.html', events=chinese_events_info)
+    my_events = event_filter_by_nationality(events_all, "Chinese")
+    return render_template('events-new.html', events=my_events)
 
 
 @app.route('/events_iranian')
 def events_iranian():
-    return render_template('events_iranian.html', events=iranian_events_info)
+    my_events = event_filter_by_nationality(events_all, "Iranian")
+    return render_template('events-new.html', events=my_events)
 
 
 @app.route('/events_indian')
 def events_indian():
-    return render_template('events_indian.html', events=indian_events_info)
+    my_events = event_filter_by_nationality(events_all, "Indian")
+    return render_template('events-new.html', events=my_events)
 
 
-@app.route('/events-new')
-def events_new():
-    return render_template('events-new.html', events=chinese_events_info)
+# @app.route('/events-new/<name>')
+# def events_new(name):
+#     if name == "Chinese":
+#         my_events = event_filter_by_nationality(events_all, "Chinese")
+#         return render_template('events-new.html', events=my_events)
+
+#     return render_template('events-new.html', events=chinese_events_info)
 
 
-@app.route('/test')
-def testing_page():
-    return render_template('untitled.html', events=chinese_events_info)
+# @app.route('/test')
+# def testing_page():
+#     return render_template('untitled.html', events=chinese_events_info)
 
 
 @app.route('/compare')
@@ -195,6 +212,16 @@ def quiz():
 
 @app.route('/quiz-transport')
 def quiz_transport():
+    return render_template('quiz.html')
+
+
+@app.route('/quiz-sport')
+def quiz_sport():
+    return render_template('quiz.html')
+
+
+@app.route('/quiz-culture')
+def quiz_culture():
     return render_template('quiz.html')
 
 

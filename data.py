@@ -80,7 +80,7 @@ url_body = "/?expand=venue&token="
 token = "CR32Z5HAAMMYMKZE6CAT"
 
 
-def update_events_locations(events_dic, nationality):
+def update_events_locations(events_dic):
     for x in events_dic:
         url = url_head + str(x['id']) + url_body + token
         response = requests.get(url).json()
@@ -93,7 +93,7 @@ def update_events_locations(events_dic, nationality):
             x['location'] = location
         print(x)
         print('\n ')
-    with open('event_updated_' + nationality + '.txt', 'w') as outfile:
+    with open('events_updated' + '.txt', 'w') as outfile:
         json.dump(events_dic, outfile, indent=4)
 
 
@@ -131,5 +131,20 @@ def update_events_locations(events_dic, nationality):
 
 # print(os.path.dirname(os.path.abspath(__file__)))
 
-events = readJsonFile("event_updated_chinese.txt")
-print(events[0]['logo'])
+# events = readJsonFile("event_updated_chinese.txt")
+# print(events[0]['logo'])
+
+events_all = readJsonFile("Events_final.json")
+# update_events_locations(events_all)
+# print(json.dumps(events_all, indent=4))
+
+
+def event_filter_by_nationality(events, nationality):
+    res = []
+    for event in events:
+        if event['community'] == nationality:
+            res.append(event)
+    return res
+
+
+print(len(event_filter_by_nationality(events_all, "Indian")))

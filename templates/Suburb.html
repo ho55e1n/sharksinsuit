@@ -1,575 +1,363 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-    />
-    <title>index-2</title>
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='assets/bootstrap/css/bootstrap.min.css') }}"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"
-    />
 
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='assets/fonts/font-awesome.min.css') }}"
-    />
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='assets/css/Navigation-Clean.css') }}"
-    />
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <title>index-2</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='assets/bootstrap/css/bootstrap.min.css') }}" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" />
 
-  <body
-    class="align-self-center"
-    style="background-repeat: no-repeat;background-attachment: fixed;background-image: url(&quot;{{ url_for('static', filename='assets/img/bg-masthead.jpg') }}&quot;);width: 100%;"
-  >
-    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
-      <div class="container">
-        <img
-          src="{{ url_for('static', filename='assets/img/shark.jpeg') }}"
-          style="width: 80px;"
-        /><a class="navbar-brand" href="/">Connect to your Community</a
-        ><button
-          data-toggle="collapse"
-          class="navbar-toggler"
-          data-target="#navcol-1"
-        >
-          <span class="sr-only">Toggle navigation</span
-          ><span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navcol-1">
-          <ul class="nav navbar-nav ml-auto">
-            <li class="nav-item" role="presentation">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item" role="presentation">
-              <a class="nav-link" href="/events-default">Events</a>
-            </li>
-            <li class="nav-item" role="presentation">
-              <a class="nav-link" href="/comparetwo">Compare</a>
-            </li>
-          </ul>
+  <link rel="stylesheet" href="{{ url_for('static', filename='assets/fonts/font-awesome.min.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/Navigation-Clean.css') }}" />
+</head>
+
+<body class="align-self-center"
+  style="background-repeat: no-repeat;background-attachment: fixed;background-image: url(&quot;{{ url_for('static', filename='assets/img/bg-masthead.jpg') }}&quot;);width: 100%;">
+  <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+    <div class="container">
+      <img src="{{ url_for('static', filename='assets/img/shark.jpeg') }}" style="width: 80px;" /><a
+        class="navbar-brand" href="/">Connect to your Community</a><button data-toggle="collapse" class="navbar-toggler"
+        data-target="#navcol-1">
+        <span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navcol-1">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" href="/events-default">Events</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" href="/comparetwo">Compare</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" id="MainTitle" style="background-color: transparent; ;height: 115px;">
+    <div class="row" style="margin-top: 30px;">
+      <div class="col mx-auto">
+        <h1 class="text-center" style="margin-left: 0;">
+          {{ lga["LGA Name"] }} City Council
+        </h1>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="SuburbGlanceContainer"
+    style="background-color: transparent;width: 100%;margin:0 auto;height: 100%;">
+    <div class="row" style="width: 100%;">
+      <div class="col-xl-5" style="width: 100%;">
+        <h3 style="margin-top: 55px;width: 100%;">Geographic Profile</h3>
+        <div class="row" id="LGAGeoProfile"
+          style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;width: 100%;">
+          <div class="col d-block" id="FirstResidentColumn"
+            style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 200px;">
+            <div class="row"
+              style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);">
+              <div class="col-sm-12 mx-auto">
+                <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;">
+                  <i class="fa fa-map-signs"></i><strong>&nbsp; {{ lga["Distance to Melbourne"] }}</strong>
+                </p>
+                <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;">
+                  Kilometers to Melbourne City
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col" id="SecondResidentCountry"
+            style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+            <div class="row"
+              style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);">
+              <div class="col mx-auto">
+                <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;">
+                  <i class="fa fa-car"></i><strong>&nbsp; {{ lga["Travel time to Melbourne"] }}</strong>
+                </p>
+                <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;">
+                  Driving time from Melbourne City
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-
-    <div
-      class="container"
-      id="MainTitle"
-      style="background-color: transparent; ;height: 115px;"
-    >
-      <div class="row" style="margin-top: 30px;">
-        <div class="col mx-auto">
-          <h1 class="text-center" style="margin-left: 0;">
-             {{ lga["LGA Name"] }} City Council
-          </h1>
+      <div class="col" style="height: 100%;width: 100%;"></div>
+      <div class="col-sm-3 col-xl-5" style="width: 100%;height: 100%;">
+        <h3 style="margin-top: 55px;">Economic Profile&nbsp;</h3>
+        <div class="row" id="EcoProfile"
+          style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;">
+          <div class="col d-block" id="FirstResidentColumn"
+            style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+            <div class="row"
+              style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);">
+              <div class="col-sm-auto mx-auto">
+                <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;">
+                  <i class="fa fa-frown-o"></i><strong>&nbsp; {{ lga["Unemployment rate"] }}</strong>
+                </p>
+                <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;">
+                  Of residents don't have a job
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col" id="SecondResidentCountry"
+            style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+            <div class="row"
+              style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);">
+              <div class="col mx-auto">
+                <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;">
+                  <i class="fa fa-chevron-down"></i><strong>&nbsp; {{ lga["Unemployment rate (rank)"] }}</strong>
+                </p>
+                <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;">
+                  Ranked of all council
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div
-      class="container"
-      id="SuburbGlanceContainer"
-      style="background-color: transparent;width: 100%;margin:0 auto;height: 100%;"
-    >
-      <div class="row" style="width: 100%;">
-        <div class="col-xl-5" style="width: 100%;">
-          <h3 style="margin-top: 55px;width: 100%;">Geographic Profile</h3>
-          <div
-            class="row"
-            id="LGAGeoProfile"
-            style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;width: 100%;"
-          >
-            <div
-              class="col d-block"
-              id="FirstResidentColumn"
-              style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 200px;"
-            >
-              <div
-                class="row"
-                style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);"
-              >
-                <div class="col-sm-12 mx-auto">
-                  <p
-                    style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"
-                  >
-                    <i class="fa fa-map-signs"></i
-                    ><strong>&nbsp; {{ lga["Distance to Melbourne"] }}</strong>
-                  </p>
-                  <p
-                    style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
-                  >
-                    Kilometers to Melbourne City
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col"
-              id="SecondResidentCountry"
-              style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-            >
-              <div
-                class="row"
-                style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);"
-              >
-                <div class="col mx-auto">
-                  <p
-                    style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"
-                  >
-                    <i class="fa fa-car"></i
-                    ><strong
-                      >&nbsp; {{ lga["Travel time to Melbourne"] }}</strong
-                    >
-                  </p>
-                  <p
-                    style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
-                  >
-                    Driving time from Melbourne City
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col" style="height: 100%;width: 100%;"></div>
-        <div class="col-sm-3 col-xl-5" style="width: 100%;height: 100%;">
-          <h3 style="margin-top: 55px;">Economic Profile&nbsp;</h3>
-          <div
-            class="row"
-            id="EcoProfile"
-            style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;"
-          >
-            <div
-              class="col d-block"
-              id="FirstResidentColumn"
-              style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-            >
-              <div
-                class="row"
-                style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);"
-              >
-                <div class="col-sm-auto mx-auto">
-                  <p
-                    style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"
-                  >
-                    <i class="fa fa-frown-o"></i
-                    ><strong>&nbsp; {{ lga["Unemployment rate"] }}</strong>
-                  </p>
-                  <p
-                    style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
-                  >
-                    Of residents don't have a job
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col"
-              id="SecondResidentCountry"
-              style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-            >
-              <div
-                class="row"
-                style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);"
-              >
-                <div class="col mx-auto">
-                  <p
-                    style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"
-                  >
-                    <i class="fa fa-chevron-down"></i
-                    ><strong
-                      >&nbsp; {{ lga["Unemployment rate (rank)"] }}</strong
-                    >
-                  </p>
-                  <p
-                    style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
-                  >
-                    Ranked of all council
-                  </p>
-                </div>
-              </div>
-            </div>
+    <h3 style="margin-top: 55px;">Where are most resident from?</h3>
+    <div class="row" id="Top5ResidentRow"
+      style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;">
+      <div class="col d-block" id="FirstResidentColumn"
+        style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+        <div class="row"
+          style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);">
+          <div class="col-sm-auto mx-auto" style="margin: 0px;margin-left: 0px;margin-right: 0px;width: 138.5px;">
+            <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;">
+              <strong>&nbsp;
+                {{
+                    lga["Top 5 overseas countries of birth - country 1"]
+                  }}&nbsp;</strong>
+            </p>
+            <p style="margin-bottom: 18px;margin-left: 25px;margin-top: 0px;">
+              {{ lga["Top 5 overseas countries of birth (%) - country 1"] }}
+            </p>
+            <img />
           </div>
         </div>
       </div>
-      <h3 style="margin-top: 55px;">Where are most resident from?</h3>
-      <div
-        class="row"
-        id="Top5ResidentRow"
-        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;"
-      >
-        <div
-          class="col d-block"
-          id="FirstResidentColumn"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div
-              class="col-sm-auto mx-auto"
-              style="margin: 0px;margin-left: 0px;margin-right: 0px;width: 153px;"
-            >
-              <p
-                style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"
-              >
-                <strong
-                  >&nbsp;
-                  {{
-                    lga["Top 5 overseas countries of birth - country 1"]
-                  }}&nbsp;</strong
-                >
-              </p>
-              <p style="margin-bottom: 18px;margin-left: 25px;margin-top: 0px;">
-                {{ lga["Top 5 overseas countries of birth (%) - country 1"] }}
-              </p>
-              <img />
-            </div>
-          </div>
-        </div>
-        <div
-          class="col"
-          id="SecondResidentCountry"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div class="col mx-auto">
-              <p
-                style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"
-              >
-                <strong>{{
+      <div class="col" id="SecondResidentCountry"
+        style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+        <div class="row"
+          style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);">
+          <div class="col mx-auto">
+            <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;">
+              <strong>{{
                   lga["Top 5 overseas countries of birth - country 2"]
                 }}</strong>
-              </p>
-              <p
-                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
-              >
-                {{ lga["Top 5 overseas countries of birth (%) - country 2"] }}
-              </p>
-              <img />
-            </div>
+            </p>
+            <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;">
+              {{ lga["Top 5 overseas countries of birth (%) - country 2"] }}
+            </p>
+            <img />
           </div>
         </div>
-        <div
-          class="col"
-          id="SecondResidentCountry"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div class="col mx-auto">
-              <p
-                style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"
-              >
-                <strong
-                  >&nbsp;{{
+      </div>
+      <div class="col" id="SecondResidentCountry"
+        style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+        <div class="row"
+          style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);">
+          <div class="col mx-auto">
+            <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;">
+              <strong>&nbsp;{{
                     lga["Top 5 overseas countries of birth - country 3"]
-                  }}</strong
-                >
-              </p>
-              <p
-                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
-              >
-                {{ lga["Top 5 overseas countries of birth (%) country 3"] }}
-              </p>
-              <img />
-            </div>
+                  }}</strong>
+            </p>
+            <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;">
+              {{ lga["Top 5 overseas countries of birth (%) country 3"] }}
+            </p>
+            <img />
           </div>
         </div>
-        <div
-          class="col"
-          id="SecondResidentCountry"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div class="col mx-auto">
-              <p
-                style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"
-              >
-                <strong
-                  >&nbsp;{{
+      </div>
+      <div class="col" id="SecondResidentCountry"
+        style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+        <div class="row"
+          style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);">
+          <div class="col mx-auto">
+            <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;">
+              <strong>&nbsp;{{
                     lga["Top 5 overseas countries of birth - country 4"]
-                  }}</strong
-                >
-              </p>
-              <p
-                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
-              >
-                {{ lga["Top 5 overseas countries of birth (%) - country 4"] }}
-              </p>
-              <img />
-            </div>
+                  }}</strong>
+            </p>
+            <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;">
+              {{ lga["Top 5 overseas countries of birth (%) - country 4"] }}
+            </p>
+            <img />
           </div>
         </div>
-        <div
-          class="col"
-          id="SecondResidentCountry"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div class="col mx-auto">
-              <p
-                style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"
-              >
-                <strong>{{
+      </div>
+      <div class="col" id="SecondResidentCountry"
+        style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+        <div class="row"
+          style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);">
+          <div class="col mx-auto">
+            <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;">
+              <strong>{{
                   lga["Top 5 overseas countries of birth - country 5"]
                 }}</strong>
-              </p>
-              <p
-                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
-              ></p>
-              {{ lga["Top 5 overseas countries of birth (%) - country 5"]
+            </p>
+            <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"></p>
+            {{ lga["Top 5 overseas countries of birth (%) - country 5"]
               }}<img />
-            </div>
           </div>
         </div>
       </div>
-      <h3 style="margin-top: 55px;width: 100%;height: 100%;">
-        Top 5 language other than English
-      </h3>
-      <div
-        class="row"
-        id="Top5LanguageOtherThanEnglish"
-        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;"
-      >
-        <div
-          class="col"
-          id="FirstResidentColumn"
-          style="margin-top: 1px;border-style: solid;border-color: transparent; border-width: 4px;padding: 0;background-color: transparent;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div class="col">
-              <p
-                style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"
-              >
-                <strong>{{
+    </div>
+    <h3 style="margin-top: 55px;width: 100%;height: 100%;">
+      Top 5 language other than English
+    </h3>
+    <div class="row" id="Top5LanguageOtherThanEnglish"
+      style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: auto;">
+      <div class="col" id="FirstResidentColumn"
+        style="margin-top: 1px;border-style: solid;border-color: transparent; border-width: 4px;padding: 0;background-color: transparent;">
+        <div class="row"
+          style="margin-right: 0px;margin-left: 0;height: 120px;background-color: rgba(221,221,221,0.6);">
+          <div class="col">
+            <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;">
+              <strong>{{
                   lga["Top 5 languages other than English - language 1"]
                 }}</strong>
-              </p>
-              <p
-                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
-              ></p>
-            </div>
+            </p>
+            <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"></p>
           </div>
         </div>
-        <div
-          class="col"
-          id="SecondResidentCountry"
-          style="margin-top: 1px;border-style: solid;border-color: transparent; border-width: 4px;padding: 0;background-color: transparent;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div class="col">
-              <p
-                style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"
-              >
-                <strong>{{
+      </div>
+      <div class="col" id="SecondResidentCountry"
+        style="margin-top: 1px;border-style: solid;border-color: transparent; border-width: 4px;padding: 0;background-color: transparent;">
+        <div class="row"
+          style="margin-right: 0px;margin-left: 0;height: 120px;background-color: rgba(221,221,221,0.6);">
+          <div class="col">
+            <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;">
+              <strong>{{
                   lga["Top 5 languages other than English - language 2"]
                 }}</strong>
-              </p>
-              <p
-                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
-              ></p>
-            </div>
+            </p>
+            <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"></p>
           </div>
         </div>
-        <div
-          class="col"
-          id="ThirdResidentCountry"
-          style="margin-top: 1px;border-style: solid;border-color: transparent; border-width: 4px;padding: 0;background-color: transparent;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div class="col">
-              <p
-                style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"
-              >
-                <strong>{{
+      </div>
+      <div class="col" id="ThirdResidentCountry"
+        style="margin-top: 1px;border-style: solid;border-color: transparent; border-width: 4px;padding: 0;background-color: transparent;">
+        <div class="row"
+          style="margin-right: 0px;margin-left: 0;height: 120px;background-color: rgba(221,221,221,0.6);">
+          <div class="col">
+            <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;">
+              <strong>{{
                   lga["Top 5 languages other than English - language 3"]
                 }}</strong>
-              </p>
-              <p
-                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
-              ></p>
-            </div>
+            </p>
+            <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"></p>
           </div>
         </div>
-        <div
-          class="col"
-          id="ForthResidentCountry"
-          style="margin-top: 1px;border-style: solid;border-color: transparent; border-width: 4px;padding: 0;background-color: transparent;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div class="col">
-              <p
-                style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"
-              >
-                <strong>{{
+      </div>
+      <div class="col" id="ForthResidentCountry"
+        style="margin-top: 1px;border-style: solid;border-color: transparent; border-width: 4px;padding: 0;background-color: transparent;">
+        <div class="row"
+          style="margin-right: 0px;margin-left: 0;height: 120px;background-color: rgba(221,221,221,0.6);">
+          <div class="col">
+            <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;">
+              <strong>{{
                   lga["Top 5 languages other than English - language 4"]
                 }}</strong>
-              </p>
-              <p
-                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
-              ></p>
-            </div>
+            </p>
+            <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"></p>
           </div>
         </div>
-        <div
-          class="col"
-          id="FifthResidentCountry"
-          style="margin-top: 1px;border-style: solid;border-color: transparent; border-width: 4px;padding: 0;background-color: transparent;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div class="col">
-              <p
-                style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"
-              >
-                <strong>{{
+      </div>
+      <div class="col" id="FifthResidentCountry"
+        style="margin-top: 1px;border-style: solid;border-color: transparent; border-width: 4px;padding: 0;background-color: transparent;">
+        <div class="row"
+          style="margin-right: 0px;margin-left: 0;height: 120px;background-color: rgba(221,221,221,0.6);">
+          <div class="col">
+            <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;">
+              <strong>{{
                   lga["Top 5 languages other than English - language 5"]
                 }}</strong>
-              </p>
-              <p
-                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
-              ></p>
-            </div>
+            </p>
+            <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"></p>
           </div>
         </div>
       </div>
-      <div class="row" style="margin: 36px;width: 100%;"></div>
-      <h3 id="glancetitle" style="margin-top: 55px;width: 100%;height: 100%;">
-        More about {{ lga["LGA Name"] }}
-      </h3>
-      <div
-        class="row"
-        id="RentalTitleRow"
-        style="margin-left: 15px;margin-right: 15px;"
-      >
-        <div class="col" style="margin-top: 25px;">
-          <h4 style="margin-left: 35px;">
-            <i class="fa fa-home"></i>Weekly Rental Price
-          </h4>
-          <hr
-            style="margin-top: -2px;margin-right: -283px;width: 210px;margin-left: 30px;background-color: #2b2b28;height: 2px;margin-bottom: 8px;"
-          />
-        </div>
+    </div>
+    <div class="row" style="margin: 36px;width: 100%;"></div>
+    <h3 id="glancetitle" style="margin-top: 55px;width: 100%;height: 100%;">
+      More about {{ lga["LGA Name"] }}
+    </h3>
+    <div class="row" id="RentalTitleRow" style="margin-left: 15px;margin-right: 15px;">
+      <div class="col" style="margin-top: 25px;">
+        <h4 style="margin-left: 35px;">
+          <i class="fa fa-home"></i>Weekly Rental Price
+        </h4>
+        <hr
+          style="margin-top: -2px;margin-right: -283px;width: 210px;margin-left: 30px;background-color: #2b2b28;height: 2px;margin-bottom: 8px;" />
       </div>
-      <div
-        class="row"
-        id="RentalDetailes"
-        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;"
-      >
-        <div
-          class="col-3 col-sm-9 col-lg-3 col-xl-3 d-block"
-          id="FirstResidentColumn"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div class="col mx-auto">
-              <p style="margin-top: 25px;margin-left: 7px;font-size: 20px;">
-                <strong
-                  >Select
-                  <span style="text-decoration: underline;">Propery Type</span>
-                  to see property with 1-4 bedrooms;</strong
-                >
-              </p>
-              <p style="margin-top: 25px;margin-left: 7px;font-size: 20px;">
-                <strong
-                  >See the rental price trend from
-                  <span style="text-decoration: underline;">1999</span> to
-                  <span style="text-decoration: underline;">2017;</span></strong
-                >
-              </p>
-              <p style="margin-top: 25px;margin-left: 7px;font-size: 20px;">
-                <strong
-                  >See the rental price Estimation from
-                  <span style="text-decoration: underline;">2018</span>&nbsp;to
-                  <span style="text-decoration: underline;">2020;</span></strong
-                >
-              </p>
-            </div>
+    </div>
+    <div class="row" id="RentalDetailes"
+      style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: auto;">
+      <div class="col-12 col-sm-9 col-lg-3 col-xl-3 d-block" id="FirstResidentColumn"
+        style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: auto;">
+        <div class="row"
+          style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
+          <div class="col mx-auto">
+            <p style="margin-top: 25px;margin-left: 7px;font-size: 20px;">
+              <strong>Select
+                <span style="text-decoration: underline;">Propery Type</span>
+                to see property with 1-4 bedrooms;</strong>
+            </p>
+            <p style="margin-top: 25px;margin-left: 7px;font-size: 20px;">
+              <strong>See the rental price trend from
+                <span style="text-decoration: underline;">1999</span> to
+                <span style="text-decoration: underline;">2017;</span></strong>
+            </p>
+            <p style="margin-top: 25px;margin-left: 7px;font-size: 20px;">
+              <strong>See the rental price Estimation from
+                <span style="text-decoration: underline;">2018</span>&nbsp;to
+                <span style="text-decoration: underline;">2020;</span></strong>
+            </p>
           </div>
         </div>
-        <!-- {{lga['RentName']}}
+      </div>
+      <!-- {{lga['RentName']}}
             {{lga['RentID']}} -->
 
-        <div
-          class="col-lg-9 col-xl-9"
-          id="SecondResidentCountry"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row justify-content-center"
-            style="margin-right: 0px;margin-left: 0;width: 800px;height: 500px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div class='tableauPlaceholder' id='{{ lga["RentID"] }}'
-            style='position: relative'><noscript
-              ><a href="#"
-                ><img alt=' '
-                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;We&#47;{{
+      <div class="col-lg-9 col-xl-9" id="SecondResidentCountry"
+        style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+        <div class="row justify-content-center"
+          style="margin-right: 0px;margin-left: 0;width: 800px;height: 500px;background-color: rgba(221,221,221,0.6);">
+          <div class='tableauPlaceholder' id='{{ lga["RentID"] }}' style='position: relative'><noscript><a href="#"><img
+                  alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;We&#47;{{
                   lga["RentName"]
-                }}&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a
-              ></noscript
-            ><object class="tableauViz" style="display:none;"
-              ><param
-                name="host_url"
-                value="https%3A%2F%2Fpublic.tableau.com%2F"/>
-              <param name="embed_code_version" value="3"/>
-              <param name="site_root" value=""/><param name='name' value='{{
+                }}&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class="tableauViz"
+              style="display:none;">
+              <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+              <param name="embed_code_version" value="3" />
+              <param name="site_root" value="" />
+              <param name='name' value='{{
                 lga["RentName"]
-              }}&#47;Dashboard1' /><param name="tabs" value="no"/><param
-                name="toolbar"
-                value="yes"/><param name='static_image'
-              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;We&#47;{{lga["RentName"]}}&#47;Dashboard1&#47;1.png' />
-              <param name="animate_transition" value="yes"/><param
-                name="display_static_image"
-                value="yes"/><param name="display_spinner" value="yes"/><param
-                name="display_overlay"
-                value="yes"/><param name="display_count" value="yes"/><param
-                name="filter"
-                value="publish=yes"
-            /></object>
+              }}&#47;Dashboard1' />
+              <param name="tabs" value="no" />
+              <param name="toolbar" value="yes" />
+              <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;We&#47;{{lga["RentName"]}}&#47;Dashboard1&#47;1.png' />
+              <param name="animate_transition" value="yes" />
+              <param name="display_static_image" value="yes" />
+              <param name="display_spinner" value="yes" />
+              <param name="display_overlay" value="yes" />
+              <param name="display_count" value="yes" />
+              <param name="filter" value="publish=yes" /></object>
           </div>
           <script type="text/javascript">
             var divElement = document.getElementById("{{ lga['RentID'] }}");
             var vizElement = divElement.getElementsByTagName('object')[0];
-            if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='527px';}
-            else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='527px';}
-            else { vizElement.style.width='100%';vizElement.style.height='727px';}
+            if (divElement.offsetWidth > 800) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; }
+            else if (divElement.offsetWidth > 500) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; }
+            else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; }
             var scriptElement = document.createElement('script');
             scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
             vizElement.parentNode.insertBefore(scriptElement, vizElement);
@@ -578,117 +366,117 @@
       </div>
       <div class="row" id="CrimeTitleRow" style="margin-right: 15px;margin-left: 15px;margin-top: 50px;">
         <div class="col" id="SafetyTitleRow">
-            <h4 style="margin-left: 35px;"><i class="fa fa-user-secret"></i>Crime Rates</h4>
-            <hr style="margin-top: -2px;margin-right: -283px;width: 210px;margin-left: 30px;background-color: #2b2b28;height: 2px;margin-bottom: 8px;">
+          <h4 style="margin-left: 35px;"><i class="fa fa-user-secret"></i>Crime Rates</h4>
+          <hr
+            style="margin-top: -2px;margin-right: -283px;width: 210px;margin-left: 30px;background-color: #2b2b28;height: 2px;margin-bottom: 8px;">
         </div>
-    </div>
-    <div class="row" id="CrimeDetails" style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;">
-        <div class="col-3 col-sm-3 col-lg-9 col-xl-9 d-block" id="FirstResidentColumn" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-            <div class="row" style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"><div class='tableauPlaceholder' id='{{ lga['CrimeID'] }}' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;{{ lga['CrimeName'] }}&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='{{ lga['CrimeName'] }}&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;{{ lga['CrimeName'] }}&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('{{ lga['CrimeID'] }}');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='527px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='527px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></div>
+      </div>
+      <div class="row" id="CrimeDetails"
+        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;">
+        <div class="col-12 col-sm-3 col-lg-9 col-xl-9 d-block" id="FirstResidentColumn"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+          <div class="row"
+            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
+            <div class='tableauPlaceholder' id='{{ lga['CrimeID'] }}' style='position: relative'><noscript><a
+                  href='#'><img alt=' '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;{{ lga['CrimeName'] }}&#47;Dashboard1&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='{{ lga['CrimeName'] }}&#47;Dashboard1' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image'
+                  value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;{{ lga['CrimeName'] }}&#47;Dashboard1&#47;1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='filter' value='publish=yes' /></object></div>
+            <script
+              type='text/javascript'>                    var divElement = document.getElementById('{{ lga['CrimeID'] }}'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+          </div>
         </div>
-        <div class="col-sm-3 col-lg-9 col-xl-3" id="SecondResidentCountry" style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
-            <div class="row justify-content-center" style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
-                <div class="col">
-                    <p style="font-size: 20px;margin-top: 25px;"><strong>Select the <span style="text-decoration: underline;">offence type</span> on right;</strong></p>
-                    <p style="font-size: 20px;"><strong>See the trend of number of offence reported per 100,000 population.</strong></p>
-                </div>
+        <div class="col-12 col-sm-3 col-lg-9 col-xl-3" id="SecondResidentCountry"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: auto;">
+          <div class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
+            <div class="col">
+              <p style="font-size: 20px;margin-top: 25px;"><strong>Select the <span
+                    style="text-decoration: underline;">offence type</span> on right;</strong></p>
+              <p style="font-size: 20px;"><strong>See the trend of number of offence reported per 100,000
+                  population.</strong></p>
             </div>
+          </div>
         </div>
-    </div>
-      <div
-        class="row"
-        id="AmbulanceTitlerow"
-        style="margin-right: 15px;margin-left: 15px;"
-      >
+      </div>
+      <div class="row" id="AmbulanceTitlerow" style="margin-right: 15px;margin-left: 15px;">
         <div class="col" style="margin-top: 100px;">
           <h4 style="margin-left: 35px;">
             <i class="fa fa-ambulance"></i>&nbsp;Ambulance Respond
           </h4>
           <hr
-            style="margin-top: -2px;margin-right: -283px;width: 210px;margin-left: 30px;background-color: #2b2b28;height: 2px;margin-bottom: 8px;"
-          />
+            style="margin-top: -2px;margin-right: -283px;width: 210px;margin-left: 30px;background-color: #2b2b28;height: 2px;margin-bottom: 8px;" />
         </div>
       </div>
-      <div
-        class="row"
-        id="Ambulance"
-        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 100%;"
-      >
-        <div
-          class="col-sm-3 col-lg-3 col-xl-3"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"
-          >
+      <div class="row" id="Ambulance"
+        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: auto;">
+        <div class="col-12 col-sm-3 col-lg-3 col-xl-3"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: auto;">
+          <div class="row"
+            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
             <div class="col">
               <p style="font-size: 20px;margin-top: 25px;">
-                <strong
-                  >Check the average respond time for ambulance in minutes on
-                  left;</strong
-                >
+                <strong>Check the average respond time for ambulance in minutes on
+                  left;</strong>
               </p>
               <p style="font-size: 20px;margin-top: 25px;">
-                <strong
-                  >Check the percentage of ambulance responde in less 15 minutes
-                  on right;</strong
-                >
+                <strong>Check the percentage of ambulance responde in less 15 minutes
+                  on right;</strong>
               </p>
             </div>
           </div>
         </div>
-        <div
-          class="col-xl-9"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;width: 800px;height: 500px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div class='tableauPlaceholder' id='{{ lga["AmulanceID"] }}'
-            style='position: relative'><noscript
-              ><a href="#"
-                ><img alt=' '
-                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Am&#47;{{
+        <div class="col-xl-9"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+          <div class="row"
+            style="margin-right: 0px;margin-left: 0;width: 800px;height: 500px;background-color: rgba(221,221,221,0.6);">
+            <div class='tableauPlaceholder' id='{{ lga["AmulanceID"] }}' style='position: relative'><noscript><a
+                  href="#"><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Am&#47;{{
                   lga["AmbulanceName"]
-                }}&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a
-              ></noscript
-            ><object class="tableauViz" style="display:none;"
-              ><param
-                name="host_url"
-                value="https%3A%2F%2Fpublic.tableau.com%2F"/>
-              <param name="embed_code_version" value="3"/>
-              <param name="site_root" value=""/><param name='name' value='{{
+                }}&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class="tableauViz"
+                style="display:none;">
+                <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+                <param name="embed_code_version" value="3" />
+                <param name="site_root" value="" />
+                <param name='name' value='{{
                 lga["AmbulanceName"]
-              }}&#47;Dashboard1' /><param name="tabs" value="no"/><param
-                name="toolbar"
-                value="yes"/><param name='static_image'
-              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Am&#47;{{
+              }}&#47;Dashboard1' />
+                <param name="tabs" value="no" />
+                <param name="toolbar" value="yes" />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Am&#47;{{
                 lga["AmbulanceName"]
               }}&#47;Dashboard1&#47;1.png' />
-              <param name="animate_transition" value="yes"/><param
-                name="display_static_image"
-                value="yes"/><param name="display_spinner" value="yes"/><param
-                name="display_overlay"
-                value="yes"/><param name="display_count" value="yes"/><param
-                name="filter"
-                value="publish=yes"
-            /></object>
+                <param name="animate_transition" value="yes" />
+                <param name="display_static_image" value="yes" />
+                <param name="display_spinner" value="yes" />
+                <param name="display_overlay" value="yes" />
+                <param name="display_count" value="yes" />
+                <param name="filter" value="publish=yes" /></object>
+            </div>
+            <script type="text/javascript">
+              var divElement = document.getElementById('{{ lga['AmulanceID'] }}'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '500px'; vizElement.style.height = '327px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '500px'; vizElement.style.height = '327px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
           </div>
-          <script type="text/javascript">
-            var divElement = document.getElementById('{{ lga['AmulanceID'] }}');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='500px';vizElement.style.height='327px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='500px';vizElement.style.height='327px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
-          </script>
         </div>
       </div>
-      <p></p>
-    </div>
-    <div
-      class="col-xl-9 mx-auto"
-      style="margin: 0px;margin-right: 0px;margin-left: 0px;width: 1180px;"
-    ></div>
 
-    <script src="{{ url_for('static', filename='assets/js/jquery.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='assets/bootstrap/js/bootstrap.min.js') }}"></script>
-  </body>
+      <div class="col-xl-9 mx-auto" style="margin: 0px;margin-right: 0px;margin-left: 0px;width: 1180px;"></div>
+
+      <script src="{{ url_for('static', filename='assets/js/jquery.min.js') }}"></script>
+      <script src="{{ url_for('static', filename='assets/bootstrap/js/bootstrap.min.js') }}"></script>
+</body>
+
 </html>

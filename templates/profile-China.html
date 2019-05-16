@@ -1,277 +1,201 @@
 {% extends 'layout.html' %}
 {% include 'includes/_navbar.html' %} {% block body %}
 
-  <body
-    style='background-image: url("static/assets/img/china%20flag.jpg"); background-repeat:no-repeat; background-attachment:fixed; background-position: center; background-size:cover'
-  > 
-    <header
-      class="masthead text-white text-center"
-      style="background-color: transparent;height: 324px;"
-    >
-      <div class="row">
-        <div class="col">
-          <h1>CHINA</h1>
-        </div>
+<body
+  style='background-image: url("static/assets/img/china%20flag.jpg"); background-repeat:no-repeat; background-attachment:fixed; background-position: center; background-size:cover'>
+  <header class="masthead text-white text-center" style="background-color: transparent;height: 324px;">
+    <div class="row">
+      <div class="col">
+        <h1>CHINA</h1>
       </div>
-    </header>
-    
-    <div id="list-example" class="list-group">
-        <a class="list-group-item list-group-item-action" href="#AgeGraphic">Council</a>
-        <a class="list-group-item list-group-item-action" href="#Profile">Profile</a>
-        <a class="list-group-item list-group-item-action" href="#Age">Age Distribution</a>
-        <a class="list-group-item list-group-item-action" href="#Language">Language</a>
-        <a class="list-group-item list-group-item-action" href="#Industry">Employment</a>
-        <a class="list-group-item list-group-item-action" href="#Occupation">Occupation</a>
-        <a class="list-group-item list-group-item-action" href="#Religion">Religion</a>
-        
     </div>
-    <style>
-        #list-example {
-            position: fixed;
-        }
-        </style>
-    <script src="/static/assets/js/jquery.min.js"></script>
-    <script src="/static/assets/js/bootstrap.js"></script>
-    <script type="text/javascript">
-        $('body').scrollspy({ target: '#list-example'});
-    </script>
-    
-    <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example" id="scrollspy">
-    
+  </header>
+
+  <div id="list-example" class="list-group">
+    <a class="list-group-item list-group-item-action" href="#AgeGraphic">Council</a>
+    <a class="list-group-item list-group-item-action" href="#Profile">Profile</a>
+    <a class="list-group-item list-group-item-action" href="#Age">Age Distribution</a>
+    <a class="list-group-item list-group-item-action" href="#Language">Language</a>
+    <a class="list-group-item list-group-item-action" href="#Industry">Employment</a>
+    <a class="list-group-item list-group-item-action" href="#Occupation">Occupation</a>
+    <a class="list-group-item list-group-item-action" href="#Religion">Religion</a>
+
+  </div>
+  <style>
+    #list-example {
+      position: fixed;
+      top: 200px;
+      left: 0;
+      height: 80px;
+    }
+  </style>
+  <script src="/static/assets/js/jquery.min.js"></script>
+  <script src="/static/assets/js/bootstrap.js"></script>
+  <script type="text/javascript">
+    $('body').scrollspy({ target: '#list-example' });
+  </script>
+
+  <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example" id="scrollspy">
+
     <div class="container">
-      <div
-        class="row"
-        id="Top5ResidentRow"
-        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 400px;"
-      >
-        <div
-          class="col-3 col-sm-9 col-lg-8 col-xl-8 d-block"
-          id="FirstResidentColumn"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 400px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div class="col mx-auto">
-              <p
-                style="font-size: 20px;margin-top: 25px;margin-left: 7px;height: 144px;"
-              >
-                <br /><strong
-                  >The China-born population is one of the largest
-                  country-of-birth groups in</strong
-                ><br /><strong
-                  >Australia and it is concentrated in large cities, such as
+      <div class="row" id="Top5ResidentRow"
+        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: auto;">
+        <div class="col-12 col-sm-9 col-lg-8 col-xl-8 d-block" id="FirstResidentColumn"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: auto;max-height: auto;">
+          <div class="row"
+            style="margin-right: 0px;margin-left: 0;height: auto;background-color: rgba(221,221,221,0.6);">
+            <div class="col-lg-auto mx-auto" style="min-height: 400px;height: auto;max-height: auto;">
+              <p style="font-size: 20px;margin-top: 25px;margin-left: 7px;height: auto;">
+                <br /><strong>The China-born population is one of the largest
+                  country-of-birth groups in</strong><br /><strong>Australia and it is concentrated in large cities,
+                  such as
                   Sydney, Melbourne and Brisbane. Chinese migrants have been
-                  arriving in Victoria since the gold rush of the 1850s.</strong
-                ><br /><br /><br /><br />
+                  arriving in Victoria since the gold rush of the 1850s.</strong>
               </p>
               <p style="font-size: 20px;margin-top: 37px;margin-left: 7px;">
                 <strong>Chinese living in Melbourne love:</strong><br />
               </p>
               <p style="font-size: 20px;margin-top: -11px;margin-left: 20px;">
-                <i class="fa fa-tree"></i
-                ><strong
-                  >&nbsp;Melbourne’s green parklands, fresh air and
-                  beaches.</strong
-                ><br />
+                <i class="fa fa-tree"></i><strong>&nbsp;Melbourne’s green parklands, fresh air and
+                  beaches.</strong><br />
               </p>
               <p style="font-size: 20px;margin-top: -11px;margin-left: 20px;">
-                <i class="fa fa-sign-language"></i
-                ><strong
-                  >&nbsp;Chinese New Year celebrations with parades and events
-                  throughout the city and suburban Melbourne.</strong
-                ><br />
+                <i class="fa fa-sign-language"></i><strong>&nbsp;Chinese New Year celebrations with parades and events
+                  throughout the city and suburban Melbourne.</strong><br />
               </p>
             </div>
           </div>
         </div>
-        <div
-          class="col-lg-4 col-xl-4"
-          id="SecondResidentCountry"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 400px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div class="col mx-auto" id="AgeGraphic">
+        <div class="col-lg-4 col-xl-4" id="SecondResidentCountry"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+          <div class="row"
+            style="margin-right: 0px;margin-left: 0;height: auto;background-color: rgba(221,221,221,0.6);">
+            <div class="col mx-auto" id="AgeGraphic" style="height: auto;min-height:400px;">
               <h3 style="margin-top: 24px;">
                 Which Council most Chinese choose?
               </h3>
-              <p>Click on council and Explore</p>
+              <p>Click on Explore and find more details</p>
               <div class="btn-group" role="group">
                 <a href="{{ url_for('lga',name='Monash') }}">
-                <button
-                  class="btn btn-primary btn-block text-left"
-                  type="button"
-                  style="width: 238px;"
-                >
-                  Monash</button></a>
-                  <button class="btn btn-primary" type="button">14.2%</button>
+                  <button class="btn btn-primary btn-block text-left" type="button" style="width: 218px;">Monash
+                    14.2%</button></a>
+                <a href="{{ url_for('lga',name='Monash') }}">
+                  <button class="btn btn-primary" type="button"
+                    style="margin-left: 2px;width: 100px;"><strong>Expolre</strong>&nbsp;<i
+                      class="fa fa-arrow-circle-o-right"></i></button></a>
               </div>
               <div class="btn-group" role="group" style="margin-top: 10px;">
-                  <a href="{{ url_for('lga',name='Melbourne') }}">
-                <button
-                  class="btn btn-primary text-left"
-                  type="button"
-                  style="width: 226px;"
-                >
-                  Melbourne City</button
-                ></a><button class="btn btn-primary" type="button">13.3%</button>
+                <a href="{{ url_for('lga',name='Melbourne') }}">
+                  <button class="btn btn-primary text-left" type="button" style="width: 198px;">Melbourne City
+                    13.3%</button></a>
+                <a href="{{ url_for('lga',name='Melbourne') }}">
+                  <button class="btn btn-primary" type="button"
+                    style="margin-left: 2px;width: 100px;"><strong>Expolre</strong>&nbsp;<i
+                      class="fa fa-arrow-circle-o-right"></i></button></a>
               </div>
               <div class="btn-group" role="group" style="margin-top: 10px;">
                 <a href="{{ url_for('lga',name='Whitehorse') }}">
-                <button
-                  class="btn btn-primary text-left"
-                  type="button"
-                  style="width: 208px;"
-                >
-                  Whitehorse</button
-                ></a><button class="btn btn-primary" type="button">11.6%</button>
+                  <button class="btn btn-primary text-left" type="button" style="width: 182px;">Whitehorse
+                    11.6%</button></a>
+                <a href="{{ url_for('lga',name='Whitehorse') }}">
+                  <button class="btn btn-primary" type="button"
+                    style="margin-left: 2px;width: 100px;"><strong>Expolre</strong>&nbsp;<i
+                      class="fa fa-arrow-circle-o-right"></i>
+                  </button>
+                </a>
               </div>
               <div class="btn-group" role="group" style="margin-top: 10px;">
-                  <a href="{{ url_for('lga',name='Boroondara') }}">
-                <button
-                  class="btn btn-primary text-left"
-                  type="button"
-                  style="width: 153px;"
-                >
-                  Boroondara</button
-                ></a><button class="btn btn-primary" type="button">6.9%</button>
+                <a href="{{ url_for('lga',name='Boroondara') }}">
+                  <button class="btn btn-primary text-left" type="button" style="width: 162px;"> Boroondara
+                    6.9%</button></a>
+                <a href="{{ url_for('lga',name='Boroondara') }}">
+                  <button class="btn btn-primary" type="button"
+                    style="margin-left: 2px;width: 100px;"><strong>Expolre</strong>&nbsp;<i
+                      class="fa fa-arrow-circle-o-right"></i></button></a>
               </div>
               <div class="btn-group" role="group" style="margin-top: 10px;">
                 <a href="{{ url_for('lga',name='Manningham') }}">
-                <button
-                  class="btn btn-primary text-left"
-                  type="button"
-                  style="width: 149px;"
-                >
-                  Manningham</button
-                ></a><button class="btn btn-primary" type="button">6.7%</button>
+                  <button class="btn btn-primary text-left" type="button" style="width: 157px;">Manningham
+                    6.7%</button></a>
+                <a href="{{ url_for('lga',name='Manningham') }}">
+                  <button class="btn btn-primary" type="button"
+                    style="margin-left: 2px;width: auto;min-height: none;max-height: auto;"><strong>Expolre</strong>&nbsp;<i
+                      class="fa fa-arrow-circle-o-right"></i></button></a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <h3 style="margin-top: 78px;color: #000000;" id = "Profile">
+      <h3 style="margin-top: 78px;color: #000000;" id="Profile">
         Victoria's Chinese Demographic Profile
       </h3>
-      <div
-        class="row"
-        id="Top5ResidentRow"
-        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 200px;"
-      >
-        <div
-          class="col d-block"
-          id="FirstResidentColumn"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);"
-          >
+      <div class="row" id="Top5ResidentRow"
+        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: auto">
+        <div class="col d-block" id="FirstResidentColumn"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 216px">
+          <div class="row"
+            style="margin-right: 0px;margin-left: 0;height: 208px;background-color: rgba(221,221,221,0.6);">
             <div class="col-sm-auto mx-auto">
-              <p
-                style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"
-              >
+              <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;">
                 <i class="fa fa-plane"></i><strong>&nbsp; 66,756</strong>
               </p>
-              <p
-                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
-              >
+              <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;">
                 Chinese have migrated to Victoria since 2011
               </p>
             </div>
           </div>
         </div>
-        <div
-          class="col"
-          id="SecondResidentCountry"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);"
-          >
+        <div class="col" id="SecondResidentCountry"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 216px;">
+          <div class="row"
+            style="margin-right: 0px;margin-left: 0;height: 208px;background-color: rgba(221,221,221,0.6);">
             <div class="col mx-auto">
-              <p
-                style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"
-              >
+              <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;">
                 <i class="fa fa-user"></i><strong>&nbsp; 31 Years</strong>
               </p>
-              <p
-                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
-              >
+              <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;">
                 Average age of Chinese migrants In Victoria
               </p>
             </div>
           </div>
         </div>
-        <div
-          class="col"
-          id="SecondResidentCountry"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);"
-          >
+        <div class="col" id="SecondResidentCountry"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 216px">
+          <div class="row"
+            style="margin-right: 0px;margin-left: 0;height: 208px;background-color: rgba(221,221,221,0.6);">
             <div class="col mx-auto">
-              <p
-                style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"
-              >
+              <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;">
                 <i class="fa fa-child"></i><strong>&nbsp; 33.6%</strong>
               </p>
-              <p
-                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
-              >
+              <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;">
                 Of Chinese migrants are families with children
               </p>
             </div>
           </div>
         </div>
-        <div
-          class="col"
-          id="SecondResidentCountry"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);"
-          >
+        <div class="col" id="SecondResidentCountry"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 216px">
+          <div class="row"
+            style="margin-right: 0px;margin-left: 0;height: 208px;background-color: rgba(221,221,221,0.6);">
             <div class="col mx-auto">
-              <p
-                style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"
-              >
+              <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;">
                 <i class="fa fa-thumb-tack"></i><strong>&nbsp; 31%</strong>
               </p>
-              <p
-                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
-              >
+              <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;">
                 Of Australia's Chinese migrants choose Melbourne
               </p>
             </div>
           </div>
         </div>
-        <div
-          class="col"
-          id="SecondResidentCountry"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 198px;background-color: rgba(221,221,221,0.6);"
-          >
+        <div class="col" id="SecondResidentCountry"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 216px">
+          <div class="row"
+            style="margin-right: 0px;margin-left: 0;height: 208px;background-color: rgba(221,221,221,0.6);">
             <div class="col mx-auto">
-              <p
-                style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;"
-              >
+              <p style="font-size: 22px;margin-top: 25px;margin-left: 7px;color: #3b59a7;">
                 <i class="fa fa-id-card"></i><strong>&nbsp; 31%</strong>
               </p>
-              <p
-                style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;"
-              >
+              <p style="margin-bottom: 18px;margin-left: 7px;margin-top: -11px;">
                 Have Australian Citizenship
               </p>
             </div>
@@ -279,164 +203,85 @@
         </div>
       </div>
       <h3 id="Age" style="margin-top: 78px;">Age Distribution of China-born</h3>
-      <div
-        class="row"
-        id="AgeRow"
-        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 500px;"
-      >
-        <div
-          class="col-3 col-sm-9 col-lg-3 col-xl-3 d-block"
-          id="FirstResidentColumn"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div class="col mx-auto">
+      <div class="row" id="AgeRow"
+        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: auto">
+        <div class="col-12 col-sm-9 col-lg-3 col-xl-3 d-block" id="FirstResidentColumn"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: auto;width: auto;">
+          <div class="row"
+            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
+            <div class="col mx-auto" style="width: auto;">
               <p style="font-size: 20px;margin-top: 25px;margin-left: 7px;">
-                <strong
-                  >33.3% Chinese-born are aged
-                  <span style="text-decoration: underline;"
-                    >25 years and below</span
-                  >;&nbsp;</strong
-                ><br />
+                <strong>33.3% Chinese-born are aged
+                  <span style="text-decoration: underline;">25 years and below</span>;&nbsp;</strong><br />
               </p>
               <p style="font-size: 20px;margin-top: 25px;margin-left: 7px;">
-                <strong
-                  >37.1% are aged
-                  <span style="text-decoration: underline;">26-44 years</span
-                  >;</strong
-                ><br />
+                <strong>37.1% are aged
+                  <span style="text-decoration: underline;">26-44 years</span>;</strong><br />
               </p>
               <p style="font-size: 20px;margin-top: 25px;margin-left: 7px;">
-                <strong
-                  >22.1% are aged
-                  <span style="text-decoration: underline;">45-64 years</span
-                  >;</strong
-                ><br />
+                <strong>22.1% are aged
+                  <span style="text-decoration: underline;">45-64 years</span>;</strong><br />
               </p>
               <p style="font-size: 20px;margin-top: 25px;margin-left: 7px;">
-                <strong
-                  >&nbsp;The gender ratio is
-                  <span style="text-decoration: underline;"
-                    >77 males to 100 females</span
-                  >, compared to
-                  <span style="text-decoration: underline;"
-                    >96 males to 100 females</span
-                  >
-                  for total Victoria.</strong
-                ><br />
+                <strong>&nbsp;The gender ratio is
+                  <span style="text-decoration: underline;">77 males to 100 females</span>, compared to
+                  <span style="text-decoration: underline;">96 males to 100 females</span>
+                  for total Victoria.</strong><br />
               </p>
             </div>
           </div>
         </div>
-        <div
-          class="col-lg-9 col-xl-9"
-          id="SecondResidentCountry"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row justify-content-center"
-            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div
-              class="tableauPlaceholder"
-              id="viz1556361768786"
-              style="position: relative"
-            >
-              <noscript
-                ><a href="#"
-                  ><img
-                    alt=" "
-                    src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ch&#47;china_agedistribution&#47;Dashboard1&#47;1_rss.png"
-                    style="border: none"/></a></noscript
-              ><object class="tableauViz" style="display:none;"
-                ><param
-                  name="host_url"
-                  value="https%3A%2F%2Fpublic.tableau.com%2F"/>
-                <param name="embed_code_version" value="3"/>
-                <param name="site_root" value=""/><param
-                  name="name"
-                  value="china_agedistribution&#47;Dashboard1"/><param
-                  name="tabs"
-                  value="no"/><param name="toolbar" value="yes"/><param
-                  name="static_image"
-                  value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ch&#47;china_agedistribution&#47;Dashboard1&#47;1.png"/>
-                <param name="animate_transition" value="yes"/><param
-                  name="display_static_image"
-                  value="yes"/><param name="display_spinner" value="yes"/><param
-                  name="display_overlay"
-                  value="yes"/><param name="display_count" value="yes"
-              /></object>
-            </div>
-            <script type="text/javascript">
-              var divElement = document.getElementById("viz1556361768786");
-              var vizElement = divElement.getElementsByTagName("object")[0];
-              if (divElement.offsetWidth > 800) {
-                vizElement.style.width = "800px";
-                vizElement.style.height = "527px";
-              } else if (divElement.offsetWidth > 500) {
-                vizElement.style.width = "800px";
-                vizElement.style.height = "527px";
-              } else {
-                vizElement.style.width = "100%";
-                vizElement.style.height = "727px";
-              }
-              var scriptElement = document.createElement("script");
-              scriptElement.src =
-                "https://public.tableau.com/javascripts/api/viz_v1.js";
-              vizElement.parentNode.insertBefore(scriptElement, vizElement);
-            </script>
+        <div class="col-lg-9 col-xl-9" id="SecondResidentCountry"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+          <div class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
+            <div class='tableauPlaceholder' id='viz1556361768786' style='position: relative'><noscript><a href='#'><img
+                    alt=' '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ch&#47;china_agedistribution&#47;Dashboard1&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='china_agedistribution&#47;Dashboard1' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image'
+                  value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ch&#47;china_agedistribution&#47;Dashboard1&#47;1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' /></object></div>
+            <script
+              type='text/javascript'>                    var divElement = document.getElementById('viz1556361768786'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
           </div>
         </div>
       </div>
       <h3 id="Language" style="margin-top: 78px;">Languages Spoken</h3>
-      <div
-        class="row"
-        id="LanguageRow"
-        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 500px;"
-      >
-        <div
-          class="col-3 col-sm-9 col-lg-9 col-xl-9 d-block"
-          id="FirstResidentColumn"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div
-              class="tableauPlaceholder"
-              id="viz1556362085270"
-              style="position: relative"
-            >
-              <noscript
-                ><a href="#"
-                  ><img
-                    alt=" "
+      <div class="row" id="LanguageRow"
+        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: auto">
+        <div class="col-12 col-sm-9 col-lg-9 col-xl-9 d-block" id="FirstResidentColumn"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+          <div class="row"
+            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
+            <div class="tableauPlaceholder" id="viz1556362085270" style="position: relative">
+              <noscript><a href="#"><img alt=" "
                     src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;la&#47;languagesspoken_15563524416330&#47;Dashboard1&#47;1_rss.png"
-                    style="border: none"/></a></noscript
-              ><object class="tableauViz" style="display:none;"
-                ><param
-                  name="host_url"
-                  value="https%3A%2F%2Fpublic.tableau.com%2F"/>
-                <param name="embed_code_version" value="3"/>
-                <param name="site_root" value=""/><param
-                  name="name"
-                  value="languagesspoken_15563524416330&#47;Dashboard1"/><param
-                  name="tabs"
-                  value="no"/><param name="toolbar" value="yes"/><param
-                  name="static_image"
-                  value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;la&#47;languagesspoken_15563524416330&#47;Dashboard1&#47;1.png"/>
-                <param name="animate_transition" value="yes"/><param
-                  name="display_static_image"
-                  value="yes"/><param name="display_spinner" value="yes"/><param
-                  name="display_overlay"
-                  value="yes"/><param name="display_count" value="yes"/><param
-                  name="filter"
-                  value="publish=yes"
-              /></object>
+                    style="border: none" /></a></noscript><object class="tableauViz" style="display:none;">
+                <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+                <param name="embed_code_version" value="3" />
+                <param name="site_root" value="" />
+                <param name="name" value="languagesspoken_15563524416330&#47;Dashboard1" />
+                <param name="tabs" value="no" />
+                <param name="toolbar" value="yes" />
+                <param name="static_image"
+                  value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;la&#47;languagesspoken_15563524416330&#47;Dashboard1&#47;1.png" />
+                <param name="animate_transition" value="yes" />
+                <param name="display_static_image" value="yes" />
+                <param name="display_spinner" value="yes" />
+                <param name="display_overlay" value="yes" />
+                <param name="display_count" value="yes" />
+                <param name="filter" value="publish=yes" /></object>
             </div>
             <script type="text/javascript">
               var divElement = document.getElementById("viz1556362085270");
@@ -458,119 +303,69 @@
             </script>
           </div>
         </div>
-        <div
-          class="col-lg-9 col-xl-3"
-          id="SecondResidentCountry"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row justify-content-center"
-            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"
-          >
+        <div class="col-lg-9 col-xl-3" id="SecondResidentCountry"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+          <div class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
             <div class="col">
-              <p style="font-size: 20px;margin-top: 25px;">
-                <strong
-                  ><span style="text-decoration: underline;">Mandarin</span> is
-                  the most spoken language with 80 % among Chinese
-                  community;</strong
-                >
-              </p>
-              <p style="font-size: 20px;margin-top: 25px;">
-                <strong
-                  >It is followed by
-                  <span style="text-decoration: underline;">Cantonese</span>
-                  which accounts 12 % and
-                  <span style="text-decoration: underline;">English</span>
-                  (2%)</strong
-                ><br />
-              </p>
+              <p style="font-size: 20px;margin-top: 25px;"><strong><span
+                    style="text-decoration: underline;">Mandarin</span> is the most spoken language with 80 % among
+                  Chinese community;</strong></p>
+              <p style="font-size: 20px;margin-top: 25px;"><strong>It is followed by <span
+                    style="text-decoration: underline;">Cantonese</span> which accounts 12 % and <span
+                    style="text-decoration: underline;">English</span> (2%)</strong><br></p>
             </div>
           </div>
         </div>
       </div>
       <h3 id="Industry" style="margin-top: 78px;">Employment Industry</h3>
-      <div
-        class="row"
-        id="IndustryRow"
-        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 500px;"
-      >
-        <div
-          class="col-xl-3"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"
-          >
+      <div class="row" id="IndustryRow"
+        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: auto">
+        <div class="col-xl-3"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: auto">
+          <div class="row"
+            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
             <div class="col">
               <p style="font-size: 20px;margin-top: 25px;">
-                <strong
-                  >Chinese community is mostly employed under in
-                  <span style="text-decoration: underline;"
-                    >Wholesale &amp; Retail </span
-                  >industry (18%);</strong
-                >
+                <strong>Chinese community is mostly employed under in
+                  <span style="text-decoration: underline;">Wholesale &amp; Retail </span>industry (18%);</strong>
               </p>
               <p style="font-size: 20px;margin-top: 25px;">
-                <strong
-                  >Around (14 %) Chinese work as
-                  <span style="text-decoration: underline;">Professionals</span
-                  >.</strong
-                ><br />
+                <strong>Around (14 %) Chinese work as
+                  <span style="text-decoration: underline;">Professionals</span>.</strong><br />
               </p>
               <p style="font-size: 20px;margin-top: 25px;">
-                <strong
-                  >Other industries where Chinese community work are
+                <strong>Other industries where Chinese community work are
                   <span style="text-decoration: underline;">Food Industry</span>
                   (14%) followed by
-                  <span style="text-decoration: underline;">Health Care </span
-                  >(9%),
-                  <span style="text-decoration: underline;">Education </span
-                  >(6%), etc.</strong
-                ><br />
+                  <span style="text-decoration: underline;">Health Care </span>(9%),
+                  <span style="text-decoration: underline;">Education </span>(6%), etc.</strong><br />
               </p>
             </div>
           </div>
         </div>
-        <div
-          class="col-xl-9"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div
-              class="tableauPlaceholder"
-              id="viz1556362225565"
-              style="position: relative"
-            >
-              <noscript
-                ><a href="#"
-                  ><img
-                    alt=" "
+        <div class="col-xl-9"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+          <div class="row"
+            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
+            <div class="tableauPlaceholder" id="viz1556362225565" style="position: relative">
+              <noscript><a href="#"><img alt=" "
                     src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ch&#47;china_industry&#47;Dashboard1&#47;1_rss.png"
-                    style="border: none"/></a></noscript
-              ><object class="tableauViz" style="display:none;"
-                ><param
-                  name="host_url"
-                  value="https%3A%2F%2Fpublic.tableau.com%2F"/>
-                <param name="embed_code_version" value="3"/>
-                <param name="site_root" value=""/><param
-                  name="name"
-                  value="china_industry&#47;Dashboard1"/><param
-                  name="tabs"
-                  value="no"/><param name="toolbar" value="yes"/><param
-                  name="static_image"
-                  value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ch&#47;china_industry&#47;Dashboard1&#47;1.png"/>
-                <param name="animate_transition" value="yes"/><param
-                  name="display_static_image"
-                  value="yes"/><param name="display_spinner" value="yes"/><param
-                  name="display_overlay"
-                  value="yes"/><param name="display_count" value="yes"/><param
-                  name="filter"
-                  value="publish=yes"
-              /></object>
+                    style="border: none" /></a></noscript><object class="tableauViz" style="display:none;">
+                <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+                <param name="embed_code_version" value="3" />
+                <param name="site_root" value="" />
+                <param name="name" value="china_industry&#47;Dashboard1" />
+                <param name="tabs" value="no" />
+                <param name="toolbar" value="yes" />
+                <param name="static_image"
+                  value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ch&#47;china_industry&#47;Dashboard1&#47;1.png" />
+                <param name="animate_transition" value="yes" />
+                <param name="display_static_image" value="yes" />
+                <param name="display_spinner" value="yes" />
+                <param name="display_overlay" value="yes" />
+                <param name="display_count" value="yes" />
+                <param name="filter" value="publish=yes" /></object>
             </div>
             <script type="text/javascript">
               var divElement = document.getElementById("viz1556362225565");
@@ -594,47 +389,29 @@
         </div>
       </div>
       <h3 id="Occupation" style="margin-top: 78px;">Occupation</h3>
-      <div
-        class="row"
-        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 500px;"
-      >
-        <div
-          class="col-xl-9"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div
-              class="tableauPlaceholder"
-              id="viz1556362571674"
-              style="position: relative"
-            >
-              <noscript
-                ><a href="#"
-                  ><img
-                    alt=" "
+      <div class="row"
+        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: auto">
+        <div class="col-xl-9"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+          <div class="row"
+            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
+            <div class="tableauPlaceholder" id="viz1556362571674" style="position: relative">
+              <noscript><a href="#"><img alt=" "
                     src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ch&#47;Chinese_occupation&#47;Dashboard1&#47;1_rss.png"
-                    style="border: none"/></a></noscript
-              ><object class="tableauViz" style="display:none;"
-                ><param
-                  name="host_url"
-                  value="https%3A%2F%2Fpublic.tableau.com%2F"/>
-                <param name="embed_code_version" value="3"/>
-                <param name="site_root" value=""/><param
-                  name="name"
-                  value="Chinese_occupation&#47;Dashboard1"/><param
-                  name="tabs"
-                  value="no"/><param name="toolbar" value="yes"/><param
-                  name="static_image"
-                  value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ch&#47;Chinese_occupation&#47;Dashboard1&#47;1.png"/>
-                <param name="animate_transition" value="yes"/><param
-                  name="display_static_image"
-                  value="yes"/><param name="display_spinner" value="yes"/><param
-                  name="display_overlay"
-                  value="yes"/><param name="display_count" value="yes"
-              /></object>
+                    style="border: none" /></a></noscript><object class="tableauViz" style="display:none;">
+                <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+                <param name="embed_code_version" value="3" />
+                <param name="site_root" value="" />
+                <param name="name" value="Chinese_occupation&#47;Dashboard1" />
+                <param name="tabs" value="no" />
+                <param name="toolbar" value="yes" />
+                <param name="static_image"
+                  value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ch&#47;Chinese_occupation&#47;Dashboard1&#47;1.png" />
+                <param name="animate_transition" value="yes" />
+                <param name="display_static_image" value="yes" />
+                <param name="display_spinner" value="yes" />
+                <param name="display_overlay" value="yes" />
+                <param name="display_count" value="yes" /></object>
             </div>
             <script type="text/javascript">
               var divElement = document.getElementById("viz1556362571674");
@@ -657,118 +434,75 @@
           </div>
         </div>
         <div class="col-xl-3">
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"
-          >
+          <div class="row"
+            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
             <div class="col">
               <p style="margin-top: 25px;font-size: 20px;">
-                <strong
-                  >Chinese are mostly educated and are mostly
+                <strong>Chinese are mostly educated and are mostly
                   <span style="text-decoration: underline;">Professionals</span>
-                  which accounts 28 %</strong
-                >
+                  which accounts 28 %</strong>
               </p>
               <p style="margin-top: 25px;font-size: 20px;">
-                <strong
-                  >Followed by
+                <strong>Followed by
                   <span style="text-decoration: underline;">Managers</span>
                   (16%),
                   <span style="text-decoration: underline;">Sales Workers</span>
                   (12%),
-                  <span style="text-decoration: underline;"
-                    >Clerical &amp; Admin</span
-                  >
+                  <span style="text-decoration: underline;">Clerical &amp; Admin</span>
                   (11%),<span style="text-decoration: underline;">
-                    Labourers </span
-                  >(9 %), and&nbsp;<span style="text-decoration: underline;"
-                    >Community workers</span
-                  >
-                  (9%), etc.</strong
-                ><br />
+                    Labourers </span>(9 %), and&nbsp;<span style="text-decoration: underline;">Community workers</span>
+                  (9%), etc.</strong><br />
               </p>
             </div>
           </div>
         </div>
       </div>
       <h3 id="Religion" style="margin-top: 78px;">Religion</h3>
-      <div
-        class="row"
-        id="ReligionRow"
-        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: 600px;"
-      >
-        <div
-          class="col-3 col-sm-9 col-lg-3 col-xl-3 d-block"
-          id="FirstResidentColumn"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row"
-            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"
-          >
+      <div class="row" id="ReligionRow"
+        style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: auto">
+        <div class="col-12 col-sm-9 col-lg-3 col-xl-3 d-block" id="FirstResidentColumn"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: auto">
+          <div class="row"
+            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
             <div class="col mx-auto">
               <p style="font-size: 20px;margin-top: 25px;margin-left: 7px;">
-                <strong
-                  >Most Chinese population do
-                  <span style="text-decoration: underline;"
-                    >not worship or follow any religion</span
-                  >;</strong
-                ><br />
+                <strong>Most Chinese population do
+                  <span style="text-decoration: underline;">not worship or follow any religion</span>;</strong><br />
               </p>
               <p style="font-size: 20px;margin-top: 25px;margin-left: 7px;">
-                <strong
-                  >But very few of them follow
+                <strong>But very few of them follow
                   <span style="text-decoration: underline;">Buddhism</span>
                   which accounts (10%) followed by
                   <span style="text-decoration: underline;">Christens</span>,
                   <span style="text-decoration: underline;">Catholic</span>,
                   <span style="text-decoration: underline;">Baptist</span>,
-                  etc</strong
-                ><br />
+                  etc</strong><br />
               </p>
             </div>
           </div>
         </div>
-        <div
-          class="col-lg-9 col-xl-9"
-          id="SecondResidentCountry"
-          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;"
-        >
-          <div
-            class="row justify-content-center"
-            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);"
-          >
-            <div
-              class="tableauPlaceholder"
-              id="viz1556362518496"
-              style="position: relative"
-            >
-              <noscript
-                ><a href="#"
-                  ><img
-                    alt=" "
+        <div class="col-lg-9 col-xl-9" id="SecondResidentCountry"
+          style="margin-top: 1px;border-style: solid;border-color: transparent;border-width: 4px;padding: 0;background-color: transparent;height: 100%;">
+          <div class="row justify-content-center"
+            style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
+            <div class="tableauPlaceholder" id="viz1556362518496" style="position: relative">
+              <noscript><a href="#"><img alt=" "
                     src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ch&#47;china_religion_followed&#47;Dashboard1&#47;1_rss.png"
-                    style="border: none"/></a></noscript
-              ><object class="tableauViz" style="display:none;"
-                ><param
-                  name="host_url"
-                  value="https%3A%2F%2Fpublic.tableau.com%2F"/>
-                <param name="embed_code_version" value="3"/>
-                <param name="site_root" value=""/><param
-                  name="name"
-                  value="china_religion_followed&#47;Dashboard1"/><param
-                  name="tabs"
-                  value="no"/><param name="toolbar" value="yes"/><param
-                  name="static_image"
-                  value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ch&#47;china_religion_followed&#47;Dashboard1&#47;1.png"/>
-                <param name="animate_transition" value="yes"/><param
-                  name="display_static_image"
-                  value="yes"/><param name="display_spinner" value="yes"/><param
-                  name="display_overlay"
-                  value="yes"/><param name="display_count" value="yes"/><param
-                  name="filter"
-                  value="publish=yes"
-              /></object>
+                    style="border: none" /></a></noscript><object class="tableauViz" style="display:none;">
+                <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+                <param name="embed_code_version" value="3" />
+                <param name="site_root" value="" />
+                <param name="name" value="china_religion_followed&#47;Dashboard1" />
+                <param name="tabs" value="no" />
+                <param name="toolbar" value="yes" />
+                <param name="static_image"
+                  value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ch&#47;china_religion_followed&#47;Dashboard1&#47;1.png" />
+                <param name="animate_transition" value="yes" />
+                <param name="display_static_image" value="yes" />
+                <param name="display_spinner" value="yes" />
+                <param name="display_overlay" value="yes" />
+                <param name="display_count" value="yes" />
+                <param name="filter" value="publish=yes" /></object>
             </div>
             <script type="text/javascript">
               var divElement = document.getElementById("viz1556362518496");
@@ -787,13 +521,14 @@
               scriptElement.src =
                 "https://public.tableau.com/javascripts/api/viz_v1.js";
               vizElement.parentNode.insertBefore(scriptElement, vizElement);
-              
+
             </script>
           </div>
         </div>
       </div>
     </div>
     {% endblock %}
-    </div>
-  </body>
+  </div>
+</body>
+
 </html>

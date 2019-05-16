@@ -1,37 +1,57 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Quiz</title>
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='assets/css/style-quiz.css')
-    }}"
-    />
-  </head>
-  <body>
-    <div class="grid">
-      <div id="quiz">
-        <h1>Quiz</h1>
-        <hr style="margin-bottom: 20px" />
-        <p id="question"></p>
 
-        <div class="buttons">
-          <button id="btn0"><span id="choice0"></span></button>
-          <button id="btn1"><span id="choice1"></span></button>
-          <button id="btn2"><span id="choice2"></span></button>
-          <button id="btn3"><span id="choice3"></span></button>
-        </div>
-        <hr style="margin-top: 50px" />
-        <footer>
-          <p id="progress">Questions x of y.</p>
-        </footer>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Quiz</title>
+  <link rel="stylesheet" href="static/assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
+  <link rel="stylesheet" href="static/assets/fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="static/assets/css/Navigation-Clean.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style-quiz.css')
+    }}" />
+
+</head>
+
+<body>
+  <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+    <div class="container"><img src="static/assets/img/shark.jpeg" style="width: 80px;"><a class="navbar-brand"
+        href="#">Connect to your Community</a><button data-toggle="collapse" class="navbar-toggler"
+        data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
+          class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navcol-1">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item" role="presentation"><a class="nav-link" href="/">Home</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" href="/events-main">Events</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" href="/comparetwo">Compare</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" href="/learnmore">Learn More</a></li>
+        </ul>
       </div>
     </div>
+  </nav>
+  <div class="grid">
+    <div id="quiz">
+      <h1>Quiz</h1>
+      <hr style="margin-bottom: 20px" />
+      <p id="question"></p>
 
-    <script src="static/assets/js/question.js"></script>
-    <script src="static/assets/js/quiz_controller.js"></script>
-    <script src="static/assets/js/app.js"></script>
-  </body>
+      <div class="buttons">
+        <button id="btn0"><span id="choice0"></span></button>
+        <button id="btn1"><span id="choice1"></span></button>
+        <button id="btn2"><span id="choice2"></span></button>
+        <button id="btn3"><span id="choice3"></span></button>
+      </div>
+      <hr style="margin-top: 50px" />
+      <footer>
+        <p id="progress">Questions x of y.</p>
+      </footer>
+    </div>
+  </div>
+
+  <script src="static/assets/js/question.js"></script>
+  <script src="static/assets/js/quiz_controller.js"></script>
+  <script src="static/assets/js/app.js"></script>
+</body>
+
 </html>
