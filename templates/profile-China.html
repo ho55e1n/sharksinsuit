@@ -1,8 +1,9 @@
 {% extends 'layout.html' %}
-{% include 'includes/_navbar.html' %} {% block body %}
+{% block body %}
+{% include 'includes/_navbar.html' %}
 
 <body
-  style='background-image: url("static/assets/img/china%20flag.jpg"); background-repeat:no-repeat; background-attachment:fixed; background-position: center; background-size:cover'>
+  style='background-image: url("static/assets/img/china%20flag-1.jpg"); background-repeat:no-repeat; background-attachment:fixed; background-position: center; background-size:cover'>
   <header class="masthead text-white text-center" style="background-color: transparent;height: 324px;">
     <div class="row">
       <div class="col">
@@ -11,7 +12,7 @@
     </div>
   </header>
 
-  <div id="list-example" class="list-group">
+  <div id="list-example" class="d-none d-lg-block">
     <a class="list-group-item list-group-item-action" href="#AgeGraphic">Council</a>
     <a class="list-group-item list-group-item-action" href="#Profile">Profile</a>
     <a class="list-group-item list-group-item-action" href="#Age">Age Distribution</a>
@@ -81,7 +82,7 @@
                     14.2%</button></a>
                 <a href="{{ url_for('lga',name='Monash') }}">
                   <button class="btn btn-primary" type="button"
-                    style="margin-left: 2px;width: 100px;"><strong>Expolre</strong>&nbsp;<i
+                    style="margin-left: 2px;width: 100px;"><strong>Explore</strong>&nbsp;<i
                       class="fa fa-arrow-circle-o-right"></i></button></a>
               </div>
               <div class="btn-group" role="group" style="margin-top: 10px;">
@@ -90,7 +91,7 @@
                     13.3%</button></a>
                 <a href="{{ url_for('lga',name='Melbourne') }}">
                   <button class="btn btn-primary" type="button"
-                    style="margin-left: 2px;width: 100px;"><strong>Expolre</strong>&nbsp;<i
+                    style="margin-left: 2px;width: 100px;"><strong>Explore</strong>&nbsp;<i
                       class="fa fa-arrow-circle-o-right"></i></button></a>
               </div>
               <div class="btn-group" role="group" style="margin-top: 10px;">
@@ -99,7 +100,7 @@
                     11.6%</button></a>
                 <a href="{{ url_for('lga',name='Whitehorse') }}">
                   <button class="btn btn-primary" type="button"
-                    style="margin-left: 2px;width: 100px;"><strong>Expolre</strong>&nbsp;<i
+                    style="margin-left: 2px;width: 100px;"><strong>Explore</strong>&nbsp;<i
                       class="fa fa-arrow-circle-o-right"></i>
                   </button>
                 </a>
@@ -110,7 +111,7 @@
                     6.9%</button></a>
                 <a href="{{ url_for('lga',name='Boroondara') }}">
                   <button class="btn btn-primary" type="button"
-                    style="margin-left: 2px;width: 100px;"><strong>Expolre</strong>&nbsp;<i
+                    style="margin-left: 2px;width: 100px;"><strong>Explore</strong>&nbsp;<i
                       class="fa fa-arrow-circle-o-right"></i></button></a>
               </div>
               <div class="btn-group" role="group" style="margin-top: 10px;">
@@ -119,7 +120,7 @@
                     6.7%</button></a>
                 <a href="{{ url_for('lga',name='Manningham') }}">
                   <button class="btn btn-primary" type="button"
-                    style="margin-left: 2px;width: auto;min-height: none;max-height: auto;"><strong>Expolre</strong>&nbsp;<i
+                    style="margin-left: 2px;width: auto;min-height: none;max-height: auto;"><strong>Explore</strong>&nbsp;<i
                       class="fa fa-arrow-circle-o-right"></i></button></a>
               </div>
             </div>
@@ -223,7 +224,7 @@
                   <span style="text-decoration: underline;">45-64 years</span>;</strong><br />
               </p>
               <p style="font-size: 20px;margin-top: 25px;margin-left: 7px;">
-                <strong>&nbsp;The gender ratio is
+                <strong>The gender ratio is
                   <span style="text-decoration: underline;">77 males to 100 females</span>, compared to
                   <span style="text-decoration: underline;">96 males to 100 females</span>
                   for total Victoria.</strong><br />
@@ -309,11 +310,11 @@
             style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
             <div class="col">
               <p style="font-size: 20px;margin-top: 25px;"><strong><span
-                    style="text-decoration: underline;">Mandarin</span> is the most spoken language with 80 % among
-                  Chinese community;</strong></p>
-              <p style="font-size: 20px;margin-top: 25px;"><strong>It is followed by <span
-                    style="text-decoration: underline;">Cantonese</span> which accounts 12 % and <span
-                    style="text-decoration: underline;">English</span> (2%)</strong><br></p>
+                    style="text-decoration: underline;">Mandarin</span> is the most spoken language with 80% among
+                  Chinese community, followed by <span
+                    style="text-decoration: underline;">Cantonese</span> which accounts for 12% and <span
+                    style="text-decoration: underline;">English</span>with 2%</strong></p>
+
             </div>
           </div>
         </div>
@@ -327,19 +328,19 @@
             style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
             <div class="col">
               <p style="font-size: 20px;margin-top: 25px;">
-                <strong>Chinese community is mostly employed under in
-                  <span style="text-decoration: underline;">Wholesale &amp; Retail </span>industry (18%);</strong>
+                <strong>Chinese community is mostly employed in
+                  <span style="text-decoration: underline;">Wholesale &amp; Retail </span>industry 18%;</strong>
               </p>
               <p style="font-size: 20px;margin-top: 25px;">
-                <strong>Around (14 %) Chinese work as
+                <strong>Around 14% Chinese work as
                   <span style="text-decoration: underline;">Professionals</span>.</strong><br />
               </p>
               <p style="font-size: 20px;margin-top: 25px;">
                 <strong>Other industries where Chinese community work are
                   <span style="text-decoration: underline;">Food Industry</span>
-                  (14%) followed by
-                  <span style="text-decoration: underline;">Health Care </span>(9%),
-                  <span style="text-decoration: underline;">Education </span>(6%), etc.</strong><br />
+                  at 14% followed by
+                  <span style="text-decoration: underline;">Health Care </span> at 9%,
+                  <span style="text-decoration: underline;">Education </span> 6% and etc.</strong><br />
               </p>
             </div>
           </div>
@@ -438,21 +439,17 @@
             style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
             <div class="col">
               <p style="margin-top: 25px;font-size: 20px;">
-                <strong>Chinese are mostly educated and are mostly
-                  <span style="text-decoration: underline;">Professionals</span>
-                  which accounts 28 %</strong>
-              </p>
-              <p style="margin-top: 25px;font-size: 20px;">
-                <strong>Followed by
+                <strong>Chinese are mostly educated and Professionals which accounts for 28%, followed by
                   <span style="text-decoration: underline;">Managers</span>
-                  (16%),
+                  at 16%,
                   <span style="text-decoration: underline;">Sales Workers</span>
-                  (12%),
+                  12%,
                   <span style="text-decoration: underline;">Clerical &amp; Admin</span>
-                  (11%),<span style="text-decoration: underline;">
-                    Labourers </span>(9 %), and&nbsp;<span style="text-decoration: underline;">Community workers</span>
-                  (9%), etc.</strong><br />
+                  11%,<span style="text-decoration: underline;">
+                    Labourers </span> 9%, and&nbsp;<span style="text-decoration: underline;">Community workers</span>
+                  at 9% respectively.</strong>
               </p>
+
             </div>
           </div>
         </div>
@@ -466,13 +463,12 @@
             style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
             <div class="col mx-auto">
               <p style="font-size: 20px;margin-top: 25px;margin-left: 7px;">
-                <strong>Most Chinese population do
-                  <span style="text-decoration: underline;">not worship or follow any religion</span>;</strong><br />
+                <strong>Majority of Chinese people do not follow any religion</strong><br />
               </p>
               <p style="font-size: 20px;margin-top: 25px;margin-left: 7px;">
-                <strong>But very few of them follow
+                <strong>Few of them follow
                   <span style="text-decoration: underline;">Buddhism</span>
-                  which accounts (10%) followed by
+                  which accounts to 10% followed by
                   <span style="text-decoration: underline;">Christens</span>,
                   <span style="text-decoration: underline;">Catholic</span>,
                   <span style="text-decoration: underline;">Baptist</span>,

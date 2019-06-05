@@ -75,16 +75,6 @@ var questions = [
     "Beer"
   ),
   new Question(
-    "You can easily find coin-operated electric barbecue in public places?",
-    ["True", "False"],
-    "True"
-  ),
-  new Question(
-    "You can easily find coin-operated electric barbecue in public places?",
-    ["True", "Flase"],
-    "True"
-  ),
-  new Question(
     "Roughly how many beaches are there in Australia?",
     ["1000", "4000", "8000", "11000"],
     "11000"
@@ -112,7 +102,7 @@ if (window.location.pathname == "/quiz-sport") {
   questions = questions.slice(8, 13);
 }
 if (window.location.pathname == "/quiz-culture") {
-  questions = questions.slice(13, 18);
+  questions = questions.slice(13, 16);
 }
 
 var quiz = new Quiz(questions);
@@ -130,6 +120,7 @@ function populate() {
     for (var i = 0; i < choices.length; i++) {
       var element = document.getElementById("choice" + i);
       element.innerHTML = choices[i];
+
       guess("btn" + i, choices[i]);
     }
     showProgress();
@@ -153,7 +144,22 @@ function guess(id, guess) {
 
 function showScores() {
   var gameOverHtml = "<h1>Result</h>";
-  gameOverHtml += "<h2 id='score'>Your scores: " + quiz.score + "</h2>";
+  gameOverHtml += "<h2 id='score'>Your scores: " + quiz.score + "</h2> </br>";
+  var res = (quiz.wronganswers).join(" ")
+  console.log("wrong answers: " + res)
+  if (res.length > 0) {
+    console.log(res.length)
+    console.log(quiz.wronganswers)
+
+    if (quiz.wronganswers.length == 1) {
+      gameOverHtml += "<h3>Wrong guess followed by correct answer: </h3>";
+    } else {
+      gameOverHtml += "<h3>Wrong guesses followed by correct answers: </h3>";
+    }
+
+  }
+
+  gameOverHtml += res
   gameOverHtml += "<div><a id='exit_btn' href='learnmore' type='button' >Exit</a> </div>";
   var elemet = document.getElementById("quiz");
   elemet.innerHTML = gameOverHtml;

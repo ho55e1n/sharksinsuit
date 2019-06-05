@@ -1,18 +1,19 @@
 {% extends 'layout.html' %}
-{% include 'includes/_navbar.html' %} {% block body %}
+{% block body %}
+{% include 'includes/_navbar.html' %}
 
 
 <body
-    style="background-image: url(&quot;static/assets/img/india.jpg&quot;); background-repeat:no-repeat; background-attachment:fixed; background-position: center; background-size:cover">
+    style="background-image: url(&quot;static/assets/img/india-1.jpg&quot;); background-repeat:no-repeat; background-attachment:fixed; background-position: center; background-size:cover">
     <header class="masthead text-white text-center" style="background-color: transparent;height: 324px;">
         <div class="row">
             <div class="col">
-                <h1>INDIA</h1>
+                <h1 style="color:black">INDIA</h1>
             </div>
         </div>
     </header>
 
-    <div id="list-example" class="list-group">
+    <div id="list-example" class="d-none d-lg-block">
         <a class="list-group-item list-group-item-action" href="#AgeGraphic">Council</a>
         <a class="list-group-item list-group-item-action" href="#Profile">Profile</a>
         <a class="list-group-item list-group-item-action" href="#Age">Age Distribution</a>
@@ -46,11 +47,7 @@
                     <div class="row"
                         style="margin-right: 0px;margin-left: 0;height: auto;background-color: rgba(221,221,221,0.7);min-height: 400px;">
                         <div class="col mx-auto" style="height: auto;">
-                            <p style="font-size: 20px;margin-top: 25px;margin-left: 7px;"><strong>Australia has a
-                                    vibrant Indian community and ranks&nbsp;<em><span
-                                            style="text-decoration: underline;">2nd</span></em>&nbsp;among the
-                                    overseas-borncommunities in Victoria.The India-born increased by 51.9% (58,015) from
-                                    111,787 persons in 2011.&nbsp;</strong><br></p>
+                            <p style="font-size: 20px;margin-top: 25px;margin-left: 7px;"><strong>Australia has a vibrant Indian community and ranks 2nd among the overseas-born communities in Victoria. The India-born increased by 51.9% (58,015) from 111,787 persons in 2011.</strong><br></p>
                             <p style="font-size: 20px;margin-top: 37px;margin-left: 7px;"><strong>Indians living in
                                     Melbourne love:</strong><br></p>
                             <p style="font-size: 20px;margin-top: -11px;margin-left: 20px;"><i
@@ -84,7 +81,7 @@
                                         10.6%</button></a>
                                 <a href="{{ url_for('lga',name='Casey') }}">
                                     <button class="btn btn-primary" type="button"
-                                        style="margin-left: 2px;width: 100px;"><strong>Expolre</strong>&nbsp;<i
+                                        style="margin-left: 2px;width: 100px;"><strong>Explore</strong>&nbsp;<i
                                             class="fa fa-arrow-circle-o-right"></i></button></a>
                             </div>
                             <div class="btn-group" role="group" style="margin-top: 10px;">
@@ -93,7 +90,7 @@
                                         style="width: 179px;">Dandenong 7.3%</button></a>
                                 <a href="{{ url_for('lga',name='Greater Dandenong') }}">
                                     <button class="btn btn-primary" type="button"
-                                        style="margin-left: 2px;width: 100px;"><strong>Expolre</strong>&nbsp;<i
+                                        style="margin-left: 2px;width: 100px;"><strong>Explore</strong>&nbsp;<i
                                             class="fa fa-arrow-circle-o-right"></i></button></a>
                             </div>
                             <div class="btn-group" role="group" style="margin-top: 10px;">
@@ -102,7 +99,7 @@
                                         Whittlesea 6.5%</button></a>
                                 <a href="{{ url_for('lga',name='Whittlesea') }}">
                                     <button class="btn btn-primary" type="button"
-                                        style="margin-left: 2px;width: 100px;"><strong>Expolre</strong>&nbsp;<i
+                                        style="margin-left: 2px;width: 100px;"><strong>Explore</strong>&nbsp;<i
                                             class="fa fa-arrow-circle-o-right"></i></button></a>
                             </div>
                             <div class="btn-group" role="group" style="margin-top: 10px;">
@@ -111,7 +108,7 @@
                                         5.7%</button></a>
                                 <a href="{{ url_for('lga',name='Monash') }}">
                                     <button class="btn btn-primary" type="button"
-                                        style="margin-left: 2px;width: 100px;"><strong>Expolre</strong>&nbsp;<i
+                                        style="margin-left: 2px;width: 100px;"><strong>Explore</strong>&nbsp;<i
                                             class="fa fa-arrow-circle-o-right"></i></button></a>
                             </div>
                         </div>
@@ -231,7 +228,7 @@
                     </div>
                 </div>
             </div>
-            <h3 id="Language" style="margin-top: 78px;">languages Spoken</h3>
+            <h3 id="Language" style="margin-top: 78px;">Languages Spoken</h3>
             <div class="row" id="LanguageRow"
                 style="margin-right: 15px;margin-left: 15px;margin-top: 8px;background-color: transparent;height: auto;">
                 <div class="col-12 col-sm-9 col-lg-9 col-xl-9 d-block" id="FirstResidentColumn"
@@ -266,16 +263,14 @@
                         style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
                         <div class="col">
                             <p style="font-size: 20px;margin-top: 25px;"><strong><span
-                                        style="text-decoration: underline;">Panjabi</span> is the most spoken language
-                                    with 26 % among Indian community;</strong></p>
-                            <p style="font-size: 20px;"><strong>&nbsp;Followed by <span
-                                        style="text-decoration: underline;">Hindi</span> which accounts 22
-                                    %;</strong><br></p>
+                                        style="text-decoration: underline;">Punjabi</span> is the most spoken language
+                                    accounting for 26% of Indian community, followed by <span
+                                        style="text-decoration: underline;">Hindi</span> which accounts for 22%.</strong></p>
                             <p style="font-size: 20px;"><strong>Other significant languages spoken in Indian community
-                                    are <span style="text-decoration: underline;">English</span> (16%), <span
-                                        style="text-decoration: underline;">Malayalam</span> (8%), <span
-                                        style="text-decoration: underline;">Gujrati</span> (7%), and <span
-                                        style="text-decoration: underline;">Telegu</span> (6%).</strong><br></p>
+                                    are <span style="text-decoration: underline;">English</span>at 16%, <span
+                                        style="text-decoration: underline;">Malayalam</span> 8%, <span
+                                        style="text-decoration: underline;">Gujrati</span> 7%, and <span
+                                        style="text-decoration: underline;">Telegu</span> 6% respectively.</strong><br></p>
                         </div>
                     </div>
                 </div>
@@ -289,15 +284,12 @@
                         style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.7);">
                         <div class="col">
                             <p style="font-size: 20px;margin-top: 25px;"><strong>Indian community is mostly employed
-                                    under <span style="text-decoration: underline;">professional and Health Care
-                                        industry</span> which accounts 15 %;</strong></p>
-                            <p style="font-size: 20px;"><strong>Followed by <span
-                                        style="text-decoration: underline;">Wholesale &amp; Retail industry</span>
-                                    (12%).&nbsp;</strong><br></p>
+                                    under <span style="text-decoration: underline;">Professional and Health Care
+                                        industry</span> that accounts for 15%, followed by <span style="text-decoration: underline;">Wholesale &amp; Retail industry</span> 12%.</strong></p>
                             <p style="font-size: 20px;"><strong>Other industries where Indian community work are <span
-                                        style="text-decoration: underline;">Transport</span> (10%) followed by <span
-                                        style="text-decoration: underline;">Finance</span>, <span
-                                        style="text-decoration: underline;">Education;</span></strong><br></p>
+                                        style="text-decoration: underline;">Transport</span> around 10% followed by <span
+                                        style="text-decoration: underline;">Food Services at 9% and</span>, <span
+                                        style="text-decoration: underline;">Manufacturing at 8% respectively.</span></strong><br></p>
                         </div>
                     </div>
                 </div>
@@ -364,8 +356,7 @@
                         style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.6);">
                         <div class="col">
                             <p style="font-size: 20px;margin-top: 25px;"><strong>Indian are mostly educated and are
-                                    mostly <span style="text-decoration: underline;">Professionals </span>which accounts
-                                    27 %</strong></p>
+                                    mostly <span style="text-decoration: underline;">Professionals </span>which accounts 27.</strong></p>
                             <p style="font-size: 20px;margin-top: 25px;"><strong>&nbsp;Followed by clerical and<span
                                         style="text-decoration: underline;"> Admin </span>(11%), <span
                                         style="text-decoration: underline;">Technicians</span> (11%), <span
@@ -387,12 +378,10 @@
                         style="margin-right: 0px;margin-left: 0;height: 500px;background-color: rgba(221,221,221,0.7);">
                         <div class="col mx-auto">
                             <p style="font-size: 20px;margin-top: 25px;margin-left: 7px;"><strong><span
-                                        style="text-decoration: underline;">Hinduism </span>is the most worshipped
-                                    religion which account 47 %;</strong><br></p>
-                            <p style="font-size: 20px;margin-top: 25px;margin-left: 7px;"><strong>Followed by <span
-                                        style="text-decoration: underline;">Sikhs</span> (23%), <span
-                                        style="text-decoration: underline;">Catholics</span> (14%), etc.</strong><br>
-                            </p>
+                                        style="text-decoration: underline;">Hinduism </span>is the most followed
+                                    religion accounting to 47%, Followed by <span
+                                        style="text-decoration: underline;">Sikhism</span> at 23%, <span
+                                        style="text-decoration: underline;">and Catholics</span> at 14%.</strong><br></p>
                         </div>
                     </div>
                 </div>

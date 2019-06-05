@@ -15,7 +15,7 @@
   style="background-repeat: no-repeat;background-attachment: fixed;background-image: url(&quot;static/assets/img/bg-masthead.jpg&quot;);width: 100%;">
   <nav class="navbar navbar-light navbar-expand-md navigation-clean">
     <div class="container"><img src="static/assets/img/shark.jpeg" style="width: 80px;"><a class="navbar-brand"
-        href="/">Connect to your Community</a><button data-toggle="collapse" class="navbar-toggler"
+        href="/">Connecting2Communities</a><button data-toggle="collapse" class="navbar-toggler"
         data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
           class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navcol-1">
@@ -34,19 +34,7 @@
         <h1 class="text-center" style="margin-left: 0;"> Events in Victoria</h1>
       </div>
     </div>
-    <div class="row" style="margin-right: 26.5px;margin-left: 26.5px;margin-top: 60px;margin-bottom: 60px;">
-      <div class="col-xl-3 text-left" style="margin-top: auto;margin-bottom: auto;">
-        <p class="text-right" style="margin-top: auto;margin-bottom: auto;font-size: 24px;"><strong>Filter
-            By:</strong></p>
-      </div>
-      <div class="col-xl-3" style="margin-top: 10px;"><a class="btn btn-dark text-white" role="button"
-          style="margin-left: 35px;width: 90px;" href="/events/india"><strong>Indian</strong></a></div>
-      <div class="col-xl-3" style="margin-top: 10px;"><a class="btn btn-dark text-white" role="button"
-          style="margin-left: 35px;width: 90px;" href="/events/iran"><strong>Iranian</strong></a></div>
-      <div class="col-xl-3" style="margin-top: 10px;"><a class="btn btn-dark text-white" role="button"
-          style="margin-left: 35px;width: 90px;margin-bottom: 10px;" href="/events/china"><strong>Chinese</strong></a>
-      </div>
-    </div>
+
     {% if events | length == 0 %}
 
     <div class="row" id="EventRow"
@@ -110,7 +98,7 @@
           <div class="col" style="height: 195px;min-height: 170px;max-height: auto;">
             <p
               style="margin-bottom: 18px;margin-left: 7px;margin-top: 5px;color: #30383a;height: auto;word-wrap: break-word;display: -webkit-box;-webkit-line-clamp: 6;-webkit-box-orient: vertical;overflow: hidden;">
-              Summary {{ event["description_text"]  }}
+              {{ event["description_text"]  }}
             </p>
           </div>
         </div>
