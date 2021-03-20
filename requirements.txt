@@ -1,7 +1,7 @@
 Flask==1.0.2
 flask-marshmallow==0.10.0
 Flask-SQLAlchemy==2.3.2
-Jinja2==2.10
+Jinja2==2.11.3
 marshmallow==2.19.2
 marshmallow-sqlalchemy==0.16.1
 pandas==0.22.0
